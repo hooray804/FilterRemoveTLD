@@ -2586,6 +2586,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+geliver.io#%#//scriptlet('set-local-storage-item', 'GLVCache', 'true')
 footballtransfers.com#%#//scriptlet('trusted-click-element', '#uniccmp >>> button.unic-manage-options-button, #uniccmp >>> button.unic-confirm-button')
 newsbreak.com#%#//scriptlet('set-local-storage-item', 'nb_cookie', 'accept')
 yenisafak.com##div[class^="_kvkkWarning_"]
