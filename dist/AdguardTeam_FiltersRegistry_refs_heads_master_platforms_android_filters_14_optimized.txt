@@ -1,9 +1,9 @@
-! Checksum: Oq6bssq095T7kUtIp0JEKw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784706985-3600.patch
+! Checksum: 98pH5MKfi1Jllw2J9PaInQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784720453-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.50
-! TimeUpdated: 2026-07-22T07:53:47+00:00
+! Version: 2.2.73.52
+! TimeUpdated: 2026-07-22T11:38:19+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -3331,7 +3331,7 @@ uswitch.com#$#.no-scroll { overflow: auto !important; }
 toonpool.com#$##privacyModal { display: none !important; }
 toonpool.com#$##privacyModal ~ div.modal-backdrop { display: none !important; }
 toonpool.com#$#body { overflow: auto !important; padding-right: 0 !important; }
-store.grapht.tokyo##div[class^="_cookie-consent_"]
+stremio.com,store.grapht.tokyo##div[class^="_cookie-consent_"]
 alvisecumpliendo.com#%#//scriptlet('trusted-set-local-storage-item', 'cookiePreferences', '{"necessary":true,"analytics":false}')
 cfna.com###cookie-message-box-wrapper
 sixtyupgrades.com,ura.news,vmake.ai,global.app.mi.com##div[class^="cookie-banner"]
