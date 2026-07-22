@@ -1,9 +1,9 @@
-! Checksum: B7b65q5ZdN+FZUJ+nsVlyw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784731614-3600.patch
+! Checksum: 7JQjmGTJ2NVNXbg8Hke0og
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784734712-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.53
-! TimeUpdated: 2026-07-22T14:44:22+00:00
+! Version: 2.2.73.54
+! TimeUpdated: 2026-07-22T15:35:43+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -14371,6 +14371,7 @@ thecityreporter.nyc##.wp-block-paragraph.font-georgia
 thecityreporter.nyc##.newspack-popup-wrapper
 thecityreporter.nyc##.header-widget
 [$domain=/yavasgir\d+\.(com|live)/]##.telegram-follow-button
+[$domain=/cimcime\d+\.(com|live)/]##.telegram-follow-button
 moneypantry.com###toTop + .mob-sticky
 moneypantry.com##.sidebar-inner > .widget_block
 deezer.com#%#//scriptlet('trusted-click-element', '.chakra-modal__body.css-14i8um button[aria-label="Close"]')
@@ -18593,7 +18594,10 @@ citycost.org#%#//scriptlet('trusted-click-element', '.modal-get-app .ui-modal__c
 elpais.com.co##.prose > div:not([class]):has(> div.not-prose > div.flex > div.flex > a[href^="https://play.google.com/store/apps/"])
 lazada.sg###J_CampaignBanner
 grok.com##.group\/sidebar-wrapper .fixed.top-0:has(> button > div> svg > path#mark)
-themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
+moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.justify-center.flex.inset-0.fixed
+moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
+moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-banner
+moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.flx-ce-ce.pc-get-img
 world.kbs.co.kr##.comp_right_application
 word.tips##body[data-sveltekit-preload-data="hover"] .py-3.pl-3.pr-5.text-cp-black-700.lg\:hidden
 tapas.io##.wff-banner-wrap
@@ -20429,6 +20433,7 @@ canva.com#%#//scriptlet('trusted-set-local-storage-item', 'mobile_link_choice_la
 economx.hu##div[x-ref="hoverPromotion"]
 economx.hu##.economx-top-promotion
 gemini.google.com##chat-app-banners
+x.com##.one-col\:hidden > div.gap-2 > a[href^="https://m.x.com/"][href*="?launch_app_store=true"]
 x.com##div[class^="one-col:pb-"] > div.fixed.inset-0:has(> button[aria-label] + div[role="dialog"] > a[download])
 x.com#%#document.addEventListener('DOMContentLoaded',function(){const o=new MutationObserver(function(){const e=document.querySelector('.fixed.inset-0 > div.bg-modal > a[href^="https://m.x.com/"][href*="?launch_app_store=true"] + button[aria-label], .fixed.inset-x-0 > button[aria-label]');e&&e.click()});o.observe(document,{childList:!0,subtree:!0});setTimeout(function(){o.disconnect()},30000)})
 timesofindia.indiatimes.com##a[href^="https://timesofindia.sng.link/"]
