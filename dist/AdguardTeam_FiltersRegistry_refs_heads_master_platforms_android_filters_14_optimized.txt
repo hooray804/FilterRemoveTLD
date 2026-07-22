@@ -1,9 +1,9 @@
-! Checksum: 7JQjmGTJ2NVNXbg8Hke0og
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784734712-3600.patch
+! Checksum: 8KiRB5dyZrxeYWS85YdRsg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784745199-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.54
-! TimeUpdated: 2026-07-22T15:35:43+00:00
+! Version: 2.2.73.56
+! TimeUpdated: 2026-07-22T18:30:51+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1627,6 +1627,7 @@ gsweb.services,dr-traub.legal,isp.law,devowl.io,greenit.systems,teslawissen.ch,s
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+||sdk.privacy-center.org/*/loader.js?target=www.silicon.co.uk
 geliver.io#%#//scriptlet('set-local-storage-item', 'GLVCache', 'true')
 footballtransfers.com#%#//scriptlet('trusted-click-element', '#uniccmp >>> button.unic-manage-options-button, #uniccmp >>> button.unic-confirm-button')
 newsbreak.com#%#//scriptlet('set-local-storage-item', 'nb_cookie', 'accept')
@@ -2152,6 +2153,7 @@ trustami.com#%#//scriptlet('trusted-click-element', '#cc-main button.cm__btn--se
 sbunion.shop#%#//scriptlet('trusted-click-element', 'dialog div[style^="animation-delay:"] a[href="#"][class]', 'containsText:Einwilligung', '1500')
 timetables.jreast.co.jp###gdprWrapper
 proecosolar.eu#%#//scriptlet('trusted-set-cookie', '_x13eucookie', '{"1":true,"2":false,"3":false,"4":false,"5":false,"6":false}')
+/modules/seigicookie/*$domain=madani-sports.eu
 xplay.gg#%#//scriptlet('set-local-storage-item', 'cookieTypesList', 'emptyArr')
 oncf-voyages.ma#%#//scriptlet('trusted-set-cookie', 'CookieConsent', 'declined')
 cloud.huawei.com##.hwid-bannerBox-portal
@@ -2911,6 +2913,7 @@ senecalearning.com##div[class^="Layout-module--"] > div[class^="Toast-module--"]
 linztourismus.at#%#//scriptlet('trusted-click-element', '.f__privacy-cookie-manager__actions a[href="privacymanager/acceptOnlyFunctional"]')
 umigatari.jp,seaparadise.co.jp,aqua-park.jp,hakkeijima-partnership.jp,uminomori.jp,yokohama-hakkeijima.jp##.el-cookie
 jfe-eng.co.jp###cookietarget
+cleantalk.org,cleanfox.io##.cookie__container
 walmart.ca##div[data-testid="layout-container"] > section[role="banner"][class^="bg-white sticky nav-clickable-padded bottom-0"]
 notion.com#%#//scriptlet('trusted-click-element', 'button[aria-label="Reject all cookies"]', '!cookie:notion_check_cookie_consent')
 libre-inc.co.jp,pokedora.com,animatebookstore.com##.ccst_area
@@ -10438,6 +10441,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 ###credential_picker_iframe
 /.*/$permissions=identity-credentials-get=(),document
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+silicon.co.uk###nl-overlay
 duck.ai#?#div[data-testid="ChatsList"] > div[class]:not([style*="opacity"]):contains(How It Works)
 yenisafak.com##.ys-tvnet-live-video
 movieposterdb.com##div[aria-label="Pardon our dust — big changes underway"]
@@ -14815,6 +14819,7 @@ gcaptain.com##.card-body
 gcaptain.com##.sidebar-email-outer
 gcaptain.com##.footer-email-cstm
 jobs.tjx.com##.phs-subscribe-jobs-area
+trendus.com##.gmnews-form
 fragrantica.com#$##registration-nudge-overlay { display: none !important; }
 fragrantica.com#$#body { overflow: auto !important; }
 theverge.com#$#.zephr-zone-footer { display: none !important; }
@@ -17254,6 +17259,7 @@ teneriffa-news.com##.pum-overlay[data-popmake*="newsletter"]
 dazeddigital.com,ciokorea.com##.newsletter-small
 huffingtonpost.fr##.homeNewsletter
 thestreamable.com##.container-lg > aside.container-sm.mb-7
+silicon.co.uk,bookforum.com##.register-newsletter
 cleananddelicious.com##.wp-block-kadence-rowlayout
 geekbuying.com##.sub_bg
 skyscanner.net#$#body { overflow: auto!important; padding-right: 0!important; }

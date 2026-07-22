@@ -1,9 +1,9 @@
-! Checksum: H8mUFoRoqFPgVNE22St3+Q
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1784734713-3600.patch
+! Checksum: HzUSZSpd6QqRSzAwcGPuUw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1784745201-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.90.66
-! TimeUpdated: 2026-07-22T15:35:53+00:00
+! Version: 2.0.90.68
+! TimeUpdated: 2026-07-22T18:30:57+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1475,6 +1475,7 @@ gsweb.services,dr-traub.legal,isp.law,devowl.io,greenit.systems,teslawissen.ch,s
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+||sdk.privacy-center.org/*/loader.js?target=www.silicon.co.uk
 geliver.io#%#//scriptlet('set-local-storage-item', 'GLVCache', 'true')
 footballtransfers.com#%#//scriptlet('trusted-click-element', '#uniccmp >>> button.unic-manage-options-button, #uniccmp >>> button.unic-confirm-button')
 newsbreak.com#%#//scriptlet('set-local-storage-item', 'nb_cookie', 'accept')
@@ -1999,6 +2000,7 @@ trustami.com#%#//scriptlet('trusted-click-element', '#cc-main button.cm__btn--se
 sbunion.shop#%#//scriptlet('trusted-click-element', 'dialog div[style^="animation-delay:"] a[href="#"][class]', 'containsText:Einwilligung', '1500')
 timetables.jreast.co.jp###gdprWrapper
 proecosolar.eu#%#//scriptlet('trusted-set-cookie', '_x13eucookie', '{"1":true,"2":false,"3":false,"4":false,"5":false,"6":false}')
+/modules/seigicookie/*$domain=madani-sports.eu
 xplay.gg#%#//scriptlet('set-local-storage-item', 'cookieTypesList', 'emptyArr')
 oncf-voyages.ma#%#//scriptlet('trusted-set-cookie', 'CookieConsent', 'declined')
 cloud.huawei.com##.hwid-bannerBox-portal
@@ -2753,6 +2755,7 @@ senecalearning.com##div[class^="Layout-module--"] > div[class^="Toast-module--"]
 linztourismus.at#%#//scriptlet('trusted-click-element', '.f__privacy-cookie-manager__actions a[href="privacymanager/acceptOnlyFunctional"]')
 umigatari.jp,seaparadise.co.jp,aqua-park.jp,hakkeijima-partnership.jp,uminomori.jp,yokohama-hakkeijima.jp##.el-cookie
 jfe-eng.co.jp###cookietarget
+cleantalk.org,cleanfox.io##.cookie__container
 walmart.ca##div[data-testid="layout-container"] > section[role="banner"][class^="bg-white sticky nav-clickable-padded bottom-0"]
 notion.com#%#//scriptlet('trusted-click-element', 'button[aria-label="Reject all cookies"]', '!cookie:notion_check_cookie_consent')
 libre-inc.co.jp,pokedora.com,animatebookstore.com##.ccst_area
