@@ -2373,7 +2373,7 @@ kanalben.com,tarsushaber.com,malatyasoz.com,nehir.net,enpolitik.com,ispartamhabe
 ! ##.MuiSnackbar-anchorOriginBottomCenter
 creativefabrica.com,flickplay.co,globenewswire.com,fashionunited.*,ahaan.co.uk,afteracademy.com,shoppingcidademaringa.com.br##.MuiSnackbar-anchorOriginBottomCenter
 ! ###cc-main
-seatpick.com,fimewc.com,yazio.com,futbalsfz.sk,bts.aero,novotel.ba,belganewsagency.eu,kofteciyusuf.com,elenianna.com,aspire.dev,formytesla.com,li.sten.to,sign.com,paulistacultural.com.br,wasdland.com,nemzetiarchivum.hu,wooting.io,jetour-ru.com,voyah.su,fastconvert.co,technologypresswirenetherlands.com,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,nefisyemektarifleri.com,bisiparis.com,whoisxmlapi.com,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,givesendgo.com,workstreams.ai,trae.ai,imusic.*,zeno.fm,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,restaumatic.com,any.run,app.any.run,financnihra.cz,kurczakiodeliasza.com,whitebit.com,ndsas.sk,trakt.tv,greptime.com,newsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
+carsystems.eu,giewontshop.com,visciolafashion.com,sklep.karolnienartowicz.com,seatpick.com,fimewc.com,yazio.com,futbalsfz.sk,bts.aero,novotel.ba,belganewsagency.eu,kofteciyusuf.com,elenianna.com,aspire.dev,formytesla.com,li.sten.to,sign.com,paulistacultural.com.br,wasdland.com,nemzetiarchivum.hu,wooting.io,jetour-ru.com,voyah.su,fastconvert.co,technologypresswirenetherlands.com,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,nefisyemektarifleri.com,bisiparis.com,whoisxmlapi.com,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,givesendgo.com,workstreams.ai,trae.ai,imusic.*,zeno.fm,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,restaumatic.com,any.run,app.any.run,financnihra.cz,kurczakiodeliasza.com,whitebit.com,ndsas.sk,trakt.tv,greptime.com,newsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
 ! consentmanager.net (check, if embed content and videos are not broken)
 ||consentmanager.net^$domain=hausgarten.net|mathe-lexikon.at|katzen-forum.net|my.games|vergleich.org|herold.at|bussgeldkatalog.org|mediengestalter.info|sugafari.com|hervis.at|entsorgen.org|consentmanager.net|e-konomista.pt|agrarheute.com|correctiv.org|nzz.ch|masterstudies.com|littlebigsnake.com|eatclub.tv|grin.com|gpblog.com
 ! privacy-center.org / didomi
@@ -3622,7 +3622,7 @@ avinor.no#%#//scriptlet('trusted-click-element', '.cookie-banner--open button[da
 thegamebusiness.com#%#//scriptlet('set-local-storage-item', 'SUBSTACK_USER_HID_COOKIE_BANNER_4150086', 'true')
 bandcamp.com#%#//scriptlet('trusted-set-cookie', 'cookie_preferences', '%7B%22allow%22%3A%5B%5D%2C%22version%22%3A1%7D', '', '/', 'bandcamp.com')
 lingvist.com##.cookie-acceptance-banner
-prootzos.com,berninidimettiti.it,trustpop.io,sklep.szurek.tv,jimms.fi#%#//scriptlet('trusted-click-element', '#cc-main button[data-role="necessary"]', '!cookie:cc_cookie')
+strefasmyka.com,prootzos.com,berninidimettiti.it,trustpop.io,sklep.szurek.tv,jimms.fi#%#//scriptlet('trusted-click-element', '#cc-main button[data-role="necessary"]', '!cookie:cc_cookie')
 htmlacademy.org###cookies_disclaimer_container
 squaber.com#%#//scriptlet('trusted-set-cookie', 'squaber_cookie_consent', '{%22functionality_storage%22:%22granted%22%2C%22security_storage%22:%22granted%22%2C%22ad_user_data%22:%22denied%22%2C%22ad_personalization%22:%22denied%22%2C%22ad_storage%22:%22denied%22%2C%22analytics_storage%22:%22denied%22%2C%22personalization_storage%22:%22granted%22}')
 bamberg.info#%#//scriptlet('trusted-set-cookie', 'timm4cookie-consent', '%7B%22essential%22%3Atrue%2C%22leaflet%22%3Atrue%2C%22youtube%22%3Atrue%7D')
@@ -14748,6 +14748,7 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/236390
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236076
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236306
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236109
