@@ -12,7 +12,7 @@ const TARGET_URLS = [
   'https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/refs/heads/master/platforms/android/filters/14_optimized.txt'
 ]
 
-const REMOVE_TLDS = new Set(['pl', 'ru', 'de', 'cn', 'tr', 'nl'])
+const REMOVE_TLDS = new Set(['br', 'de', 'nl', 'pl', 'ru', 'tr'])
 
 const OUTPUT_DIR = Path.resolve(Process.cwd(), 'dist')
 
