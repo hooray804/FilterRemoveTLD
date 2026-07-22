@@ -6723,7 +6723,7 @@ moneyfarm.com##.gNzipu
 oz.by###c-dialog
 aluguefoco.com.br###warning
 advesphoto.hu###marketingConsent
-keysoft.store,canadacommons.ca,gim-international.com##div[x-data*="cookieConsent"]
+novayagazeta.eu,keysoft.store,canadacommons.ca,gim-international.com##div[x-data*="cookieConsent"]
 geely.com##.cookie-protocol
 calendar.com##.w-full.bg-white.fixed.z-50
 mediamarkt.be##div[class^="gdpr-cookie-layer"]
@@ -22702,7 +22702,6 @@ consultant.net.ua#$##shareModal { display: none !important; }
 consultant.net.ua#$#body.modal-open { overflow: auto !important; }
 ecom.docusign.com##.dxp-pricing-plans__board > article > section:has(> button[data-testid="closeOverlay"])
 awras.com##.suggested-news
-webronza.asahi.com###modalArchive
 ecoledelutherie.com###upi-overlay
 ecoledelutherie.com###usb-sticky-bar
 tozlu.com##.kas-modal-ov
@@ -28818,6 +28817,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Blocking it also causes that videos are not playing automatically
 ! twitter.com##div[data-testid="BottomBar"]
 !
+!+ NOT_OPTIMIZED
+webronza.asahi.com###modalArchive
 !+ NOT_OPTIMIZED
 instacart.com#$#.ReactModalPortal > div.AuthModal__Overlay:has(> div.AuthModal__Content a[href="https://www.instacart.com/privacy"]) { display: none !important; }
 !+ NOT_OPTIMIZED

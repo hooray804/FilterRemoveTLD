@@ -6723,7 +6723,7 @@ moneyfarm.com##.gNzipu
 oz.by###c-dialog
 aluguefoco.com.br###warning
 advesphoto.hu###marketingConsent
-keysoft.store,canadacommons.ca,gim-international.com##div[x-data*="cookieConsent"]
+novayagazeta.eu,keysoft.store,canadacommons.ca,gim-international.com##div[x-data*="cookieConsent"]
 geely.com##.cookie-protocol
 calendar.com##.w-full.bg-white.fixed.z-50
 mediamarkt.be##div[class^="gdpr-cookie-layer"]

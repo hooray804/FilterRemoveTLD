@@ -1,9 +1,9 @@
-! Checksum: eAMYETwGXKQWvG7GtUSTNw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784689946-3600.patch
+! Checksum: 0KVzxixo3tn3LYdnDCTdBw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784703709-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.47
-! TimeUpdated: 2026-07-22T03:08:53+00:00
+! Version: 2.2.73.49
+! TimeUpdated: 2026-07-22T06:58:53+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -4361,7 +4361,7 @@ stuytown.com#%#//scriptlet('prevent-addEventListener', 'wheel', 'var r="deltaY"i
 jcconcursos.com.br##.jc-lgpd-consent
 europafm.ro##.optanon-toggle-display
 aluguefoco.com.br###warning
-keysoft.store,canadacommons.ca,gim-international.com##div[x-data*="cookieConsent"]
+novayagazeta.eu,keysoft.store,canadacommons.ca,gim-international.com##div[x-data*="cookieConsent"]
 geely.com##.cookie-protocol
 calendar.com##.w-full.bg-white.fixed.z-50
 app.idagio.com#?#div[class^="modals"]:has(> div[class^="ReactModal"] > div[aria-label="gdpr-opt-out-modal"])
@@ -14100,6 +14100,8 @@ thegreatdaily.com#$#body { overflow: visible!important; }
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##.aclb > div._4b-b
 twgreatdaily.com#$#.body.modal-open { overflow: visible!important; }
 bomb01.com#$##modal { display: none!important; }
+!+ NOT_OPTIMIZED
+webronza.asahi.com###modalArchive
 !+ NOT_OPTIMIZED
 instacart.com#$#.ReactModalPortal > div.AuthModal__Overlay:has(> div.AuthModal__Content a[href="https://www.instacart.com/privacy"]) { display: none !important; }
 !+ NOT_OPTIMIZED
