@@ -1,9 +1,9 @@
-! Checksum: KHFebhseb4elVXLvrgoPvA
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1784776318-3600.patch
+! Checksum: bqxk9P/xNufC8yxZASVWkg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1784797313-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.90.69
-! TimeUpdated: 2026-07-22T19:33:35+00:00
+! Version: 2.0.90.71
+! TimeUpdated: 2026-07-23T08:58:58+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1486,6 +1486,11 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+borger.dk#$#body { overflow: auto !important; }
+borger.dk#$#.cookiebanner { display: none !important; }
+borger.dk#$##modalboks { display: none !important; }
+borger.dk#$#.dialog-backdrop { display: none !important; }
+ab.gr#%#//scriptlet('trusted-set-cookie', 'VersionedCookieConsent', 'v%3A2%2Cessential%3A1%2Canalytics%3A0%2Csocial%3A0%2Cperso_cont%3A0%2Cperso_ads%3A0%2Cads_external%3A0')
 ||sdk.privacy-center.org/*/loader.js?target=www.silicon.co.uk
 geliver.io#%#//scriptlet('set-local-storage-item', 'GLVCache', 'true')
 footballtransfers.com#%#//scriptlet('trusted-click-element', '#uniccmp >>> button.unic-manage-options-button, #uniccmp >>> button.unic-confirm-button')
@@ -5155,6 +5160,7 @@ mensnonno.jp###cookie_confirm
 gamelib.app##div[class^="CookieWarning_"]
 unigine.com###js-cookie-approval
 benchmark.unigine.com##.bottom-notice
+taspinar.com##.cookie-consent-dialog
 qmee.com##div[class^="prerender-"] > div[class^="Overlay-root-"].mobile-app-hidden
 2captcha.com##.app-level-notifications
 hertz.*##div[id^="light-box-"]
@@ -7494,6 +7500,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !+ PLATFORM(ios) NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=pons.com|nypost.com|ups.com|hollywoodreporter.com|resmed.com|movistar.es|redbull.com|all.accor.com|blaklader.*|wallapop.com|rts.ch|npr.org|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|vanityfair.com|olympics.com|oe24.at|epicgames.com|natgeotv.com|midomi.com|kawasaki.com|shop.mango.com|westernunion.com|new.cappex.com|vimeo.com|heute.at|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|cbsnews.com|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|bet.com|ikonpass.com|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southpark.lat|southparkstudios.com|realsimple.com|homedepot.ca|wired.com|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.it|themessenger.com|nickjr.com|lnw.com|irishtimes.com|sonos.com|rentcafe.com|seriouseats.com|bhg.com|gamescom.global|championsleague.basketball|fnac.com|pagesix.com|questdiagnostics.com|kfc.fr|kfc.es|canadiantire.ca|drafthouse.com|gardenoflife.com|colliers.com|swissotel.com|darntough.com|merrell.com|ew.com|wolverine.com|saucony.com|catfootwear.com|chacos.com|hytest.com|instyle.com|allrecipes.com|support.discord.com|slate.com
+borger.dk#@#.cookiebanner:not(body)
 developer.android.com#@#.glue-cookie-notification-bar
 @@||cdn.cookielaw.org/consent/$domain=pons.com
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=eurogamer.net
