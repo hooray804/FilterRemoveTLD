@@ -1,9 +1,9 @@
-! Checksum: 1VrR29WWE7PCVOH3e5l5Pg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1784821569-3600.patch
+! Checksum: g1Bwev7yQ6Xc86V8H1d0yQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1784828220-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.90.75
-! TimeUpdated: 2026-07-23T15:43:20+00:00
+! Version: 2.0.90.76
+! TimeUpdated: 2026-07-23T17:34:11+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
