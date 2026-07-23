@@ -12334,7 +12334,7 @@ opswat.com##.cookie-ntc
 airindia.in##.popupGDPR
 velonews.com##.cookie-popup-bar
 buysellvouchers.com##.cookie-window
-gacgroup.com,pharma.by,cht.com.tw,specialized.com,kinda.media,gavlekonserthus.se,gavlesymfoniorkester.se,tvr.co.uk##.cookie-wrap
+bastion.tv,gacgroup.com,pharma.by,cht.com.tw,specialized.com,kinda.media,gavlekonserthus.se,gavlesymfoniorkester.se,tvr.co.uk##.cookie-wrap
 dymo.com##.cookieHandler
 earthsolarinc.com##.cookie__consent
 pcloud.link,pcloud.com##.cookie_consent_holder
