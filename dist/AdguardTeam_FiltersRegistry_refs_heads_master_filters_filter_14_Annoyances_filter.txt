@@ -6266,7 +6266,7 @@ alibaba.com###GDPR-cookies-notice
 crispedge.com##.load-accept-cookies
 nta.co.jp##.ImCmpApp
 ertflix.gr##div[class^="CookiePolicyInfo__"]
-courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
+spensen.com,courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
 jumbomail.me##.cookies-usage-panel
 journal.lemonde.fr##.gdpr-lmd-standard
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr
@@ -7518,7 +7518,7 @@ callisto.sds.com##div[aria-describedby="cookie-notification-message"]
 ||vitalpoint.cz/static*/cookie/
 taste-institute.com##app-pop-up-cookies
 ||laleggepertutti.it/*/pwaconsent.js
-sackyvysavace.cz,doplnvitamin.cz###xx-cookies-plugin
+axit.cz,sackyvysavace.cz,doplnvitamin.cz###xx-cookies-plugin
 officeworks.com.au##div[data-automation-test^="TrackingBanner_"]
 console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref="modal"] > div#modal h2:contains(Cookie Settings)) { display: none!important; }
 console.scaleway.com#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -30008,6 +30008,7 @@ dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,progameguides.com,eurone
 !
 ! SECTION: Subscriptions - Regular rules
 !
+spensen.com#%#//scriptlet('set-cookie', 'popupNews', '1')
 goal.com##.component-team-newsletter
 goal.com##.fco-google-trusted-source
 apostrophe.ua##.sign-up-telegram

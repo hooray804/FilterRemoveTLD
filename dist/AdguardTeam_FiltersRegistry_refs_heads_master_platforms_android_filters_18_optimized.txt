@@ -1,9 +1,9 @@
-! Checksum: XikIVD0FeDUWKHram44VAQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1784862722-3600.patch
+! Checksum: Ik9imKWeJY3hpkfmTlX8Ow
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1784869840-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.90.77
-! TimeUpdated: 2026-07-24T03:09:28+00:00
+! Version: 2.0.90.78
+! TimeUpdated: 2026-07-24T05:08:19+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -3974,7 +3974,7 @@ randa.org#$#body div[class*=" cookiesModal_"]:not(#style_important) { display: n
 alibaba.com###GDPR-cookies-notice
 crispedge.com##.load-accept-cookies
 nta.co.jp##.ImCmpApp
-courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
+spensen.com,courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr
 plus500.com#%#//scriptlet('remove-attr', 'style', 'body[class]')
 picofme.io##div[class^="cookieConsentPopup"]
@@ -4598,6 +4598,7 @@ privacy.samsung.com#$#div[class^='cookie-'] { display: none !important; }
 doka.guide$$div[class="cookie-notification"]
 callisto.sds.com##div[aria-describedby="cookie-notification-message"]
 taste-institute.com##app-pop-up-cookies
+axit.cz,sackyvysavace.cz,doplnvitamin.cz###xx-cookies-plugin
 console.scaleway.com#$?#body > div.__reakit-portal:has(> div[data-dialog-ref="modal"] > div#modal h2:contains(Cookie Settings)) { display: none!important; }
 console.scaleway.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 zebriky-regaly.cz,leitern-regale.*,oponeo.*,pneus-oponeo.be,banden-oponeo.be###consentsPolicyDialog
