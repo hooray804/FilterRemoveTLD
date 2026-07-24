@@ -2584,6 +2584,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+tandem.net##section[class*="_cookieBanner"]
 nicke.tech##.cookie-consent-bar
 borger.dk#$#body { overflow: auto !important; }
 borger.dk#$#.cookiebanner { display: none !important; }

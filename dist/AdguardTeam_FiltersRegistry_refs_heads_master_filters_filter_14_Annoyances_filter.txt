@@ -2584,6 +2584,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+tandem.net##section[class*="_cookieBanner"]
 nicke.tech##.cookie-consent-bar
 borger.dk#$#body { overflow: auto !important; }
 borger.dk#$#.cookiebanner { display: none !important; }
@@ -22201,6 +22202,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+ltube.us###mini-ad-bar
 silicon.co.uk###nl-overlay
 duck.ai#?#div[data-testid="ChatsList"] > div[class]:not([style*="opacity"]):contains(How It Works)
 yenisafak.com##.ys-tvnet-live-video
@@ -46222,6 +46224,8 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+sankei.com###piano_footerbanner_Article
+sankei.com###piano_offer_Article
 aviakassa.com#%#//scriptlet('trusted-click-element', 'div[data-id^="top-header.avia.search-form.open-hotels"]._1dkd6ot6')
 newscientist.com##.button--subscribe-header
 speedtest.net#%#//scriptlet('set-cookie', 'desktopPromptSeen', 'true')
@@ -52636,7 +52640,7 @@ flickermini.pages.dev,1tube.org,1flex.org,1shows.org#%#//scriptlet('prevent-navi
 ||mastiraja.com/wp-content/plugins/disabled-source-disabled-right-click-and-content-protection/
 ||nepu.to/requirements/bap.js
 ||xn--b1aew.xn--p1ai/media/mvd-2015/js/nocopy.js
-/disable-devtool$domain=abflix.*|2embed.*|rivestream.*|brocoflix.*|vidsrc.*|superflixapi.*|nontongo.*|mocine.cam|vercel.app|maxflix.*|fmovies-net.com|autoembed.cc|animixplayer.top|xporn.to|animejoker.com|nepu.to|cinevibe.*|roxiestreams.*
+/disable-devtool$domain=abflix.*|2embed.*|rivestream.*|brocoflix.*|vidsrc.*|superflixapi.*|nontongo.*|mocine.cam|vercel.app|maxflix.*|fmovies-net.com|autoembed.cc|animixplayer.top|xporn.to|animejoker.com|nepu.to|cinevibe.*|roxiestreams.*|nextgencloudfabric.com
 ||klmanga.app/js/script.js
 ||mangarawjp.tv/js/script.js
 ||mantan-web.jp/assets/js/no_contextmenu.js
@@ -53130,7 +53134,6 @@ alfalfalfa.com##aside.section-box:has(> div.plugin-blogroll)
 ||lovekoala.com/rss-$subdocument
 lovekoala.com##.lcmcolumn ~ div.mtxt
 ||hanshintigers1.blog.jp/include$subdocument,~third-party
-hanshintigers1.blog.jp##div[class^="include"]
 monst-news.net##div[id^="rss_wrap"]
 himasoku.com##.himajin-headline
 kalender.se##.hidden.justify-center > div[class*="min-h-[800px]"]
@@ -55567,7 +55570,7 @@ infowars.com##.article-footer-details > a[href="https://www.infowarsstore.com/su
 dvdgayonline.com##.mtsnb-shown[style^="background-color:"]
 yam.com##a[href^="https://donate.yam.com/dq/Donateinfo"]
 yam.com###donateIframe
-archive.org###donate_banner
+||archive.org/includes/donate.js
 ||fosshub.com/index/donate
 fosshub.com##.download-dl-boxDN
 samlab.ws##iframe[src^="https://yoomoney.ru/"]
@@ -55591,6 +55594,8 @@ hromadske.ua#$#body { overflow: visible !important; }
 ! NOTE: Widgets - Another end ⬆️
 ! !SECTION: Widgets - Another
 !
+!+ NOT_OPTIMIZED
+hanshintigers1.blog.jp##div[class^="include"]
 !+ NOT_OPTIMIZED
 newsoku.blog##.headrsssp
 !+ NOT_OPTIMIZED

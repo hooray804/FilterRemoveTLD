@@ -1,9 +1,9 @@
-! Checksum: RhaTucESCjhExHC1JWMMWA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784869839-3600.patch
+! Checksum: Es73tQ3GCltgW1m4ByBqOA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784886864-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.70
-! TimeUpdated: 2026-07-24T05:08:12+00:00
+! Version: 2.2.73.73
+! TimeUpdated: 2026-07-24T09:51:54+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1627,6 +1627,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+tandem.net##section[class*="_cookieBanner"]
 nicke.tech##.cookie-consent-bar
 borger.dk#$#body { overflow: auto !important; }
 borger.dk#$#.cookiebanner { display: none !important; }
@@ -2070,6 +2071,7 @@ ib.eplus.jp#%#//scriptlet('trusted-set-cookie', 'ib.eplus.jp', '{"allow":"I_ACCE
 autech.co.jp,nissan-nmc.co.jp##.cookie-approval
 nhkworldpremium.com#%#//scriptlet('trusted-click-element', '#gdpr .form__back.cookie__floating__buttons__button', '!cookie:gdpr-cookie')
 efset.org#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', '{"essential":true,"analytics":false}')
+/wp-content/plugins/pressidium-cookie-consent$domain=kiwix.org|protasoftware.com
 ewrc-results.com#%#//scriptlet('trusted-set-local-storage-item', 'ewrc_consent_data', '{"eFCX":true,"timestamp":9999999999999}')
 jipad.org#%#//scriptlet('set-local-storage-item', 'privacy', 'on')
 embeddingproject.org#%#//scriptlet('set-local-storage-item', 'enable-analytics', 'false')
@@ -10458,6 +10460,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 ###credential_picker_iframe
 /.*/$permissions=identity-credentials-get=(),document
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+ltube.us###mini-ad-bar
 silicon.co.uk###nl-overlay
 duck.ai#?#div[data-testid="ChatsList"] > div[class]:not([style*="opacity"]):contains(How It Works)
 yenisafak.com##.ys-tvnet-live-video
@@ -22357,6 +22360,8 @@ rasp.yandex.*##.TravelHotelsBanner
 tv.yandex.*##.recommended-ott
 [$path=/games]yandex.*##header + main.stack > div[class*="-disable-"]
 [$path=/games]yandex.*##header + main.stack > div > div[class*="-wrapper_promo"]
+sankei.com###piano_footerbanner_Article
+sankei.com###piano_offer_Article
 aviakassa.com#%#//scriptlet('trusted-click-element', 'div[data-id^="top-header.avia.search-form.open-hotels"]._1dkd6ot6')
 newscientist.com##.button--subscribe-header
 speedtest.net#%#//scriptlet('set-cookie', 'desktopPromptSeen', 'true')
@@ -25379,7 +25384,7 @@ imslp.org#%#(()=>{document.addEventListener("DOMContentLoaded",(()=>{var b=docum
 flickermini.pages.dev,1tube.org,1flex.org,1shows.org#%#//scriptlet('prevent-navigation', 'youtube.com')
 ||nepu.to/requirements/bap.js
 ||xn--b1aew.xn--p1ai/media/mvd-2015/js/nocopy.js
-/disable-devtool$domain=abflix.*|2embed.*|rivestream.*|brocoflix.*|vidsrc.*|superflixapi.*|nontongo.*|mocine.cam|vercel.app|maxflix.*|fmovies-net.com|autoembed.cc|animixplayer.top|xporn.to|animejoker.com|nepu.to|cinevibe.*|roxiestreams.*
+/disable-devtool$domain=abflix.*|2embed.*|rivestream.*|brocoflix.*|vidsrc.*|superflixapi.*|nontongo.*|mocine.cam|vercel.app|maxflix.*|fmovies-net.com|autoembed.cc|animixplayer.top|xporn.to|animejoker.com|nepu.to|cinevibe.*|roxiestreams.*|nextgencloudfabric.com
 ||klmanga.app/js/script.js
 ||mantan-web.jp/assets/js/no_contextmenu.js
 ||script.gmarket.co.kr/js/itemdweb/ItemBase.js
@@ -27120,12 +27125,14 @@ worldhistory.org##.ahe-ad
 worldhistory.org###top_message
 ||cdnjs.buymeacoffee.com^$third-party
 yam.com###donateIframe
-archive.org###donate_banner
+||archive.org/includes/donate.js
 ||news.google.com/swg/js/v1/swg-basic.js$domain=wololo.net|premierguitar.com|svetandroida.cz|game-maps.com|ginjfo.com
 themoscowtimes.com##.preheader_advert
 themoscowtimes.com##.contribute-article
 themoscowtimes.com#$#body { overflow: auto !important; }
 hromadske.ua#$#body { overflow: visible !important; }
+!+ NOT_OPTIMIZED
+hanshintigers1.blog.jp##div[class^="include"]
 !+ NOT_OPTIMIZED
 newsoku.blog##.headrsssp
 !+ NOT_OPTIMIZED
