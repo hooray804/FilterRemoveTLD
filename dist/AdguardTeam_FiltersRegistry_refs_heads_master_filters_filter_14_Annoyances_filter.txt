@@ -3045,8 +3045,8 @@ softinfo.ro##.ct-ultimate-gdpr-cookie-popup-10-set
 optimizer.co.jp##.coop-banner
 med.kissei.co.jp###gdpr_conf
 med.meiji-seika-pharma.co.jp,meiji.com##.cookie-agree-wrap
-horace.com#$##am-cookie-bar { display: none !important; }
-horace.com#$#body { overflow: auto !important; }
+primor.eu,horace.com#$##am-cookie-bar { display: none !important; }
+primor.eu,horace.com#$#body { overflow: auto !important; }
 skyscanner.cz#$##cookieBannerContent { display: none !important; }
 scan.co.uk#$#.s-popup { display: none !important; }
 scan.co.uk#$#body.popup-open { overflow: auto !important; }
@@ -3553,8 +3553,8 @@ hannan-u.ac.jp,hdk.ed.jp##.js_cookieBanner
 wolframalpha.com#%#//scriptlet('set-cookie', '__cookie_consent', '1')
 jobylon.com###jbl_cookie_consent
 darkflash.com##footer + div:has(> div > button)
-sklep.muduko.com,rowerowelove.shop,netsklep.com,monikakaminska.com,ewozki.eu,fly-desk.com,skarbyroztocza.com,questsport.shop#%#//scriptlet('set-local-storage-item', 'show_consent_modal', '1')
-sklep.muduko.com,rowerowelove.shop,netsklep.com,monikakaminska.com,ewozki.eu,fly-desk.com,skarbyroztocza.com,questsport.shop#%#//scriptlet('set-local-storage-item', 'user_consents', 'emptyArr')
+przeciwpozarowy.com,sklep.muduko.com,rowerowelove.shop,netsklep.com,monikakaminska.com,ewozki.eu,fly-desk.com,skarbyroztocza.com,questsport.shop#%#//scriptlet('set-local-storage-item', 'show_consent_modal', '1')
+przeciwpozarowy.com,sklep.muduko.com,rowerowelove.shop,netsklep.com,monikakaminska.com,ewozki.eu,fly-desk.com,skarbyroztocza.com,questsport.shop#%#//scriptlet('set-local-storage-item', 'user_consents', 'emptyArr')
 ||cdnapp.websitepolicies.net/widgets/cookies/
 aetv.com#%#//scriptlet('trusted-click-element', 'body > div[data-sentry-source-file="box.tsx"] > div[data-sentry-source-file="box.tsx"] > button:has(svg[xmlns="http://www.w3.org/2000/svg"] > path[d])')
 xn--80az8a.xn--d1aqf.xn--p1ai##div[class^="_layout__Wrapper-"] > div[class^="_container_"]:has(> div p > span > a[class^="_personalAgreementButton_"])
@@ -3855,7 +3855,7 @@ shionogi-ph.co.jp,shionogi-hc.co.jp,wellness.shionogi.co.jp,dani-allergy.jp##.js
 check.lionic.com###js-cookie-box
 osintnewsletter.com,architecture-weekly.com#%#//scriptlet('trusted-set-cookie', 'hideCookieBanner', '$currentISODate$')
 auth.opera.com##.modal-type-cookie-consent
-/media/plg_system_fscookies/*$domain=tech-gas.com
+/media/plg_system_fscookies/*$domain=tech-gas.com|sprzet-gasniczy.com
 lequipe.fr#%#//scriptlet('trusted-click-element', 'button.Cmp__action--yes', '', '2000')
 /amp-consent-0.1.mjs$domain=www-gol-bg.cdn.ampproject.org
 mypos.com#$#body { overflow: auto !important; padding-right: 0 !important; }
@@ -4597,7 +4597,7 @@ cvut.cz#%#//scriptlet('set-local-storage-item', 'ctu-cm-a', '0')
 perfluence.net##div[class^="CookieBlock_container"]
 nebo.app#%#//scriptlet('trusted-set-cookie', 'nebo', '{%22acceptance%22:true%2C%22analytics%22:false}')
 ads.luarmor.net#%#//scriptlet('trusted-click-element', '.swal2-confirm')
-infinixmobility.com##.popup-content:has(> .bg > p > a[href="/cookies-policy"])
+infinixmobility.com##.popup-content:has(> .bg > p > a[href="/privacypolicy"])
 hgtv.com#%#//scriptlet('remove-class', 'block-user', '#root.block-user')
 hgtv.com#$#.block-user * { opacity: 1 !important; pointer-events: auto !important; touch-action: auto !important; }
 innn.it#%#//scriptlet('trusted-set-cookie', 'cookieConsent', '%5B%22essential%22%5D')
@@ -36841,7 +36841,7 @@ thenextweb.com##.p-channel-subscribe
 businessinsider.com##a[href*="&itm_campaign=chart-of-the-day-newsletter"]
 cooking.nytimes.com###inline-recipe-newsletter-signup
 seattletimes.com###amp-usermessaging
-rowerowelove.shop###box_newsletter
+przeciwpozarowy.com,rowerowelove.shop###box_newsletter
 swarajyamag.com##div[class^="email-subscribe-"]
 revolt.tv##div[id="toaster"][data-cdata*="Subscribe"]
 flos.com###link-newsletter
