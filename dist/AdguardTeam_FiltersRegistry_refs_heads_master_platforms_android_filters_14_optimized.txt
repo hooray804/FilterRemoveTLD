@@ -1,9 +1,9 @@
-! Checksum: hDXvW3jDZYbcu3zEMA9Ylw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784904120-3600.patch
+! Checksum: 2NbnM279TywBJX6+UD/stA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784911142-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.77
-! TimeUpdated: 2026-07-24T14:39:00+00:00
+! Version: 2.2.73.78
+! TimeUpdated: 2026-07-24T16:36:25+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -4396,6 +4396,8 @@ bloodmallet.com###cookie_information_overlay
 klook.com#$#.klk-notification { display: none !important; }
 talkbank.io,miraxy.studio##div[data-storage-item^="t657cookiename_"]
 mokkedano.net,takeharakankou.jp,okazaki-kanko.jp,nagaoka-navi.or.jp,kagoshima-yokanavi.jp,miyazaki-city.tourism.or.jp,at-nagasaki.jp,shikoku-tourism.com,kagoshima-kankou.com,crossroadfukuoka.jp,nagasaki-tabinet.com,my-kagawa.jp,iyokannet.jp,niigata-kankou.or.jp,kanko-miyazaki.jp,fujiyoshida.net##.common-gdpr-box
+tvpolsat.info,webcafe.bg#$#body[style] { overflow: auto !important; }
+tvpolsat.info,webcafe.bg#$?#.fc-consent-root { display: none !important; }
 rdstation.com##div[id^="syn-container-banner"]
 uu.se,hig.se,solna.se##.sv-cookie-consent-banner
 mywishboard.com##.MwbBlockCookie
@@ -14402,7 +14404,7 @@ sbs.com.au##.bodyParagaph:has(> a[href^="https://www.sbs.com.au/news/news-newsle
 citynews.ca##.add-trusted-source
 cnbc.com##div[data-module="GooglePreferredSource"]
 seenews.com##.columnsArticle > div.flex-column > div.d-flex:has(> div[class^="styles_newsletters_"])
-thegamer.com##.article-add-google
+xda-developers.com,thegamer.com##.article-add-google
 sporx.com##.shareLabel
 blog.germanos.gr###block-newsletterblock
 softwareengineeringdaily.com##.module--banner

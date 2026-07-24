@@ -1,9 +1,9 @@
-! Checksum: 8SnvQEGFG37FL+JUyXIRKg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1784904160-3600.patch
+! Checksum: TIkOEj0XAmt+jcRIQhwrkg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1784911181-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.90.84
-! TimeUpdated: 2026-07-24T14:39:12+00:00
+! Version: 2.0.90.85
+! TimeUpdated: 2026-07-24T16:36:34+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -4243,6 +4243,8 @@ bloodmallet.com###cookie_information_overlay
 klook.com#$#.klk-notification { display: none !important; }
 talkbank.io,miraxy.studio##div[data-storage-item^="t657cookiename_"]
 mokkedano.net,takeharakankou.jp,okazaki-kanko.jp,nagaoka-navi.or.jp,kagoshima-yokanavi.jp,miyazaki-city.tourism.or.jp,at-nagasaki.jp,shikoku-tourism.com,kagoshima-kankou.com,crossroadfukuoka.jp,nagasaki-tabinet.com,my-kagawa.jp,iyokannet.jp,niigata-kankou.or.jp,kanko-miyazaki.jp,fujiyoshida.net##.common-gdpr-box
+tvpolsat.info,webcafe.bg#$#body[style] { overflow: auto !important; }
+tvpolsat.info,webcafe.bg#$?#.fc-consent-root { display: none !important; }
 rdstation.com##div[id^="syn-container-banner"]
 uu.se,hig.se,solna.se##.sv-cookie-consent-banner
 mywishboard.com##.MwbBlockCookie
