@@ -1,9 +1,9 @@
-! Checksum: /sIs7hE74uxHPGvrd8qaTA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784890090-3600.patch
+! Checksum: hDXvW3jDZYbcu3zEMA9Ylw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784904120-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.74
-! TimeUpdated: 2026-07-24T10:45:22+00:00
+! Version: 2.2.73.77
+! TimeUpdated: 2026-07-24T14:39:00+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1104,6 +1104,7 @@
 !#######################################################
 !######### General URL blocking rules ##################
 !#######################################################
+/assets/storefront/chunk-customer_privacy_initializer.
 ||privacy.advancelocal.com^
 -cdn.consentmanager.net^
 ||cookies.prod.tekla.com^
@@ -1627,6 +1628,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+kia.si###cookiesOverlay
 tandem.net##section[class*="_cookieBanner"]
 nicke.tech##.cookie-consent-bar
 borger.dk#$#body { overflow: auto !important; }
@@ -18412,6 +18414,8 @@ flightradar24.com##[data-id="1f03f7d"][data-element_type="widget"]
 flightradar24.com##[data-id="18f2aaf"][data-element_type="widget"]
 flightradar24.com##[data-id="a2aa32b"][data-element_type="widget"]
 !+ NOT_OPTIMIZED
+m9.news##.google-label-center
+!+ NOT_OPTIMIZED
 theblondcook.com,domainnamewire.com###simple-banner
 !+ NOT_OPTIMIZED
 sciencenews.org###content > div#newsletter-helper
@@ -20195,6 +20199,11 @@ market.yandex.*##div[data-apiary-widget-name="@marketfront/DistributionLoader"]
 market.yandex.*##div[data-apiary-widget-name*="/HeaderAppDistributionBanner"]
 realty.ya.*##aside > div.AddOfferAppPromo
 [$path=/pogoda]yandex.*##div[class^="App"][class*="Promo"]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault()')
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.rpl-scroll-lock:not(#style_important) { overflow: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.scroll-is-blocked:not(#style_important) { overflow: auto !important; touch-action: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$##app-upsell-blocking-bottom-sheet-direct { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##[id^="xpromo-"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('hide-in-shadow-dom', 'faceplate-tracker[source="xpromo"] #get-app')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#body:not([style^="overflow:"]):not([class="rpl-scroll-lock"]) { pointer-events: auto !important; overflow: auto !important; }
@@ -20442,6 +20451,7 @@ honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
+bananamovies.org##.tr-install-banner
 newsbreak.com##a[aria-label="Download App"]
 speedtest.net#$#body[style^="overflow:"] { overflow: auto !important; }
 speedtest.net#$#.MuiDialog-root:has(> div.MuiDialog-container > div.MuiPaper-root > a[href="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"]) { display: none !important; }

@@ -1728,6 +1728,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+/assets/storefront/chunk-customer_privacy_initializer.
 ||privacy.advancelocal.com^
 -cdn.consentmanager.net^
 ||cookie.boatadmin.com^
@@ -2584,6 +2585,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+kia.si###cookiesOverlay
 tandem.net##section[class*="_cookieBanner"]
 nicke.tech##.cookie-consent-bar
 borger.dk#$#body { overflow: auto !important; }
@@ -30195,7 +30197,6 @@ mapple.bid,mapple.cc,mapple.club,mapple.rip,mapplee.com#%#//scriptlet('set-cooki
 9news.com##div[data-analytics-name*="Newsletter"]
 britannica.com##.KUSTOM-MARKETING-HOMEPAGE_BOTTOM_SUBSCRIBE2
 gazeteoksijen.com##.google-news-follow-wrapper
-m9.news##.google-label-center
 republicworld.com##.header-sponsor-banner
 thecityreporter.nyc,mississippifreepress.org##.entry-content > aside:not([class]):has(> .newspack-popup)
 theguardian.com##a[href^="https://www.theguardian.com/email-newsletters?"]
@@ -38022,6 +38023,8 @@ flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
 !
 !+ NOT_OPTIMIZED
+m9.news##.google-label-center
+!+ NOT_OPTIMIZED
 theblondcook.com,domainnamewire.com###simple-banner
 !+ NOT_OPTIMIZED
 sciencenews.org###content > div#newsletter-helper
@@ -41599,6 +41602,11 @@ realty.ya.*##.SmartBanner
 !
 !
 !
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault()')
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.rpl-scroll-lock:not(#style_important) { overflow: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.scroll-is-blocked:not(#style_important) { overflow: auto !important; touch-action: auto !important; }
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$##app-upsell-blocking-bottom-sheet-direct { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##[id^="xpromo-"]
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#shreddit-async-loader[paint-group="xpromo"][bundlename="app_selector"] { display: none !important; }
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('hide-in-shadow-dom', 'faceplate-tracker[source="xpromo"] #get-app')
@@ -41877,6 +41885,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+bananamovies.org##.tr-install-banner
 newsbreak.com##a[aria-label="Download App"]
 speedtest.net#$#body[style^="overflow:"] { overflow: auto !important; }
 speedtest.net#$#.MuiDialog-root:has(> div.MuiDialog-container > div.MuiPaper-root > a[href="https://play.google.com/store/apps/details?id=org.zwanoo.android.speedtest"]) { display: none !important; }
