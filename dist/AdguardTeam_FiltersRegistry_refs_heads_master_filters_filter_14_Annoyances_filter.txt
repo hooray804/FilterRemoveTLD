@@ -46237,6 +46237,7 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+nzz.ch##.overscroll-contain
 sankei.com###piano_footerbanner_Article
 sankei.com###piano_offer_Article
 aviakassa.com#%#//scriptlet('trusted-click-element', 'div[data-id^="top-header.avia.search-form.open-hotels"]._1dkd6ot6')

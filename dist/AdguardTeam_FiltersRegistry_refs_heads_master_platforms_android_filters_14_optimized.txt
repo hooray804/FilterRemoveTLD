@@ -1,9 +1,9 @@
-! Checksum: deH/zp6Yxyd90l+q2CM6oQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1784928594-3600.patch
+! Checksum: 8/sjM0fWfnfrgyZujWkRJg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1784935681-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.80
-! TimeUpdated: 2026-07-24T21:27:20+00:00
+! Version: 2.2.73.81
+! TimeUpdated: 2026-07-24T23:25:37+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -22377,6 +22377,7 @@ rasp.yandex.*##.TravelHotelsBanner
 tv.yandex.*##.recommended-ott
 [$path=/games]yandex.*##header + main.stack > div[class*="-disable-"]
 [$path=/games]yandex.*##header + main.stack > div > div[class*="-wrapper_promo"]
+nzz.ch##.overscroll-contain
 sankei.com###piano_footerbanner_Article
 sankei.com###piano_offer_Article
 aviakassa.com#%#//scriptlet('trusted-click-element', 'div[data-id^="top-header.avia.search-form.open-hotels"]._1dkd6ot6')
