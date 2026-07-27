@@ -1,9 +1,9 @@
-! Checksum: hmcA9mrTkv1yoCCx3VcLHg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785150665-3600.patch
+! Checksum: rfeO1n+p/G5eRSGnPVFM8Q
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785157982-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.90.91
-! TimeUpdated: 2026-07-27T11:07:45+00:00
+! Version: 2.0.90.92
+! TimeUpdated: 2026-07-27T13:09:48+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1441,7 +1441,7 @@ aeiou.pt,tvtropes.org#$#body { overflow: visible !important; }
 kongregate.com,pagenews.gr,lyrics.com,arcadehole.com,gazetevatan.com,androidpolice.com,collider.com,thegamer.com,cbr.com,makeuseof.com#$#body div.fc-consent-root { display: none !important; }
 kongregate.com,pagenews.gr,lyrics.com,arcadehole.com,gazetevatan.com,androidpolice.com,collider.com,thegamer.com,cbr.com,makeuseof.com#$#body { overflow-y: auto !important; }
 foromtb.com#%#//scriptlet('prevent-setTimeout', 'f.parentNode.removeChild(f)', '100')
-||fundingchoicesmessages.google.com^$domain=hotdeals.com|hardwaresfera.com|namba.keizai.biz|antik-war.lv|ipabox.net|nzherald.co.nz|nmac.to|smart-flash.jp|androidfilehost.com|picmix.com|aeiou.pt|expansion.com|techsvet.cz|wpteq.org|guideoftheworld.com|gadgetversus.com|rtings.com|techzim.co.zw|tabiris.com|worksheetkids.com|temporary-phone-number.com|diena.lt|tvguru.cz|h-donghua.xyz|funkykit.com|boardingarea.com|tychy.info|odigostoupoliti.eu|murciatoday.com|bestmvno.com|in.gr|audiocircuit.dk|wikiru.jp|trilltrill.jp|amanchourasia.in|0gichul.com|pokeflix.tv|megawypas.com|respublika.lt|smsnator.online|ad4msan.com|tvmaze.com|depesza.fm|styl.fm|edumail.su|423down.com|forex-nawigator.biz|dosgames.com|9to5toys.com|robtex.com|speedof.me|ntelemicro.com|xeud.it|gizchina.it|sikayetvar.com|hidencloud.com|forum-audi.com
+||fundingchoicesmessages.google.com^$domain=hotdeals.com|hardwaresfera.com|namba.keizai.biz|antik-war.lv|ipabox.net|nzherald.co.nz|nmac.to|smart-flash.jp|androidfilehost.com|picmix.com|aeiou.pt|expansion.com|techsvet.cz|wpteq.org|guideoftheworld.com|gadgetversus.com|rtings.com|techzim.co.zw|tabiris.com|worksheetkids.com|temporary-phone-number.com|diena.lt|tvguru.cz|h-donghua.xyz|funkykit.com|boardingarea.com|tychy.info|odigostoupoliti.eu|murciatoday.com|bestmvno.com|in.gr|audiocircuit.dk|wikiru.jp|trilltrill.jp|amanchourasia.in|0gichul.com|pokeflix.tv|megawypas.com|respublika.lt|smsnator.online|ad4msan.com|tvmaze.com|depesza.fm|styl.fm|edumail.su|423down.com|forex-nawigator.biz|dosgames.com|9to5toys.com|robtex.com|speedof.me|ntelemicro.com|xeud.it|gizchina.it|sikayetvar.com|hidencloud.com|forum-audi.com|9-gld.net
 windowsforum.kr,ot.gr,tvi.iol.pt,cnnturk.com,news.bg,lifestyle.bg,topsport.bg#%#//scriptlet('trusted-click-element', '.fc-consent-root .fc-footer-buttons-container > .fc-footer-buttons > .fc-cta-consent.fc-primary-button')
 sheffdocfest.com,polymtl.ca,oxfam.org,efka.gov.gr,c-budejovice.cz,iyihisset.com,museicapitolini.org,developer.nvidia.com,zillya.com,inrim.it,jneurosci.org,medrxiv.org,royal.uk,transcom.com,belltower.news,click.ro,demokrata.hu,gysev.hu,humanite.fr,la7.it,london.gov.uk,mavcsoport.hu,mcdonalds.at,mcdonalds.it,mises.org,mnm.hu,musescore.com,nbcsports.com,pnas.org###sliding-popup
 businessinsider.fr,leedsunited.news,amateurphotographer.com,gpfans.com,nehnutelnosti.sk,geo.fr,popbuzz.com,smoothradio.com,thetimes.co.uk,eveningnews24.co.uk,businessgreen.com,iltapulu.fi,vrt.be,newsnow.co.uk,whats-on-netflix.com,business-punk.com,the-sun.com,thesun.ie,demorgen.be,7sur7.be,vtm.be,vorname.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
@@ -1492,6 +1492,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+lobehub.com#%#//scriptlet('set-cookie', 'LOBE_COOKIE_CONSENT', 'rejected')
 auth.discoveryplus.com#%#//scriptlet('trusted-set-cookie', 'anonymousConsentElections', 'MjAyNi0wNy0yN1QxMDo1MDoxMFp8VVMtVkF8c0x8MVlZTg==')
 eskisehir.net#$#.cookie-consent { transform: translateY(-100vh) !important; }
 peekvids.com###ag-cookiebar
@@ -2137,6 +2138,7 @@ xe.com#%#//scriptlet('trusted-set-cookie', 'xeConsentState', '{%22performance%22
 coolbe.*#%#//scriptlet('trusted-click-element', 'div[data-testid="CookieBannerConditionalWrapper"] div[role="button"][class^="rejectLink"]')
 tiq.qld.gov.au#%#//scriptlet('trusted-click-element', 'a#closeCookiesPopupButton', '', '1000')
 hokify.*#%#//scriptlet('trusted-set-local-storage-item', 'accept-cookies', '["essential"]')
+joetsu-yasuda.com,yasui-archi.co.jp,hotel.ymsch.jp,shinsui-shintsunashima.com,agnesb.co.jp,hashimoto-g.co.jp##.p-cookie
 imoova.com#%#//scriptlet('set-local-storage-item', 'cookie_consent', 'no')
 partner.acolad.com#%#//scriptlet('trusted-set-local-storage-item', 'pp-cookie-consent', '"accepted"')
 codingame.com#%#//scriptlet('trusted-click-element', 'cg-cookies-banner .cg-cookies-banner_button_refuse', '!localStorage:ngStorage-userProperty-privacySettings-codingame')
