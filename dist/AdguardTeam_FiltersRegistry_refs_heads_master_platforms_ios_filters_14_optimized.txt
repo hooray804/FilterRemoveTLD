@@ -1,9 +1,9 @@
-! Checksum: Zhd9xj7TuINij6XzYgJnYA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1785157981-3600.patch
+! Checksum: p6TYIYiBx4Msa5twoRYUYw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1785170993-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.73.90
-! TimeUpdated: 2026-07-27T13:09:39+00:00
+! Version: 2.2.73.92
+! TimeUpdated: 2026-07-27T16:46:41+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -745,6 +745,7 @@
 ###pnlCookieBanner
 ###pnlCookieWarning
 ###politicaCookies
+###polityka-cookie
 ###polityka-cookies
 ###popup-cookie
 ###popup-cookies
@@ -1636,6 +1637,8 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+nimaso.co.jp#?#body > div[id^="shopify-aura-connect-"]
+festivaldemalaga.com##.boxCookies
 lobehub.com#%#//scriptlet('set-cookie', 'LOBE_COOKIE_CONSENT', 'rejected')
 auth.discoveryplus.com#%#//scriptlet('trusted-set-cookie', 'anonymousConsentElections', 'MjAyNi0wNy0yN1QxMDo1MDoxMFp8VVMtVkF8c0x8MVlZTg==')
 eskisehir.net#$#.cookie-consent { transform: translateY(-100vh) !important; }
@@ -1663,7 +1666,7 @@ uniqa.ua##.cookie-block--active
 0patch.com###__nuxt .max-w-\[386px\].rounded-xl.sm\:right-6
 developer.android.com#%#//scriptlet('trusted-click-element', 'button.glue-cookie-notification-bar__accept')
 aviakassa.com###siteMainContent ~ div[class]:has(> div > span > a[href="/usefuldata/confidentiality"])
-brainstormforce.com,wpschema.com,prestoplayer.com###surecookie-public-root
+wpastra.com,brainstormforce.com,wpschema.com,prestoplayer.com###surecookie-public-root
 termika.eu#%#//scriptlet('trusted-set-cookie', 'fscb_cookieSettings', '%7B%22required-cookies%22%3A%221%22%2C%22analytical-cookies%22%3A%220%22%2C%22targeted-advertising-cookies%22%3A%220%22%7D')
 baristina.com##beatle-anonymous-consent-management-banner-presentation
 luggat.com###root > .slide-in-from-bottom-5
@@ -3526,7 +3529,6 @@ scaleway.com#%#//scriptlet('trusted-click-element', '.sc-dGCmGc.fJEvkp', '!local
 monzo.com#%#//scriptlet('set-cookie', 'cookies_accepted', 'false')
 monzo.com#%#//scriptlet('set-cookie', '_cookies_banner_dismissed', 'true')
 infineon.com##.mi-consent-layer
-wkatowicach.eu###polityka-cookie
 iledefrance-mobilites.fr#$#html[class^="stopScroll"] { overflow: auto !important; }
 iledefrance-mobilites.fr#$#.cookies-banner { display: none !important; }
 bellroy.com#$?#bellroy-cookie-dialog { remove: true; }
@@ -6679,6 +6681,7 @@ omegawatches.com#%#//scriptlet('set-cookie', 'cookie_functional', '1')
 omegawatches.com#%#//scriptlet('trusted-set-cookie', 'user_allowed_save_cookie_rgpd', '%7B%221%22%3A1%7D')
 omegawatches.com#%#//scriptlet('trusted-set-cookie', 'cookie_country_all', '%7B%22world%22%3A%7B%22cookie_performance%22%3A0%2C%22cookie_pub%22%3A0%2C%22ad_user_data%22%3A0%2C%22ad_personalization%22%3A0%2C%22cookie_social%22%3A1%2C%22cookie_functional%22%3A1%7D%7D')
 newsnow.co.uk###pmbar
+mseuf.edu.ph,tesda.gov.ph###privacy
 shop.nationalgeographic.com###privacy-policy-popup
 cottodeste.it###privacyBox
 motorsport.com###privacy_accept
@@ -11054,8 +11057,9 @@ bloomberg.com##button[data-component="floating-copy-link"]
 news.ebc.net.tw##.push_box
 officebusters.com###cleaning-mov
 oddsportal.com#%#//scriptlet('set-session-storage-item', 'bonusIcon', 'false')
-onlinetexttools.com,comodo.com#$#.modal { display: none !important; }
-onlinetexttools.com,comodo.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+onlinetexttools.com#$#.modal { display: none !important; }
+onlinetexttools.com#$#.modal-backdrop { display: none !important; }
+onlinetexttools.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 elcomercio.pe#$#div.tp-modal[style^="z-index: 300050;"] { display: none !important; }
 elcomercio.pe#$#.tp-backdrop { display: none !important; }
 elcomercio.pe#$#body.tp-modal-open { overflow: auto !important; }
@@ -20869,6 +20873,8 @@ honeysanime.com#$##header-line-2 { margin-top: -60px !important; }
 honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
+arubaito-ex.jp##.app-flow-banner
+travelist.jp###app > div.sticky:has(> div.bg-white > div.flex > a[href^="https://travelist.onelink.me/"])
 pickaboo.com##.application-banner
 bananamovies.org##.tr-install-banner
 newsbreak.com##a[aria-label="Download App"]
@@ -22802,6 +22808,7 @@ rasp.yandex.*##.TravelHotelsBanner
 tv.yandex.*##.recommended-ott
 [$path=/games]yandex.*##header + main.stack > div[class*="-disable-"]
 [$path=/games]yandex.*##header + main.stack > div > div[class*="-wrapper_promo"]
+saily.com###header > div.w-full:not([data-section]):has(.WithBreakpointItem)
 wphive.com###extension-slideover
 awwwards.com##.marquee-top
 pickaboo.com##.discount-text-image-container

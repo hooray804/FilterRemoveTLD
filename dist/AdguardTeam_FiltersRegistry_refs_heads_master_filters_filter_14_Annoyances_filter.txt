@@ -1087,6 +1087,7 @@
 ###pnlCookieBanner
 ###pnlCookieWarning
 ###politicaCookies
+###polityka-cookie
 ###polityka-cookies
 ###politykacooki
 ###popUpInfosLegal
@@ -2586,6 +2587,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+nimaso.co.jp#?#body > div[id^="shopify-aura-connect-"]
+festivaldemalaga.com##.boxCookies
 lobehub.com#%#//scriptlet('set-cookie', 'LOBE_COOKIE_CONSENT', 'rejected')
 auth.discoveryplus.com#%#//scriptlet('trusted-set-cookie', 'anonymousConsentElections', 'MjAyNi0wNy0yN1QxMDo1MDoxMFp8VVMtVkF8c0x8MVlZTg==')
 eskisehir.net#$#.cookie-consent { transform: translateY(-100vh) !important; }
@@ -2613,7 +2616,7 @@ uniqa.ua##.cookie-block--active
 0patch.com###__nuxt .max-w-\[386px\].rounded-xl.sm\:right-6
 developer.android.com#%#//scriptlet('trusted-click-element', 'button.glue-cookie-notification-bar__accept')
 aviakassa.com###siteMainContent ~ div[class]:has(> div > span > a[href="/usefuldata/confidentiality"])
-brainstormforce.com,wpschema.com,prestoplayer.com###surecookie-public-root
+wpastra.com,brainstormforce.com,wpschema.com,prestoplayer.com###surecookie-public-root
 termika.eu#%#//scriptlet('trusted-set-cookie', 'fscb_cookieSettings', '%7B%22required-cookies%22%3A%221%22%2C%22analytical-cookies%22%3A%220%22%2C%22targeted-advertising-cookies%22%3A%220%22%7D')
 baristina.com##beatle-anonymous-consent-management-banner-presentation
 luggat.com###root > .slide-in-from-bottom-5
@@ -5369,7 +5372,6 @@ scaleway.com#%#//scriptlet('trusted-click-element', '.sc-dGCmGc.fJEvkp', '!local
 monzo.com#%#//scriptlet('set-cookie', 'cookies_accepted', 'false')
 monzo.com#%#//scriptlet('set-cookie', '_cookies_banner_dismissed', 'true')
 infineon.com##.mi-consent-layer
-wkatowicach.eu###polityka-cookie
 iledefrance-mobilites.fr#$#html[class^="stopScroll"] { overflow: auto !important; }
 iledefrance-mobilites.fr#$#.cookies-banner { display: none !important; }
 bellroy.com#$?#bellroy-cookie-dialog { remove: true; }
@@ -22418,9 +22420,9 @@ nemzetisport.hu##nso-petition-popup
 diviflash.com##.popup-container
 oddsportal.com#%#//scriptlet('set-session-storage-item', 'bonusIcon', 'false')
 comodo.com#$#.blogModalPopup { display: none !important; }
-onlinetexttools.com,comodo.com#$#.modal { display: none !important; }
-onlinetexttools.com,comodo.com#$#.modal-backdrop { display: none !important; }
-onlinetexttools.com,comodo.com#$#body { overflow: auto !important; padding-right: 0 !important; }
+onlinetexttools.com#$#.modal { display: none !important; }
+onlinetexttools.com#$#.modal-backdrop { display: none !important; }
+onlinetexttools.com#$#body { overflow: auto !important; padding-right: 0 !important; }
 ||cdn.etasio.com/scripts/apps/modules/wheel.js
 elcomercio.pe#$#div.tp-modal[style^="z-index: 300050;"] { display: none !important; }
 elcomercio.pe#$#.tp-backdrop { display: none !important; }
@@ -41905,6 +41907,8 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+arubaito-ex.jp##.app-flow-banner
+travelist.jp###app > div.sticky:has(> div.bg-white > div.flex > a[href^="https://travelist.onelink.me/"])
 pickaboo.com##.application-banner
 bananamovies.org##.tr-install-banner
 newsbreak.com##a[aria-label="Download App"]
@@ -46255,6 +46259,7 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+saily.com###header > div.w-full:not([data-section]):has(.WithBreakpointItem)
 wphive.com###extension-slideover
 awwwards.com##.marquee-top
 pickaboo.com##.discount-text-image-container
