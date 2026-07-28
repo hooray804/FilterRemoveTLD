@@ -1,9 +1,9 @@
-! Checksum: fL6zSvHSHF/U8kqprFCmGw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785242771-3600.patch
+! Checksum: RhCrOcpXmom663z1YWlKBA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785250584-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.3
-! TimeUpdated: 2026-07-28T12:43:19+00:00
+! Version: 2.0.91.5
+! TimeUpdated: 2026-07-28T14:53:22+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1443,7 +1443,7 @@ kongregate.com,pagenews.gr,lyrics.com,arcadehole.com,gazetevatan.com,androidpoli
 foromtb.com#%#//scriptlet('prevent-setTimeout', 'f.parentNode.removeChild(f)', '100')
 ||fundingchoicesmessages.google.com^$domain=hotdeals.com|hardwaresfera.com|namba.keizai.biz|antik-war.lv|ipabox.net|nzherald.co.nz|nmac.to|smart-flash.jp|androidfilehost.com|picmix.com|aeiou.pt|expansion.com|techsvet.cz|wpteq.org|guideoftheworld.com|gadgetversus.com|rtings.com|techzim.co.zw|tabiris.com|worksheetkids.com|temporary-phone-number.com|diena.lt|tvguru.cz|h-donghua.xyz|funkykit.com|boardingarea.com|tychy.info|odigostoupoliti.eu|murciatoday.com|bestmvno.com|in.gr|audiocircuit.dk|wikiru.jp|trilltrill.jp|amanchourasia.in|0gichul.com|pokeflix.tv|megawypas.com|respublika.lt|smsnator.online|ad4msan.com|tvmaze.com|depesza.fm|styl.fm|edumail.su|423down.com|forex-nawigator.biz|dosgames.com|9to5toys.com|robtex.com|speedof.me|ntelemicro.com|xeud.it|gizchina.it|sikayetvar.com|hidencloud.com|forum-audi.com|9-gld.net
 windowsforum.kr,ot.gr,tvi.iol.pt,cnnturk.com,news.bg,lifestyle.bg,topsport.bg#%#//scriptlet('trusted-click-element', '.fc-consent-root .fc-footer-buttons-container > .fc-footer-buttons > .fc-cta-consent.fc-primary-button')
-sheffdocfest.com,polymtl.ca,oxfam.org,efka.gov.gr,c-budejovice.cz,iyihisset.com,museicapitolini.org,developer.nvidia.com,zillya.com,inrim.it,jneurosci.org,medrxiv.org,royal.uk,transcom.com,belltower.news,click.ro,demokrata.hu,gysev.hu,humanite.fr,la7.it,london.gov.uk,mavcsoport.hu,mcdonalds.at,mcdonalds.it,mises.org,mnm.hu,musescore.com,nbcsports.com,pnas.org###sliding-popup
+1und1.net,sheffdocfest.com,polymtl.ca,oxfam.org,efka.gov.gr,c-budejovice.cz,iyihisset.com,museicapitolini.org,developer.nvidia.com,zillya.com,inrim.it,jneurosci.org,medrxiv.org,royal.uk,transcom.com,belltower.news,click.ro,demokrata.hu,gysev.hu,humanite.fr,la7.it,london.gov.uk,mavcsoport.hu,mcdonalds.at,mcdonalds.it,mises.org,mnm.hu,musescore.com,nbcsports.com,pnas.org###sliding-popup
 businessinsider.fr,leedsunited.news,amateurphotographer.com,gpfans.com,nehnutelnosti.sk,geo.fr,popbuzz.com,smoothradio.com,thetimes.co.uk,eveningnews24.co.uk,businessgreen.com,iltapulu.fi,vrt.be,newsnow.co.uk,whats-on-netflix.com,business-punk.com,the-sun.com,thesun.ie,demorgen.be,7sur7.be,vtm.be,vorname.com,motorcyclenews.com,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#div[id^="sp_message_"] { display: none !important; }
 techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$#body { overflow: visible !important; }
 news.sky.com,fr.motorsport.com,it.motorsport.com,leedsunited.news,amateurphotographer.com,gpfans.com,geo.fr,popbuzz.com,smoothradio.com,thetimes.co.uk,businessgreen.com,iltapulu.fi,newsnow.co.uk,voici.fr,the-sun.com,thesun.ie,capital.fr,ladbible.com,hitc.com,dualshockers.com,is.fi,7sur7.be,vtm.be,gamingbible.co.uk,unilad.co.uk,programme-tv.net,infoworld.com,networkworld.com,independent.co.uk,hln.be,motorsport-magazin.com,hitc.com,faz.net,motorcyclenews.com,finanzen.net,vorname.com,gutefrage.net,shieldsgazette.com,ekstrabladet.dk,demorgen.be,techadvisor.co.uk,forum.notebookreview.com,computerworld.com,skysports.com#$?#.sp-message-open { overflow: auto !important; position: static !important; margin-top: 0 !important; }
@@ -1492,6 +1492,9 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+rainews.it#%#//scriptlet('trusted-click-element', 'button.AvacyOverlay__CloseWithoutConsent')
+screamify.com##main ~ div.MuiBox-root
+ernax.pro##.items-center.fixed:has(> p > a[href="/privacy"])
 bnesim.com#%#//scriptlet('set-cookie', 'CookieConsent', 'true')
 redbull.com##.social-media-embed div[rb-embeds-content-container] + div[rb-embeds-core-inner]
 pizzataxi.papu.io#%#//scriptlet('set-local-storage-item', 'cookie-consent-accepted', 'true')
@@ -4006,13 +4009,13 @@ randa.org#$#body div[class*=" cookiesModal_"]:not(#style_important) { display: n
 alibaba.com###GDPR-cookies-notice
 crispedge.com##.load-accept-cookies
 nta.co.jp##.ImCmpApp
-spensen.com,courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
+artbynumbers.com.ua,spensen.com,courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr
 plus500.com#%#//scriptlet('remove-attr', 'style', 'body[class]')
 picofme.io##div[class^="cookieConsentPopup"]
 planningportal.co.uk#%#//scriptlet('trusted-set-cookie', 'cookie_preferences', '{"necessary":true,"performance":false,"marketing":false}')
 tuya.com###_th-trust
-brutalx.com,pularys.com,onurmarket.com,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
+dola.com,kopiyka.ua,brutalx.com,pularys.com,onurmarket.com,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
 aftonbladet.se#%#//scriptlet('trusted-click-element', '.message-component > button[title^="Godkänn"]')
 adfilteringdevsummit.com#%#//scriptlet('trusted-set-local-storage-item', 'acceptCookies', 'n')
 kensington.com##.Promotional-corner
@@ -4858,7 +4861,7 @@ one.network###on-privacy-info
 ton.eu##div[class*="cookie-bar"]
 sozialversicherung.at##.consent-background-overlay
 visiontechusa.com###toast
-dergice.com,made.com##.show-cookie
+ovvah.com,dergice.com,made.com##.show-cookie
 hanse.org,officebase.info,ergonbike.com##.ch-cookie-consent
 fau.eu##.show-cookie-box
 sber-bank.by##.CookiesMessageBlock
