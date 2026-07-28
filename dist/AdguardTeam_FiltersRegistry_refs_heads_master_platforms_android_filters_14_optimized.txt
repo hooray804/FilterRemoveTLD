@@ -1,9 +1,9 @@
-! Checksum: BgkNvODv6vjQ0MxDGqZceA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1785232945-3600.patch
+! Checksum: 9lZ7UUjaTpdE8bhQv+VyWw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1785242735-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.74.0
-! TimeUpdated: 2026-07-28T10:00:02+00:00
+! Version: 2.2.74.3
+! TimeUpdated: 2026-07-28T12:43:10+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1631,6 +1631,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+bnesim.com#%#//scriptlet('set-cookie', 'CookieConsent', 'true')
 redbull.com##.social-media-embed div[rb-embeds-content-container] + div[rb-embeds-core-inner]
 pizzataxi.papu.io#%#//scriptlet('set-local-storage-item', 'cookie-consent-accepted', 'true')
 candy-home.com#%#//scriptlet('trusted-click-element', '#onetrust-pc-btn-handler, li[data-optanongroupid="C0003"] > div.category-menu-switch-handler, div[id*="-id-C0003"] > div.ot-grp-hdr1 > div.ot-tgl > label.ot-switch, button.save-preference-btn-handler', '', '500')
@@ -7246,7 +7247,6 @@ doppelherz.*,neputin.org,donate.acf.international,viladomat.com#%#//scriptlet('t
 share-your-photo.com#%#//scriptlet('remove-class', 'cookie', 'body.cookie')
 fraus.cz#%#//scriptlet('set-cookie', 'fraus_fg_cookie_policy_accepted', '2')
 scienceopen.com#%#//scriptlet('set-cookie', 'cookiesAccepted', '3')
-zoom.us#%#//scriptlet('trusted-click-element', '.save-preference-btn-handler')
 sportdeutschland.tv#%#//scriptlet('set-constant', '__tcfapi', 'noopFunc')
 androidacy.com#%#//scriptlet('trusted-click-element', '.qc-cmp2-container .qc-cmp2-close-icon')
 eurogrow.es#%#//scriptlet('set-constant', 'hiCookieLaw', 'emptyObj')
@@ -10505,6 +10505,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 ###credential_picker_iframe
 /.*/$permissions=identity-credentials-get=(),document
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+muzofond.fm###banner_auth
 ||eowf.alc.co.jp/content/js/popup_control.js
 multishows.top#%#//scriptlet('trusted-set-local-storage-item', 'ad_free_expiry', '9999999999999')
 ltube.us###mini-ad-bar
@@ -10672,7 +10673,6 @@ gamestorrents.app###tli-overlay
 ecom.docusign.com##.dxp-pricing-plans__board > article > section:has(> button[data-testid="closeOverlay"])
 yeniavaz.com#%#//scriptlet('prevent-setTimeout', '#divModalPageLike')
 gmgn.ai#%#//scriptlet('set-local-storage-item', 'login_dialog_clicked', 'true')
-7tv081.com#%#//scriptlet('trusted-click-element', '#mvspan_2_s_k_i_p_bottom')
 nihaojewelry.com#%#//scriptlet('set-local-storage-item', 'homePopupID', '8')
 mel.fm##.end2end-button
 healthgrades.com###feedback
@@ -18248,7 +18248,7 @@ discoverskills.com##.entry-content > div.et_bloom_inline_form
 protips.dickssportinggoods.com##footer > .dsgfooter-top
 coinmarketcap.com#?#.cmc-bottom-margin-2x > div[class]:has(> div.cmc-newsletter-signup__widget)
 cjonline.com,lansingstatejournal.com,usatoday.com##aside[aria-label="Newsletter signup form"]
-cjonline.com,lansingstatejournal.com,usatoday.com,app.com,lohud.com##form[aria-label^="Sign up for newsletter"]
+cincinnati.com,cjonline.com,lansingstatejournal.com,usatoday.com,app.com,lohud.com##form[aria-label^="Sign up for newsletter"]
 space.com###article-body > figure > a[target="_blank"] img
 semantica.in##.innerContentSubscribe
 gatevidyalay.com#?#aside > section.widget-sidebar:has(> div.textwidget > section > form[id^="subscribe-"])
@@ -22412,6 +22412,8 @@ rasp.yandex.*##.TravelHotelsBanner
 tv.yandex.*##.recommended-ott
 [$path=/games]yandex.*##header + main.stack > div[class*="-disable-"]
 [$path=/games]yandex.*##header + main.stack > div > div[class*="-wrapper_promo"]
+crunchyroll.com##a[class^="bannerPanel_banner__"]
+||api.bnesim.com/v*/promo/
 saily.com###header > div.w-full:not([data-section]):has(.WithBreakpointItem)
 wphive.com###extension-slideover
 awwwards.com##.marquee-top
@@ -26853,7 +26855,7 @@ full-count.jp#?#section > div.c-heading:has(> p.c-heading__en:contains(RECOMMEND
 ||widget.intercom.io^$domain=appmaster.io|internxt.com|mainwp.com
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 spolshy.com.ua##.phone-modal
-xbox.com##.sa-default-entry-container
+xbox.com##.copilot-container
 pickaboo.com##a[aria-label="Chat on WhatsApp"]
 rotaborsa.com##.kanews-chat
 ||webchat-cdn.asksid.ai^$domain=himalayawellness.in
