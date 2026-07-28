@@ -2587,6 +2587,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+seatgem.com#%#//scriptlet('trusted-click-element', '#cc--main button.c-bn.c_link', '!cookie:cc_cookie', '5000')
 boyfriend.tv#%#//scriptlet('trusted-set-cookie', 'cc_pref', '{"essential":true,"internal":true,"functional":false,"targeting":false,"marketing":false,"timestamp":"99999999"}')
 boyfriend.tv#%#//scriptlet('trusted-set-cookie', 'rta_terms_accepted', 'true')
 boyfriend.tv###limitedExperienceNotice
@@ -30033,6 +30034,7 @@ dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,progameguides.com,eurone
 !
 ! SECTION: Subscriptions - Regular rules
 !
+seatgem.com#%#//scriptlet('set-cookie', 'tnp-popup-closed', '1')
 theouterhaven.net##.toh-google-source
 turizmgazetesi.com#%#//scriptlet('prevent-setTimeout', '#promoPopup')
 wphive.com##.single_subscribe_form
@@ -38233,6 +38235,7 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+shopping.naver.com##div[class^="_appStarterBanner_app_starter_banner_"]
 cricinfo.com#?#.ds-flex > div.ds-cursor-pointer:has(> span:contains(Get the App))
 app.watchduty.org##div[data-testid="download-app-banner"]
 quince.com##div[class^="app-push-banner"]
@@ -51926,8 +51929,6 @@ blogmado.com#%#//scriptlet('adjust-setInterval', 'get-link', '*', '0.02')
 fikper.com#%#//scriptlet("adjust-setInterval", "downloadToken", "*", "0.02")
 ! https://github.com/uBlockOrigin/uAssets/issues/16166
 adzz.in,proappapk.com#%#//scriptlet("remove-attr", "disabled", "#gotolink")
-! https://github.com/AdguardTeam/AdguardFilters/issues/137292
-freecoursesonline.me#%#//scriptlet("adjust-setInterval", "/timeLeft|wpsafe-/", "*", "0.02")
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136952
 tech24us.com#%#//scriptlet('set-constant', 'counter', '-1')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/136502
