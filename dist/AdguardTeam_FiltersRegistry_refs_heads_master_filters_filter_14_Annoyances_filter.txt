@@ -30034,6 +30034,7 @@ dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,progameguides.com,eurone
 !
 ! SECTION: Subscriptions - Regular rules
 !
+trans.info##.newsletter-signon-component
 seatgem.com#%#//scriptlet('set-cookie', 'tnp-popup-closed', '1')
 theouterhaven.net##.toh-google-source
 turizmgazetesi.com#%#//scriptlet('prevent-setTimeout', '#promoPopup')
@@ -41913,6 +41914,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+townwork.net##div[class^="styles_bannerWrapper"]:has(> a[href^="https://townwork.go.link?adj"])
 arubaito-ex.jp##.app-flow-banner
 travelist.jp###app > div.sticky:has(> div.bg-white > div.flex > a[href^="https://travelist.onelink.me/"])
 pickaboo.com##.application-banner
