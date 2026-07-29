@@ -1,9 +1,9 @@
-! Checksum: PFoE9rqqekE6vZnVUGCGHg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1785322786-3600.patch
+! Checksum: bAAX7Ky5WYNz3Ll5JUO6ug
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1785332531-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.74.12
-! TimeUpdated: 2026-07-29T10:56:21+00:00
+! Version: 2.2.74.15
+! TimeUpdated: 2026-07-29T13:39:01+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1636,6 +1636,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+booking.uz.gov.ua##.CookiesNotify
 danawa.com#%#//scriptlet('trusted-set-cookie', 'mt_7_uifo', '%7B%22UUID%22%3A%22391cdead-2ecf-477f-bae9-96bfa37fca37%22%2C%22cookie1%22%3A%22N%22%2C%22cookie2%22%3A%22Y%22%2C%22cookie3%22%3A%22N%22%7D')
 namesilo.com#%#//scriptlet('trusted-set-cookie', 'cookies-consent', 'necessary%3Ayes%2Cfunctional%3Ano%2Canalytics%3Ano%2Cperformance%3Ano%2Cadvertisement%3Ano%2Cuncategorised%3Ano')
 namesilo.com#%#//scriptlet('trusted-set-local-storage-item', 'consentOther', '{"necessary_storage":"granted","functionality_storage":"denied","analytics_storage":"denied","performance_storage":"denied","ad_storage":"denied","unclassified_storage":"denied","ad_user_data":"granted","ad_personalization":"granted"}')
@@ -7654,7 +7655,7 @@ goldenstateofmind.com#%#(function(){if(-1==document.cookie.indexOf("_chorus_priv
 mmafighting.com#%#(function(){if(-1==document.cookie.indexOf("_chorus_privacy_consent")&&document.location.hostname.includes("mmafighting.com")){var c=new Date, d=c.getTime(), date = new Date(d + 365 * 60 * 60 * 1000); document.cookie="_chorus_privacy_consent="+d+"; path=/; expires=" + date.toUTCString(), location.reload()}})();
 stabila.com#%#(function(){-1==document.cookie.indexOf("cms_cookies")&&(document.cookie="cms_cookies=6; path=/;",document.cookie="cms_cookies_saved=true; path=/;",location.reload())})();
 klaviano.com#%#document.cookie="klaviano_police=1; path=/;";
-smart.com,gamesgames.com,games.co.uk,permainan.co.id,gioco.it,jeux.fr,juegos.com,oyunskor.com,spela.se,agame.com,spielen.com,games.co.id,giochi.it,jeu.fr#%#//scriptlet('set-cookie', 'OptanonAlertBoxClosed', 'true')
+fandom.com,smart.com,gamesgames.com,games.co.uk,permainan.co.id,gioco.it,jeux.fr,juegos.com,oyunskor.com,spela.se,agame.com,spielen.com,games.co.id,giochi.it,jeu.fr#%#//scriptlet('set-cookie', 'OptanonAlertBoxClosed', 'true')
 alpro.com#%#document.cookie='cookieConsent={"statistical":0,"personalization":0,"targeting":0}; path=/;';
 al.to#%#//scriptlet('trusted-set-cookie', 'trackingPermissionConsentsValue', '%7B%22cookies_analytics%22%3Afalse%2C%22cookies_personalization%22%3Afalse%2C%22cookies_advertisement%22%3Afalse%7D')
 ffm.to#%#document.cookie="allowTracking=false; path=/;"; document.cookie="trackingSettings={%22ads%22:false%2C%22performance%22:false}; path=/;";
@@ -9537,6 +9538,9 @@ scitechdaily.com,thewindowsclub.com#@#.ad-space
 @@||search-module.s3.us-east-2.amazonaws.com/pubs/trib/adblockdetect.js
 !#safari_cb_affinity
 armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwesterndaily.com.au,crookwellgazette.com.au,dailyadvertiser.com.au,dailyliberal.com.au,examiner.com.au,illawarramercury.com.au,newcastleherald.com.au,portnews.com.au,thecourier.com.au,thesenior.com.au#%#//scriptlet('set-cookie', 'dismissCheck', '1')
+civitai.com,civitai.red##main div.flex[style] > div[style*="contain-intrinsic-size"]:has(a[href="/pricing"] img)
+civitai.com,civitai.red##a[href="/pricing"]:has(img)
+civitai.com,civitai.red##div[style="min-height:90px"]
 ledemondujeu.com##.avertissement
 archon.gg##span[class^="Article_stickyFooterAd"]
 archon.gg##div[class^="Advertisements"]
@@ -15506,7 +15510,7 @@ kinogo.*##.notino
 delish.com##journey-modal-newsletter
 hunter.fm#%#//scriptlet('set-cookie', 'noLoggedClosed', 'yes')
 tomsguide.com###bannerHeader
-macg.co,bikeperfect.com,fourfourtwo.com,maltatoday.com.mt,bartamanpatrika.com,sportiva.shueisha.co.jp,breitbart.com,upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
+leparisien.fr,macg.co,bikeperfect.com,fourfourtwo.com,maltatoday.com.mt,bartamanpatrika.com,sportiva.shueisha.co.jp,breitbart.com,upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
 economipedia.com##.econo-code-block
 web.nhk###nhk-one-header-top-bar + div[class]:has(> a[href="https://www.nhk.or.jp/nhkone/signup-flow/?refm=guide-info"])
 ||subscribe-forms.beehiiv.com^
@@ -19096,10 +19100,10 @@ citycost.org#%#//scriptlet('set-cookie', 'banner-hidden', 'true')
 citycost.org#%#//scriptlet('trusted-click-element', '.modal-get-app .ui-modal__close-btn', '', '730')
 lazada.sg###J_CampaignBanner
 grok.com##.group\/sidebar-wrapper .fixed.top-0:has(> button > div> svg > path#mark)
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.justify-center.flex.inset-0.fixed
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-banner
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.flx-ce-ce.pc-get-img
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.justify-center.flex.inset-0.fixed
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-banner
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.flx-ce-ce.pc-get-img
 world.kbs.co.kr##.comp_right_application
 word.tips##body[data-sveltekit-preload-data="hover"] .py-3.pl-3.pr-5.text-cp-black-700.lg\:hidden
 tapas.io##.wff-banner-wrap
@@ -21993,6 +21997,8 @@ store.playstation.com#@$?#meta[name="apple-itunes-app"] { remove: true; }
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 instagram.com##._aagw:empty
+order-order.com#$#.v-overlay-container { display: none !important; }
+order-order.com#%#//scriptlet('remove-class', 'v-overlay-scroll-blocked', 'html')
 ||front.dreamstime.com/new/process-assets/components/Popup/PopupSignup/PopupSignup.css$domain=dreamstime.com
 ||front.dreamstime.com/new/process-assets/components/Popup/Popup.js$domain=dreamstime.com
 huavod.cc,huavod.top,huavod.net,huavod.com,huaren.live#$#.switch-box a[target="_blank"] > img { position: absolute !important; left: -9999px !important; }

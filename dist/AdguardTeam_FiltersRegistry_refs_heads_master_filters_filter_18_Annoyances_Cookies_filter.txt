@@ -2587,6 +2587,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+booking.uz.gov.ua##.CookiesNotify
 danawa.com#%#//scriptlet('trusted-set-cookie', 'mt_7_uifo', '%7B%22UUID%22%3A%22391cdead-2ecf-477f-bae9-96bfa37fca37%22%2C%22cookie1%22%3A%22N%22%2C%22cookie2%22%3A%22Y%22%2C%22cookie3%22%3A%22N%22%7D')
 namesilo.com#%#//scriptlet('trusted-set-cookie', 'cookies-consent', 'necessary%3Ayes%2Cfunctional%3Ano%2Canalytics%3Ano%2Cperformance%3Ano%2Cadvertisement%3Ano%2Cuncategorised%3Ano')
 namesilo.com#%#//scriptlet('trusted-set-local-storage-item', 'consentOther', '{"necessary_storage":"granted","functionality_storage":"denied","analytics_storage":"denied","performance_storage":"denied","ad_storage":"denied","unclassified_storage":"denied","ad_user_data":"granted","ad_personalization":"granted"}')
@@ -14312,7 +14313,7 @@ goldenstateofmind.com#%#(function(){if(-1==document.cookie.indexOf("_chorus_priv
 mmafighting.com#%#(function(){if(-1==document.cookie.indexOf("_chorus_privacy_consent")&&document.location.hostname.includes("mmafighting.com")){var c=new Date, d=c.getTime(), date = new Date(d + 365 * 60 * 60 * 1000); document.cookie="_chorus_privacy_consent="+d+"; path=/; expires=" + date.toUTCString(), location.reload()}})();
 stabila.com#%#(function(){-1==document.cookie.indexOf("cms_cookies")&&(document.cookie="cms_cookies=6; path=/;",document.cookie="cms_cookies_saved=true; path=/;",location.reload())})();
 klaviano.com#%#document.cookie="klaviano_police=1; path=/;";
-smart.com,gamesgames.com,games.co.uk,permainan.co.id,gioco.it,jeux.fr,juegos.com,oyunskor.com,spela.se,agame.com,spielen.com,games.co.id,giochi.it,jeu.fr#%#//scriptlet('set-cookie', 'OptanonAlertBoxClosed', 'true')
+fandom.com,smart.com,gamesgames.com,games.co.uk,permainan.co.id,gioco.it,jeux.fr,juegos.com,oyunskor.com,spela.se,agame.com,spielen.com,games.co.id,giochi.it,jeu.fr#%#//scriptlet('set-cookie', 'OptanonAlertBoxClosed', 'true')
 alpro.com#%#document.cookie='cookieConsent={"statistical":0,"personalization":0,"targeting":0}; path=/;';
 al.to#%#//scriptlet('trusted-set-cookie', 'trackingPermissionConsentsValue', '%7B%22cookies_analytics%22%3Afalse%2C%22cookies_personalization%22%3Afalse%2C%22cookies_advertisement%22%3Afalse%7D')
 ffm.to#%#document.cookie="allowTracking=false; path=/;"; document.cookie="trackingSettings={%22ads%22:false%2C%22performance%22:false}; path=/;";

@@ -2587,6 +2587,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+booking.uz.gov.ua##.CookiesNotify
 danawa.com#%#//scriptlet('trusted-set-cookie', 'mt_7_uifo', '%7B%22UUID%22%3A%22391cdead-2ecf-477f-bae9-96bfa37fca37%22%2C%22cookie1%22%3A%22N%22%2C%22cookie2%22%3A%22Y%22%2C%22cookie3%22%3A%22N%22%7D')
 namesilo.com#%#//scriptlet('trusted-set-cookie', 'cookies-consent', 'necessary%3Ayes%2Cfunctional%3Ano%2Canalytics%3Ano%2Cperformance%3Ano%2Cadvertisement%3Ano%2Cuncategorised%3Ano')
 namesilo.com#%#//scriptlet('trusted-set-local-storage-item', 'consentOther', '{"necessary_storage":"granted","functionality_storage":"denied","analytics_storage":"denied","performance_storage":"denied","ad_storage":"denied","unclassified_storage":"denied","ad_user_data":"granted","ad_personalization":"granted"}')
@@ -14312,7 +14313,7 @@ goldenstateofmind.com#%#(function(){if(-1==document.cookie.indexOf("_chorus_priv
 mmafighting.com#%#(function(){if(-1==document.cookie.indexOf("_chorus_privacy_consent")&&document.location.hostname.includes("mmafighting.com")){var c=new Date, d=c.getTime(), date = new Date(d + 365 * 60 * 60 * 1000); document.cookie="_chorus_privacy_consent="+d+"; path=/; expires=" + date.toUTCString(), location.reload()}})();
 stabila.com#%#(function(){-1==document.cookie.indexOf("cms_cookies")&&(document.cookie="cms_cookies=6; path=/;",document.cookie="cms_cookies_saved=true; path=/;",location.reload())})();
 klaviano.com#%#document.cookie="klaviano_police=1; path=/;";
-smart.com,gamesgames.com,games.co.uk,permainan.co.id,gioco.it,jeux.fr,juegos.com,oyunskor.com,spela.se,agame.com,spielen.com,games.co.id,giochi.it,jeu.fr#%#//scriptlet('set-cookie', 'OptanonAlertBoxClosed', 'true')
+fandom.com,smart.com,gamesgames.com,games.co.uk,permainan.co.id,gioco.it,jeux.fr,juegos.com,oyunskor.com,spela.se,agame.com,spielen.com,games.co.id,giochi.it,jeu.fr#%#//scriptlet('set-cookie', 'OptanonAlertBoxClosed', 'true')
 alpro.com#%#document.cookie='cookieConsent={"statistical":0,"personalization":0,"targeting":0}; path=/;';
 al.to#%#//scriptlet('trusted-set-cookie', 'trackingPermissionConsentsValue', '%7B%22cookies_analytics%22%3Afalse%2C%22cookies_personalization%22%3Afalse%2C%22cookies_advertisement%22%3Afalse%7D')
 ffm.to#%#document.cookie="allowTracking=false; path=/;"; document.cookie="trackingSettings={%22ads%22:false%2C%22performance%22:false}; path=/;";
@@ -19568,6 +19569,9 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! The rules for content blockers only:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#content_blockers
 !
+civitai.com,civitai.red##main div.flex[style] > div[style*="contain-intrinsic-size"]:has(a[href="/pricing"] img)
+civitai.com,civitai.red##a[href="/pricing"]:has(img)
+civitai.com,civitai.red##div[style="min-height:90px"]
 ledemondujeu.com##.avertissement
 archon.gg##span[class^="Article_stickyFooterAd"]
 archon.gg##div[class^="Advertisements"]
@@ -31048,7 +31052,7 @@ pagellapolitica.it##.bg-blue:has(a[class^="hover:text-blue"])
 pagellapolitica.it##section.bg-black:has(> .container > .grid)
 powercompare.co.nz##floating-subscription-element
 tomsguide.com###bannerHeader
-macg.co,bikeperfect.com,fourfourtwo.com,maltatoday.com.mt,bartamanpatrika.com,sportiva.shueisha.co.jp,breitbart.com,upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
+leparisien.fr,macg.co,bikeperfect.com,fourfourtwo.com,maltatoday.com.mt,bartamanpatrika.com,sportiva.shueisha.co.jp,breitbart.com,upi.com,as.com,grandprix247.com,economx.hu,sporx.com,okmagazine.com,sq.com.ua,technologymagazine.com,tomshardware.com,timesofmalta.com,oricon.co.jp,fintechmagazine.com,evrensel.net,tamindir.com,teamtalk.com,football365.com,techradar.com,planetf1.com,windowscentral.com,phonearena.com,gamesradar.com,cinemaexpress.com,straitstimes.com,planetrugby.com,9to5mac.com,motorsport.com,tomsguide.com##a[href^="https://google.com/preferences/source?q="]
 reebok.jp##.footer_box
 economipedia.com##.econo-code-block
 dig.watch##.newsletter-subscribe-v2
@@ -38438,10 +38442,10 @@ elpais.com.co##.prose > div:not([class]):has(> div.not-prose > div.flex > div.fl
 lazada.sg###J_CampaignBanner
 lazada.sg###J_Banner
 grok.com##.group\/sidebar-wrapper .fixed.top-0:has(> button > div> svg > path#mark)
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.justify-center.flex.inset-0.fixed
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-banner
-moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.flx-ce-ce.pc-get-img
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.justify-center.flex.inset-0.fixed
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-cot
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.pc-download-banner
+moviebox.ac,moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.flx-ce-ce.pc-get-img
 world.kbs.co.kr##.comp_right_application
 smt.docomo.ne.jp###Hed_iosAppBanner
 grok.com##.w-full > div.fixed.top-0:has(> div.flex > button[aria-label="Close"])
@@ -43132,6 +43136,9 @@ instagram.com##._aagw:empty
 !
 !
 ! glassdoor.de - unblur text descriptions on reviews
+! https://github.com/AdguardTeam/AdguardFilters/issues/236943
+order-order.com#$#.v-overlay-container { display: none !important; }
+order-order.com#%#//scriptlet('remove-class', 'v-overlay-scroll-blocked', 'html')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236497
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235614
 ||front.dreamstime.com/new/process-assets/components/Popup/PopupSignup/PopupSignup.css$domain=dreamstime.com
