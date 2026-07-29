@@ -30023,7 +30023,7 @@ ianos.gr,geox.com,365daysofbakingandmore.com,lejournaldelamaison.fr,newsbomb.gr,
 ! ##.cta-component-full-width
 eveningtimes.co.uk,greenocktelegraph.co.uk,heraldscotland.com,swindonadvertiser.co.uk,wiltshiretimes.co.uk##.cta-component-full-width
 ! ##.subscribe
-rtrunews.com,texty.org.ua,nbaanalysis.net,finansingundemi.com,healthyseasonalrecipes.com,borsaningundemi.com,thestraight.com.au,recipetineats.com,emilybites.com,tidymom.net,hummingbirdhigh.com,the-steppe.com,nngroup.com,inbusiness.kz,rtl.hr,downdetector.su,windscribe.com,blog.samaltman.com,defenseone.com,relish.com,obozrevatel.com,immigrantinvest.com,404media.co,promokodi.coupons,motociclismo.es,mind.ua,occrp.org,shopify.engineering,boardingarea.com,defense.gov,vogue.ua,cuprum.media,re-russia.net,kinobusiness.com,seroundtable.com,glavred.net,glavred.info,stopcor.org,varianty.lviv.ua,cnnturk.com,torontovka.com,mrpl.city,mydeliciousmeals.com,kp.ua,twilio.com,logincasino.com.ua,320volt.com,neft.by,shopify.com,zoutons.com,indiatimes.com,shopify.in,censor.net,fizzicseducation.com.au,revouninstaller.com,officelife.media,masterinvest.info,bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustantimes.com,hightech.fm,blog.eva.ua,officiel-online.com,wccftech.com,goldsilver.com,infobus.eu,marieclaire.ua,mvs.gov.ua,oneplus.com,tickets.ua,krossovki.com,belretail.by,mauijim.com,netpeak.net,gizmag.com,menshealth.com,wegame.com.ua##.subscribe
+bakerita.com,rtrunews.com,texty.org.ua,nbaanalysis.net,finansingundemi.com,healthyseasonalrecipes.com,borsaningundemi.com,thestraight.com.au,recipetineats.com,emilybites.com,tidymom.net,hummingbirdhigh.com,the-steppe.com,nngroup.com,inbusiness.kz,rtl.hr,downdetector.su,windscribe.com,blog.samaltman.com,defenseone.com,relish.com,obozrevatel.com,immigrantinvest.com,404media.co,promokodi.coupons,motociclismo.es,mind.ua,occrp.org,shopify.engineering,boardingarea.com,defense.gov,vogue.ua,cuprum.media,re-russia.net,kinobusiness.com,seroundtable.com,glavred.net,glavred.info,stopcor.org,varianty.lviv.ua,cnnturk.com,torontovka.com,mrpl.city,mydeliciousmeals.com,kp.ua,twilio.com,logincasino.com.ua,320volt.com,neft.by,shopify.com,zoutons.com,indiatimes.com,shopify.in,censor.net,fizzicseducation.com.au,revouninstaller.com,officelife.media,masterinvest.info,bessarabia.ua,football.kulichki.net,jeotermalhaberler.com,glavcom.ua,hindustantimes.com,hightech.fm,blog.eva.ua,officiel-online.com,wccftech.com,goldsilver.com,infobus.eu,marieclaire.ua,mvs.gov.ua,oneplus.com,tickets.ua,krossovki.com,belretail.by,mauijim.com,netpeak.net,gizmag.com,menshealth.com,wegame.com.ua##.subscribe
 ! ##.subscription
 quickanddirtytips.com,whiteflowerfarm.com,nur.kz,news.bg,lifestyle.bg,topsport.bg,thebellmirror.com,gadgets360.com,cityam.com,world.hey.com,mvs.gov.ua,okocrm.com,lifestyleasia.com,cars.av.by,business-standard.com,holiday.by,hcdinamo.by,slidstvo.info,cozumpark.com,x-team.com,careeraddict.com,glasswire.com,busfor.ua,brighteon.com,championat.com,thepostmillennial.com,skidochnik.com.ua##.subscription
 ! ##body > div[id][style*="top: 0px; width: 100%; z-index: 99999999;"]
@@ -30059,6 +30059,9 @@ sugarfreelondoner.com,dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,pr
 !
 ! SECTION: Subscriptions - Regular rules
 !
+expressnews.com##.x100.bg-white:has(> a[href^="https://www.google.com/preferences/source?q="])
+rachaelsgoodeats.com##.new-recipe
+mamagourmand.com###save-the-recipe
 gulfnews.com##.story-grid span[class]:has(> div[class] > a#googleps)
 gulfnews.com##div[class]:has(> form[class] > div > div > div > div > input[placeholder="Email address"])
 glutenfreepalate.com##.vk-sharebox
@@ -31065,7 +31068,7 @@ idreampost.com##.social-icons
 idreampost.com##.whatsapp
 medium.com##p + div:has(> div > span > div > div > input[placeholder="Enter your email"])
 hispanidad.com##.h-subscribe-btn
-veganricha.com,nutmegnanny.com,leitesculinaria.com##.top-hat
+meaningfuleats.com,veganricha.com,nutmegnanny.com,leitesculinaria.com##.top-hat
 ||forms.sonos.com^
 miraculous.to#$##promo-modal { display: none !important; }
 miraculous.to#$#body[style^="overflow:"] { overflow: auto !important; }
