@@ -1,9 +1,9 @@
-! Checksum: nF200ELFtOMXHD92+R08LQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1785415394-3600.patch
+! Checksum: Xh9nYsnCSgcJqKonO0Yn6g
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1785423222-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.74.27
-! TimeUpdated: 2026-07-30T12:40:16+00:00
+! Version: 2.2.74.28
+! TimeUpdated: 2026-07-30T14:50:37+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1643,6 +1643,8 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+trutv.com#$##wbd-ltp-overlay { display: none !important; }
+trutv.com#$#body { overflow: auto !important; }
 kanopy.com##.gpc-banner
 xhamster46.desi##div[data-role="cookies-modal"]
 supply.amazon.com#%#//scriptlet('set-cookie', 'sc-ccv2', '1')
@@ -20692,6 +20694,8 @@ wear.jp#%#//scriptlet('trusted-set-session-storage-item', 'status_of_app_redirec
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
+travelist.jp##.sp-header-applink-banner
+!+ NOT_OPTIMIZED
 dugun.com##.js-app-download-bar
 !+ NOT_OPTIMIZED
 gdh.digital##.border[class^="max-w-"]:has(> .items-center > .flex-row > a[href^="https://play.google.com/"])
@@ -20913,6 +20917,7 @@ honeysanime.com#$##header-line-2 { margin-top: -60px !important; }
 honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
+travelist.jp##.footerApp
 hindustantimes.com###echosdk_click_overlay
 townwork.net##div[class^="styles_bannerWrapper"]:has(> a[href^="https://townwork.go.link?adj"])
 arubaito-ex.jp##.app-flow-banner

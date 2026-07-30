@@ -1,9 +1,9 @@
-! Checksum: RzJz1cq3HZiotmN9W5Nt5g
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785415356-3600.patch
+! Checksum: dFelEb2nie7ziye+xxPfLg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785423197-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.20
-! TimeUpdated: 2026-07-30T12:40:24+00:00
+! Version: 2.0.91.21
+! TimeUpdated: 2026-07-30T14:50:45+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1497,6 +1497,8 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+trutv.com#$##wbd-ltp-overlay { display: none !important; }
+trutv.com#$#body { overflow: auto !important; }
 kanopy.com##.gpc-banner
 xhamster46.desi##div[data-role="cookies-modal"]
 supply.amazon.com#%#//scriptlet('set-cookie', 'sc-ccv2', '1')
