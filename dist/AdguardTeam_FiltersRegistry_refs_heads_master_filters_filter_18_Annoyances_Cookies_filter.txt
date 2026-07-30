@@ -7801,7 +7801,7 @@ sp2.edupage.org##.eu-cookie-panel
 outlook.live.com#$#body { overflow: auto !important }
 teamgullit.com,kritikos-sm.gr##section[class^="CookieBar_"]
 mylust.com,anysex.com,xgroovy.com##.cookie_warn
-sell.amazon.dem###cookie-consent-window
+sell.amazon.*###cookie-consent-window
 motonet.fi###cookienotify
 toulousemetro3.fr##.janusbanner
 mrdiy.*,dedeman.ro##.cookie-bar-wrap
@@ -14511,6 +14511,8 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/237035
+@@||firefly.adobe.com/releases/*/assets/cookie-policy-service-$domain=firefly.adobe.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236828
 @@||cdn.cookielaw.org/consent/*.json$domain=redbull.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236879
