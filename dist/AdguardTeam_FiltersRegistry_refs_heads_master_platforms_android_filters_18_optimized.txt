@@ -1,9 +1,9 @@
-! Checksum: VUoAqPvGn9L/K3KjvmKIoQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785488971-3600.patch
+! Checksum: TZSAJS9GuzKm6Jsc1vY8SA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785495606-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.23
-! TimeUpdated: 2026-07-31T09:06:43+00:00
+! Version: 2.0.91.24
+! TimeUpdated: 2026-07-31T10:57:38+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2729,6 +2729,7 @@ nike.com#%#//scriptlet('trusted-click-element', '.custom-radio-field label[for$=
 crunchyroll.com##.erc-anonymous-consent
 materdomini.it#%#//scriptlet('trusted-click-element', '.wcc-btn-reject')
 ||kaup24.ee/*/cookieBox|
+tjsky.net,performingarts.jpf.go.jp##.sgcc-main-wrapper
 cybershoke.net###application > div.modal-enter-done:has(> div > img[src$="/cookie.svg"])
 hammerphones.com#%#//scriptlet('trusted-set-cookie', 'cookies-settings', '%7B%22necessary%22%3Atrue%2C%22functional%22%3Atrue%2C%22statistical%22%3Afalse%2C%22marketing%22%3Afalse%7D')
 dmas.virginia.gov##.usn-notification
