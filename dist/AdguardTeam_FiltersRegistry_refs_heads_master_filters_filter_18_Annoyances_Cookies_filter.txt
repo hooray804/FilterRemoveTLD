@@ -14521,6 +14521,7 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 !
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237050
+! https://github.com/AdguardTeam/AdguardFilters/issues/237124
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237035
 @@||firefly.adobe.com/releases/*/assets/cookie-policy-service-$domain=firefly.adobe.com
 ! https://github.com/AdguardTeam/AdguardFilters/issues/236828
