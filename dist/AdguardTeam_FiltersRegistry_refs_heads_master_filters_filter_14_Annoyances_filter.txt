@@ -30086,6 +30086,7 @@ gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.
 !
 ! SECTION: Subscriptions - Regular rules
 !
+idnes.cz##.catchbox-newsletter
 history.com##.digioh-inline-history-insidehistory
 chillflix.lol#%#//scriptlet('set-session-storage-item', 'chillflix:community-prompt-session', '1')
 edmunds.com##.news-subscription-button
