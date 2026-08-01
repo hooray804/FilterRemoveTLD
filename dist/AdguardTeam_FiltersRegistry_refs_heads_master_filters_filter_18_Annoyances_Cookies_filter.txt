@@ -2587,6 +2587,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+airbnb.com##div[data-testid="main-cookies-banner-container"]
+elekta.com#%#//scriptlet('trusted-set-cookie', 'cookie-consent', '{"functional":false,"marketing":false}')
 history.com##body > div[data-sentry-element="Component"] > div:has(p > a[href="https://www.history.com/privacy-policy"])
 globes.co.il###cookiesConfirmDiv
 /ajax/popupcookies.html$domain=bildeleekspert.dk|piecesauto-pro.fr
@@ -8989,6 +8991,7 @@ winboard.org#$#body div.fc-consent-root { display: none !important; }
 winboard.org#$#html > body[data-template] { overflow: visible !important; }
 winboard.org#$#.p-pageWrapper { filter: none!important; }
 iplogger.org###message
+nkc1.co.jp###box-cookie
 ariel.co.uk##body #divOneTrustMainContainer:not(#style_important)
 career.lenta.com##.use-cookie-confirmation
 ||premierleague.com/resources/prod/tcf.json
@@ -14520,6 +14523,9 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/237224
+elekta.com#@##cookie-banner
+elekta.com#@##cookie-accept
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237050
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237124
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237035

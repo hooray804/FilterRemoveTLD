@@ -2587,6 +2587,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+airbnb.com##div[data-testid="main-cookies-banner-container"]
+elekta.com#%#//scriptlet('trusted-set-cookie', 'cookie-consent', '{"functional":false,"marketing":false}')
 history.com##body > div[data-sentry-element="Component"] > div:has(p > a[href="https://www.history.com/privacy-policy"])
 globes.co.il###cookiesConfirmDiv
 /ajax/popupcookies.html$domain=bildeleekspert.dk|piecesauto-pro.fr
@@ -8989,6 +8991,7 @@ winboard.org#$#body div.fc-consent-root { display: none !important; }
 winboard.org#$#html > body[data-template] { overflow: visible !important; }
 winboard.org#$#.p-pageWrapper { filter: none!important; }
 iplogger.org###message
+nkc1.co.jp###box-cookie
 ariel.co.uk##body #divOneTrustMainContainer:not(#style_important)
 career.lenta.com##.use-cookie-confirmation
 ||premierleague.com/resources/prod/tcf.json
@@ -14520,6 +14523,9 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/237224
+elekta.com#@##cookie-banner
+elekta.com#@##cookie-accept
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237050
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237124
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237035
@@ -22269,6 +22275,8 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+aquatruwater.com##div[id^="alia-popup-root-alia"]
+aquatruwater.com##div[aria-label="Promotional popup"]
 service.ocn.ne.jp###floatingBanner
 streamo.pro#%#//scriptlet('set-cookie', 'join_modal_dismissed', '1')
 watchseries.*###domain-change-overlay
@@ -30087,6 +30095,7 @@ gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.
 !
 ! SECTION: Subscriptions - Regular rules
 !
+star-history.com##div.w-full > form.flex-col:has(> input[type="email"])
 idnes.cz##.catchbox-newsletter
 history.com##.digioh-inline-history-insidehistory
 chillflix.lol#%#//scriptlet('set-session-storage-item', 'chillflix:community-prompt-session', '1')
@@ -30422,8 +30431,6 @@ allyoucanwatch.net###discordPop
 iflscience.com##.follow-button-text-wrapper
 iflscience.com#?#.article__bottom__meta__text:contains(Add us as a Google preferred source)
 motortrend.com##div[data-testid="content-newsletter"]
-just-auto.com##.gdm-newsletter-banner__container
-just-auto.com##.catfish
 caranddriver.com##section[data-vars-block-type="Newsletter"]
 indiatoday.in,clubic.com,semana.com,glavred.net,metropoles.com,autoevolution.com##a[href^="https://profile.google.com/cp/"]
 mainichi.jp##.mb-28 > p:has(> a[href^="https://www.google.com/preferences/source?q="])
@@ -30636,7 +30643,8 @@ bengo4.com###js-google-news-banner
 bengo4.com##.p-topics-about-google-news-banner
 thisoldhouse.com##.c-newsletter-signup-box
 thisoldhouse.com##.google-preferred-meta
-cnnturk.com,livelaw.in##.preferred-source-banner
+cnnturk.com##[class^="preferred-source-banner"]
+livelaw.in##.preferred-source-banner
 gamingonlinux.com###body .box > .group.announce
 techblog.gr##.nl-cta-card
 demorgen.be##aside.marketing-banner:has(> aside[data-module="temptation-module"] > div[data-pexi-template*="BROWSER_PUSH_CHECK"])
@@ -38126,6 +38134,10 @@ flightradar24.com##[data-id="a5b8151"][data-element_type="widget"]
 flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
 !
+!+ NOT_OPTIMIZED
+just-auto.com##.gdm-newsletter-banner__container
+!+ NOT_OPTIMIZED
+just-auto.com##.catfish
 !+ NOT_OPTIMIZED
 m9.news##.google-label-center
 !+ NOT_OPTIMIZED
@@ -46458,10 +46470,7 @@ ispazio.net##div[data-isp-ad-slot]
 ispazio.net##.isp-card--infeed-spot
 ispazio.net##.isp-widget--spot
 onedio.co##.kesfet_promotion
-just-auto.com##.rhs-ic-banner
-just-auto.com##.gdm-orange-banner
 just-auto.com###home-trusted-banner
-just-auto.com##.in-article-premium-insights
 chibanippo.co.jp##.block-views-blockteikimono-views-block-1
 chibanippo.co.jp##.block-views-blockteikimono-views-block-2
 kosht.media##.rek > a[href="https://kosht.media/rating/"]
@@ -49472,6 +49481,12 @@ v.qq.com#?#div.nav-wrap > div > div:has(> a[href^="https://iwan.video.qq.com"])
 jorudan.co.jp##.com_bottom_banner
 !+ NOT_OPTIMIZED
 jorudan.co.jp##.com_lp_frame
+!+ NOT_OPTIMIZED
+just-auto.com##.rhs-ic-banner
+!+ NOT_OPTIMIZED
+just-auto.com##.gdm-orange-banner
+!+ NOT_OPTIMIZED
+just-auto.com##.in-article-premium-insights
 !
 ! NOTE: Regular rules end ⬆️
 ! !SECTION: Self-promo - Regular rules
