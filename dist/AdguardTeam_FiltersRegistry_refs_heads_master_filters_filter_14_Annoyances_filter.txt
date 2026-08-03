@@ -8804,7 +8804,7 @@ euromoney.com##.CookiePromo
 online.nmims.edu##.cookidiv
 ezcast.com###cookie_noti
 checkmybus.*,ugc.fr,ugc.fr##.gdpr-overlay
-amuse.io##.cookie-notice-banner
+appark.ai,amuse.io##.cookie-notice-banner
 photo-collage.net#$#body.fancybox-active { overflow: auto !important; }
 photo-collage.net#$#.popup-cookie-confirm { display: none !important; }
 virgin.com#$#.cookie-banner { display: none !important; }
@@ -12003,7 +12003,7 @@ rtl.fr##.cnil-banner-v2
 go.cnn.com##.cnn-toasts > li[ng-repeat="toast in toasts track by $index"]
 carrefourjordan.com##.comp-cookie_banner
 dallasobserver.com,westword.com,miaminewtimes.com##.compliance
-bkfc.com,properstar.*,pvpoke-re.com,tagpacker.com,tempmail.zone,mathmammoth.com,cuic.eu,dateks.lv,cetin.cz,softorino.com,fotav.hu,dayz.xam.nu,figyelo.hu,ibs-b.hu##.consent
+v-dem.net,bkfc.com,properstar.*,pvpoke-re.com,tagpacker.com,tempmail.zone,mathmammoth.com,cuic.eu,dateks.lv,cetin.cz,softorino.com,fotav.hu,dayz.xam.nu,figyelo.hu,ibs-b.hu##.consent
 sportskeeda.com##.consent-pop-up
 lapeyre.fr##.consentement_cookie
 verdal.kommune.no,gjovik.vgs.no##.container-floating-notifications
@@ -30060,7 +30060,7 @@ aol.com#$#.banner-active { margin-top: 0 !important; }
 ! ###newsletter
 farmaciasdesimilares.com,applesfera.com,xatakamovil.com,scientificamerican.com,inderes.fi,food.com,voidzero.dev,joindns4.eu,draculatheme.com,milanjovanovic.tech,finalspark.com,gamesradar.com,vimeo.com,bestmovie.it,fujinkoron.jp,territoriosamsung.com,lpnt.fr,casabrutus.com,ginzamag.com,lepoint.fr,itpro.com,epe.es,net.hr,phenomenalworld.org,imore.com,hgtv.ca,coachweb.com,opendemocracy.net,fangamer.jp,tvtechnology.com,dartagnan.com,corumhaber.net,blog.pragmaticengineer.com,github.blog,nilesoft.org,zonaturistica.com,cphpost.dk,xetra-gold.com,karamangundem.com,lidskae.by,gibchess.com,cinestaan.com,ladenzeile.at,thewordfinder.com,pbs.org,creditcards.com,eurowag.com,picmix.com,bloggif.com,haber50.com,apollographql.com###newsletter
 ! ##.newsletter-form
-kiwico.com,tennisuptodate.com,publicapis.io,usmagazine.com,visualstudiomagazine.com,goldsguide.com,frandroid.com,tennismajors.com,blog.google,timkadlec.com,braziljournal.com,leroymerlin.ro,sketchbook.com,haberturk.com,mel.fm,washingtonpost.com,belsat.eu,economist.com,gitlab.com##.newsletter-form
+v-dem.net,kiwico.com,tennisuptodate.com,publicapis.io,usmagazine.com,visualstudiomagazine.com,goldsguide.com,frandroid.com,tennismajors.com,blog.google,timkadlec.com,braziljournal.com,leroymerlin.ro,sketchbook.com,haberturk.com,mel.fm,washingtonpost.com,belsat.eu,economist.com,gitlab.com##.newsletter-form
 ! ##.cta-component-half-width
 andoveradvertiser.co.uk,asianimage.co.uk,banburycake.co.uk,barryanddistrictnews.co.uk,basingstokegazette.co.uk,bicesteradvertiser.net,borehamwoodtimes.co.uk,braintreeandwithamtimes.co.uk,bridportnews.co.uk,bromsgroveadvertiser.co.uk,bucksfreepress.co.uk,burytimes.co.uk,campaignseries.co.uk,chelmsfordweeklynews.co.uk,clactonandfrintongazette.co.uk,cotswoldjournal.co.uk,cravenherald.co.uk,croydonguardian.co.uk,dailyecho.co.uk,darlingtonandstocktontimes.co.uk,dorsetecho.co.uk,droitwichadvertiser.co.uk,dudleynews.co.uk,ealingtimes.co.uk,echo-news.co.uk,enfieldindependent.co.uk,eppingforestguardian.co.uk,epsomguardian.co.uk,eveningtimes.co.uk,eveshamjournal.co.uk,falmouthpacket.co.uk,freepressseries.co.uk,gazette-news.co.uk,gazetteherald.co.uk,gazetteseries.co.uk,greenocktelegraph.co.uk,guardian-series.co.uk,halesowennews.co.uk,halsteadgazette.co.uk,hampshirechronicle.co.uk,harrowtimes.co.uk,harwichandmanningtreestandard.co.uk,heraldscotland.com,heraldseries.co.uk,herefordtimes.com,hillingdontimes.co.uk,ilkleygazette.co.uk,keighleynews.co.uk,kidderminstershuttle.co.uk,knutsfordguardian.co.uk,lancashiretelegraph.co.uk,ledburyreporter.co.uk,leighjournal.co.uk,ludlowadvertiser.co.uk,maldonandburnhamstandard.co.uk,malverngazette.co.uk,messengernewspapers.co.uk,middlewichguardian.co.uk,milfordmercury.co.uk,newsshopper.co.uk,northwichguardian.co.uk,northyorkshireadvertiser.co.uk,oxfordmail.co.uk,oxfordtimes.co.uk,penarthtimes.co.uk,prestwichandwhitefieldguide.co.uk,redditchadvertiser.co.uk,richmondandtwickenhamtimes.co.uk,romseyadvertiser.co.uk,runcornandwidnesworld.co.uk,salisburyjournal.co.uk,southendstandard.co.uk,southwalesargus.co.uk,southwalesguardian.co.uk,stalbansreview.co.uk,sthelensstar.co.uk,stourbridgenews.co.uk,surreycomet.co.uk,suttonguardian.co.uk,swindonadvertiser.co.uk,theargus.co.uk,theboltonnews.co.uk,thenational.scot,thenorthernecho.co.uk,theoldhamtimes.co.uk,thescottishfarmer.co.uk,thetelegraphandargus.co.uk,thetottenhamindependent.co.uk,thewestmorlandgazette.co.uk,thurrockgazette.co.uk,times-series.co.uk,tivysideadvertiser.co.uk,wandsworthguardian.co.uk,warringtonguardian.co.uk,watfordobserver.co.uk,westerntelegraph.co.uk,wharfedaleobserver.co.uk,wiltsglosstandard.co.uk,wiltshiretimes.co.uk,wimbledonguardian.co.uk,wirralglobe.co.uk,witneygazette.co.uk,worcesternews.co.uk,yorkpress.co.uk,yourlocalguardian.co.uk##.cta-component-half-width
 ! ##.newsletter
@@ -30108,8 +30108,9 @@ gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.
 !
 ! SECTION: Subscriptions - Regular rules
 !
-myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> div[data-analytics-name="Braze Newsletter Signup-1"])
-myfoxzone.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_braze-signup)
+itmedia.co.jp##.-mailmagazine
+wqad.com,fox43.com,10tv.com,myfoxzone.com,newswest9.com,12news.com,13newsnow.com,5newsonline.com,fox61.com##.grid__cell[data-columns]:has(> div[data-analytics-name="Braze Newsletter Signup-1"])
+wqad.com,fox43.com,10tv.com,myfoxzone.com,wtol.com,9news.com,newswest9.com,weareiowa.com,krem.com,newscentermaine.com##.grid__main > div.grid__cell:has(> div.grid__module > div.grid__module-sizer_name_braze-signup)
 star-history.com##div.w-full > form.flex-col:has(> input[type="email"])
 idnes.cz##.catchbox-newsletter
 history.com##.digioh-inline-history-insidehistory
@@ -35726,8 +35727,8 @@ wordstream.com##.ws-card-v4
 opensignal.com##.newsletter-bar
 av.by##.journal-youtube
 av.by##.article__content > h4:has(> a[href="https://zen.yandex.ru/av.by"])
-political.gr,openbook.gr,info-war.gr,sjever.hr,pulpitandpen.org##.sgpb-popup-overlay
-political.gr,openbook.gr,info-war.gr,sjever.hr,pulpitandpen.org###sgpb-popup-dialog-main-div-wrapper
+merrittherald.com,political.gr,openbook.gr,info-war.gr,sjever.hr,pulpitandpen.org##.sgpb-popup-overlay
+merrittherald.com,political.gr,openbook.gr,info-war.gr,sjever.hr,pulpitandpen.org###sgpb-popup-dialog-main-div-wrapper
 lalibre.be##div[id^="BtPopin_"]
 lalibre.be##iframe[src^="https://ipm.emsecure.net/"][src*="NEWSLETTER"]
 archiproducts.com##.cont-newsletter-social
@@ -36809,7 +36810,7 @@ faithpot.com,ademocut.com,lawlex.org###wp-subscribe
 lawlex.org###singlesubscribe
 nofap.com#?#.elementor-column-gap-default > div.elementor-row:has(form.infusion-form)
 loudtechie.com##.oab
-crockpotladies.com,msendpointmgr.com,koinmedya.com###mc4wp_form_widget-2
+merrittherald.com,crockpotladies.com,msendpointmgr.com,koinmedya.com###mc4wp_form_widget-2
 securityboulevard.com#?#.theiaStickySidebar > aside.widget:has(> h3.widget-title > span:contains(Subscribe))
 elektroauto-news.net#?#section:has(> div.elementor-container > div.elementor-column > div.elementor-widget-wrap > div.elementor-element > div.elementor-widget-container > form[id^="newsletter"])
 abc-schuhe.com##footer > div.news
@@ -38340,6 +38341,7 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+wqad.com##.grid__cell[data-columns] > div[data-analytics-name]:has([aria-label*="News 8+ streaming app"] > img)
 myfoxzone.com##.grid__cell[data-columns] > div[data-analytics-name]:has(a[aria-label*="Texas+ app"] > img)
 streamo.pro##a[aria-label="Download Android app"]
 firefox.com##.fl-qr-code-floating-snippet
@@ -46387,7 +46389,6 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
-itmedia.co.jp##.p-syntax-box:has(> .p-syntax-sentence > a.p-syntax-link[href^="https://jp.surveymonkey.com/"])
 slivki.tj##.promo-post
 character.ai##div[class*="-2"]:has(> div[style] > div.relative > div.duration-300 > div.flex > div[class] > div[style*="background-image:"][style*="/in-house/"])
 leparisien.fr#$#.global-custom-modal__container { display: none !important; }

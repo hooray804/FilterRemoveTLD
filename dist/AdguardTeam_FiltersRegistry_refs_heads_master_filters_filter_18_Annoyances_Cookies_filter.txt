@@ -8804,7 +8804,7 @@ euromoney.com##.CookiePromo
 online.nmims.edu##.cookidiv
 ezcast.com###cookie_noti
 checkmybus.*,ugc.fr,ugc.fr##.gdpr-overlay
-amuse.io##.cookie-notice-banner
+appark.ai,amuse.io##.cookie-notice-banner
 photo-collage.net#$#body.fancybox-active { overflow: auto !important; }
 photo-collage.net#$#.popup-cookie-confirm { display: none !important; }
 virgin.com#$#.cookie-banner { display: none !important; }
@@ -12003,7 +12003,7 @@ rtl.fr##.cnil-banner-v2
 go.cnn.com##.cnn-toasts > li[ng-repeat="toast in toasts track by $index"]
 carrefourjordan.com##.comp-cookie_banner
 dallasobserver.com,westword.com,miaminewtimes.com##.compliance
-bkfc.com,properstar.*,pvpoke-re.com,tagpacker.com,tempmail.zone,mathmammoth.com,cuic.eu,dateks.lv,cetin.cz,softorino.com,fotav.hu,dayz.xam.nu,figyelo.hu,ibs-b.hu##.consent
+v-dem.net,bkfc.com,properstar.*,pvpoke-re.com,tagpacker.com,tempmail.zone,mathmammoth.com,cuic.eu,dateks.lv,cetin.cz,softorino.com,fotav.hu,dayz.xam.nu,figyelo.hu,ibs-b.hu##.consent
 sportskeeda.com##.consent-pop-up
 lapeyre.fr##.consentement_cookie
 verdal.kommune.no,gjovik.vgs.no##.container-floating-notifications
