@@ -1,9 +1,9 @@
-! Checksum: /Gc+ovKMyU451NDoaniYkw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785820244-3600.patch
+! Checksum: LOipyLQ8d+Y1eNnBt6eX3A
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785830463-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.42
-! TimeUpdated: 2026-08-04T05:08:18+00:00
+! Version: 2.0.91.44
+! TimeUpdated: 2026-08-04T07:58:15+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2829,6 +2829,8 @@ enjoyx.com#$#body { overflow-y: auto !important; }
 enjoyx.com#$#body .cookieconsent { display: none !important; }
 tama.com###header-gdpr
 theprotocol.it#%#//scriptlet('trusted-click-element', 'button[data-test="button-acceptAll"]', '', '1000')
+iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk#$#.x13eucookies { display: none !important; }
+iiyama-eshop.cz,iiyama-eshop.ro,iiyama-eshop.sk#$#.x13eucookies-block:not(#style_important) { overflow: auto !important; }
 infoldgames.com##div[class^="CookieTips_"]
 mightyjaxx.com##div[data-testid="modal-cookies"]
 particuliers.sg.fr#%#//scriptlet('trusted-click-element', '#popin_tc_privacy_button_3', '', '1500')
@@ -8981,7 +8983,6 @@ cookieconsent.insites.com#@#.cc-window[aria-label="cookieconsent"]
 cookie-bar.eu#@##cookiebar
 cookie-bar.eu#@##cookie-bar
 britishairways.com#@##cookieModal
-@@||/js/cookiechoices.js
 @@/Resources/Public/JavaScript/CookieBar.js$~third-party
 media.netflix.com#@##cookieAlert
 @@||strunz.com/skin^$stylesheet,domain=strunz.com
