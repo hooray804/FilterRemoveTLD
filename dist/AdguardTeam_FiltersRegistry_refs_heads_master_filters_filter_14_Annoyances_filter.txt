@@ -2473,7 +2473,7 @@ giochiabandonware.com,dennikn.sk,ahbmedya.com,globfone.com,kotobank.jp,livebeach
 ! #%#//scriptlet('prevent-setTimeout', 'f.parentNode.removeChild(f)', '100')
 foromtb.com#%#//scriptlet('prevent-setTimeout', 'f.parentNode.removeChild(f)', '100')
 ! fundingchoicesmessages.google.com
-||fundingchoicesmessages.google.com^$domain=hotdeals.com|hardwaresfera.com|namba.keizai.biz|antik-war.lv|ipabox.net|nzherald.co.nz|nmac.to|smart-flash.jp|androidfilehost.com|picmix.com|aeiou.pt|expansion.com|techsvet.cz|wpteq.org|guideoftheworld.com|gadgetversus.com|rtings.com|techzim.co.zw|tabiris.com|worksheetkids.com|temporary-phone-number.com|diena.lt|tvguru.cz|h-donghua.xyz|funkykit.com|boardingarea.com|tychy.info|odigostoupoliti.eu|murciatoday.com|bestmvno.com|in.gr|audiocircuit.dk|wikiru.jp|trilltrill.jp|amanchourasia.in|0gichul.com|pokeflix.tv|megawypas.com|respublika.lt|smsnator.online|ad4msan.com|tvmaze.com|depesza.fm|styl.fm|edumail.su|423down.com|forex-nawigator.biz|dosgames.com|9to5toys.com|robtex.com|speedof.me|ntelemicro.com|xeud.it|gizchina.it|sikayetvar.com|hidencloud.com|forum-audi.com|9-gld.net|wybierz.tv
+||fundingchoicesmessages.google.com^$domain=hotdeals.com|hardwaresfera.com|namba.keizai.biz|antik-war.lv|ipabox.net|nzherald.co.nz|nmac.to|smart-flash.jp|androidfilehost.com|picmix.com|aeiou.pt|expansion.com|techsvet.cz|wpteq.org|guideoftheworld.com|gadgetversus.com|rtings.com|techzim.co.zw|tabiris.com|worksheetkids.com|temporary-phone-number.com|diena.lt|tvguru.cz|h-donghua.xyz|funkykit.com|boardingarea.com|tychy.info|odigostoupoliti.eu|murciatoday.com|bestmvno.com|in.gr|audiocircuit.dk|wikiru.jp|trilltrill.jp|amanchourasia.in|0gichul.com|pokeflix.tv|megawypas.com|respublika.lt|smsnator.online|ad4msan.com|tvmaze.com|depesza.fm|styl.fm|edumail.su|423down.com|forex-nawigator.biz|dosgames.com|9to5toys.com|robtex.com|speedof.me|ntelemicro.com|xeud.it|gizchina.it|sikayetvar.com|hidencloud.com|forum-audi.com|9-gld.net|wybierz.tv|codicefiscaleonline.com
 ! For apps
 ||fundingchoicesmessages.google.com^$app=com.accordion.pro.camera|ru.photostrana.mobile|com.photo.android.camera|com.finallevel.radiobox
 ! https://github.com/AdguardTeam/AdguardFilters/issues/176118
@@ -2587,6 +2587,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+perplexity.ai##body > div.bottom-sm:has(> div[data-testid="consent-dialog"])
 stalkergamma.com###gtm-cookie-banner-container
 joom.com#%#//scriptlet('trusted-click-element', 'div[data-testid="CookieBannerConditionalWrapper"] div[class^="buttonContainer"] > button')
 maintainlife.com#%#//scriptlet('set-cookie', 'MaintainLife_ESSENTIAL', 'ALLOW')
@@ -22288,6 +22289,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+magaz.global##div[class^="GDPRPanel"] + div[class*="Popup_inCardAndBasket"]
 superpower.com#$#.sp2-marketing-modal_overlay { display: none !important; }
 superpower.com#$#.byg-overlay { display: none !important; }
 superpower.com#$#html { overflow: auto !important; }
@@ -38345,6 +38347,9 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+m.a-bly.com#?##stack\#-1 div[class]:has(> button.button__fill.button__xsmall.button__outline__gray.typography__subtitle4:contains(앱))
+ohou.se#%#//scriptlet('set-cookie', 'ohsAppDownloadPopupClosed', 'yes')
+ohou.se#%#//scriptlet('set-cookie', 'ohsTopBannerClosed', 'yes')
 m.megabox.co.kr#$##mainAppInsPop { display: none !important }
 m.megabox.co.kr#$#.induceBanner { display: none !important; }
 m.megabox.co.kr#$#.modal-open { overflow: auto !important; }
