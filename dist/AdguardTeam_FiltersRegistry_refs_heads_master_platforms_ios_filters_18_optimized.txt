@@ -1,9 +1,9 @@
-! Checksum: OZimES58XHWvkfoYJoZn2Q
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785782571-3600.patch
+! Checksum: N6AmHTTDo8cn9Qr2EWy3OA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785804319-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.39
-! TimeUpdated: 2026-08-03T18:39:56+00:00
+! Version: 2.0.91.41
+! TimeUpdated: 2026-08-04T00:42:17+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5614,7 +5614,7 @@ beobank.be#$#.gdpr-cookie__wrapper { display: none !important; }
 beobank.be#$#body { overflow: auto !important; }
 rs-online.com,rsdelivers.com#$##ensNotifyBanner[aria-label="Consent Banner"] { display: none !important; }
 mondly.com##iframe[src="https://cookiejar.mondly.com/xdomain-cookies"] + div[class]:not(.ember-view)
-sareurope.eu,hullfcfoundation.co.uk,visionmechanics.org,tx3.tech,wwlopportunities.co.uk,garo-shop.com,toyox.co.jp,system-exe.co.jp,goodstory.jp,product.minebeamitsumi.com,kore.ai,aili.com.ua,tvq.co.jp,clinicaleducation.org,se7en.ws,luckypatchers.com,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
+geometra.me,sareurope.eu,hullfcfoundation.co.uk,visionmechanics.org,tx3.tech,wwlopportunities.co.uk,garo-shop.com,toyox.co.jp,system-exe.co.jp,goodstory.jp,product.minebeamitsumi.com,kore.ai,aili.com.ua,tvq.co.jp,clinicaleducation.org,se7en.ws,luckypatchers.com,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
 takko.com#$#html { overflow: visible !important; }
 takko.com#$#body { overflow: visible !important; }
 tomshardware.com###article-body > p + .jwplayer__widthsetter
@@ -9187,6 +9187,7 @@ cookieconsent.insites.com#@#.cc-window[aria-label="cookieconsent"]
 cookie-bar.eu#@##cookiebar
 cookie-bar.eu#@##cookie-bar
 britishairways.com#@##cookieModal
+@@||/js/cookiechoices.js
 @@/Resources/Public/JavaScript/CookieBar.js$~third-party
 media.netflix.com#@##cookieAlert
 !+ PLATFORM(ios, ext_android_cb)

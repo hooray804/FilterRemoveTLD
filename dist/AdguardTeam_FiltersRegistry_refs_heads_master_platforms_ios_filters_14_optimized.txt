@@ -1,9 +1,9 @@
-! Checksum: C6MygxHmexcs0jixaSzruA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1785796131-3600.patch
+! Checksum: 1S1E9DwCLL/M/oY1Jc68KQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1785807751-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.74.59
-! TimeUpdated: 2026-08-03T22:25:54+00:00
+! Version: 2.2.74.62
+! TimeUpdated: 2026-08-04T01:39:36+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5773,7 +5773,7 @@ beobank.be#$#.gdpr-cookie__wrapper { display: none !important; }
 beobank.be#$#body { overflow: auto !important; }
 rs-online.com,rsdelivers.com#$##ensNotifyBanner[aria-label="Consent Banner"] { display: none !important; }
 mondly.com##iframe[src="https://cookiejar.mondly.com/xdomain-cookies"] + div[class]:not(.ember-view)
-sareurope.eu,hullfcfoundation.co.uk,visionmechanics.org,tx3.tech,wwlopportunities.co.uk,garo-shop.com,toyox.co.jp,system-exe.co.jp,goodstory.jp,product.minebeamitsumi.com,kore.ai,aili.com.ua,tvq.co.jp,clinicaleducation.org,se7en.ws,luckypatchers.com,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
+geometra.me,sareurope.eu,hullfcfoundation.co.uk,visionmechanics.org,tx3.tech,wwlopportunities.co.uk,garo-shop.com,toyox.co.jp,system-exe.co.jp,goodstory.jp,product.minebeamitsumi.com,kore.ai,aili.com.ua,tvq.co.jp,clinicaleducation.org,se7en.ws,luckypatchers.com,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
 takko.com#$#html { overflow: visible !important; }
 takko.com#$#body { overflow: visible !important; }
 tomshardware.com###article-body > p + .jwplayer__widthsetter
@@ -9349,6 +9349,7 @@ cookieconsent.insites.com#@#.cc-window[aria-label="cookieconsent"]
 cookie-bar.eu#@##cookiebar
 cookie-bar.eu#@##cookie-bar
 britishairways.com#@##cookieModal
+@@||/js/cookiechoices.js
 @@/Resources/Public/JavaScript/CookieBar.js$~third-party
 media.netflix.com#@##cookieAlert
 !+ PLATFORM(ios, ext_android_cb)
@@ -17575,7 +17576,7 @@ quantamagazine.org,nftnow.com##.sidebar__newsletter
 yourdailypornvideos.ws#?#.column_container > aside.widget:has(> div.block-title > span:contains(FOLLOW US ON TELEGRAM GROUP))
 yourdailypornvideos.ws#?#.column_container > aside.widget:has(> div.block-title > span:contains(FOLLOW US ON TELEGRAM GROUP)) + aside.widget
 aritzia.com#%#//scriptlet('prevent-setTimeout', 'newsletter')
-shortlist.com,gardeningknowhow.com,advnture.com,androidcentral.com,avnetwork.com,cinemablend.com,coachweb.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,fitandwell.com,fourfourtwo.com,gardeningetc.com,golfmonthly.com,goodto.com,guitarworld.com,homebuilding.co.uk,idealhome.co.uk,imore.com,laptopmag.com,livescience.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,musicradar.com,nexttv.com,pcgamer.com,petsradar.com,realhomes.com,space.com,t3.com,techlearning.com,techradar.com,themoneyedit.com,tomsguide.com,tomshardware.com,toptenreviews.com,tvtechnology.com,wallpaper.com,whathifi.com,whattowatch.com,windowscentral.com###slice-container-newsletterForm-exitIntent
+guitarplayer.com,shortlist.com,gardeningknowhow.com,advnture.com,androidcentral.com,avnetwork.com,cinemablend.com,coachweb.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,fitandwell.com,fourfourtwo.com,gardeningetc.com,golfmonthly.com,goodto.com,guitarworld.com,homebuilding.co.uk,idealhome.co.uk,imore.com,laptopmag.com,livescience.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,musicradar.com,nexttv.com,pcgamer.com,petsradar.com,realhomes.com,space.com,t3.com,techlearning.com,techradar.com,themoneyedit.com,tomsguide.com,tomshardware.com,toptenreviews.com,tvtechnology.com,wallpaper.com,whathifi.com,whattowatch.com,windowscentral.com###slice-container-newsletterForm-exitIntent
 rollingstone.it###banner_artista
 volynnews.com#?#.text_video_news2 > em:has(> a[href^="https://t.me/"])
 volynnews.com##.text_video_news2 > hr
@@ -19177,6 +19178,7 @@ shufoo.net#%#//scriptlet('remove-class', 'is-hidden', 'body')
 ripley.cl##section[data-testid="marketing--popup"]
 pw.live##div[class^="deepLinks_getAppWrapper"]
 papara.com###smart:has(> div.flex > [class^="styles_button"])
+tahtakalespot.com#$##anasayfaPopup { display: none !important; }
 tahtakalespot.com#$#body { overflow: auto !important; }
 damattween.com#%#//scriptlet('set-local-storage-item', 'mobileAppInstall', 'true')
 coinglass.com##.MuiBox-root.appd

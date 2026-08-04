@@ -9879,7 +9879,7 @@ tatgida.com###topbar-hide
 mondly.com##iframe[src="https://cookiejar.mondly.com/xdomain-cookies"] + div[class]:not(.ember-view)
 hampel-auctions.com###consentmanager
 pixlr.com,paribu.com##.policies
-sareurope.eu,hullfcfoundation.co.uk,visionmechanics.org,tx3.tech,wwlopportunities.co.uk,garo-shop.com,toyox.co.jp,system-exe.co.jp,goodstory.jp,product.minebeamitsumi.com,kore.ai,aili.com.ua,tvq.co.jp,clinicaleducation.org,se7en.ws,luckypatchers.com,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
+geometra.me,sareurope.eu,hullfcfoundation.co.uk,visionmechanics.org,tx3.tech,wwlopportunities.co.uk,garo-shop.com,toyox.co.jp,system-exe.co.jp,goodstory.jp,product.minebeamitsumi.com,kore.ai,aili.com.ua,tvq.co.jp,clinicaleducation.org,se7en.ws,luckypatchers.com,omnioxy.com,themuslimvibe.com,idebil.com##.l-cookie
 takko.com#$#div[class*="cookie-policy-box"] { display: none !important; }
 takko.com#$#html { overflow: visible !important; }
 takko.com#$#body { overflow: visible !important; }
@@ -18926,7 +18926,7 @@ cookie-bar.eu#@##cookie-bar
 ! https://github.com/AdguardTeam/AdguardFilters/issues/12573
 britishairways.com#@##cookieModal
 ! https://github.com/AdguardTeam/AdguardFilters/issues/12416
-@@||mooma.sh/js/cookiechoices.js
+@@||/js/cookiechoices.js
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11972
 @@||forneo.net/wp-content/plugins/uk-cookie-consent^
 ! https://github.com/AdguardTeam/AdguardFilters/issues/11581
@@ -34588,7 +34588,7 @@ yourdailypornvideos.ws#?#.column_container > aside.widget:has(> div.block-title 
 yourdailypornvideos.ws#?#.column_container > aside.widget:has(> div.block-title > span:contains(FOLLOW US ON TELEGRAM GROUP)) + aside.widget
 aritzia.com#%#//scriptlet('prevent-setTimeout', 'newsletter')
 pianistmagazine.com##.post-body a[href^="https://www.pianistmagazine.com/account/register/?ref="] > img
-shortlist.com,gardeningknowhow.com,advnture.com,androidcentral.com,avnetwork.com,cinemablend.com,coachweb.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,fitandwell.com,fourfourtwo.com,gardeningetc.com,golfmonthly.com,goodto.com,guitarworld.com,homebuilding.co.uk,idealhome.co.uk,imore.com,laptopmag.com,livescience.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,musicradar.com,nexttv.com,pcgamer.com,petsradar.com,realhomes.com,space.com,t3.com,techlearning.com,techradar.com,themoneyedit.com,tomsguide.com,tomshardware.com,toptenreviews.com,tvtechnology.com,wallpaper.com,whathifi.com,whattowatch.com,windowscentral.com###slice-container-newsletterForm-exitIntent
+guitarplayer.com,shortlist.com,gardeningknowhow.com,advnture.com,androidcentral.com,avnetwork.com,cinemablend.com,coachweb.com,creativebloq.com,cyclingnews.com,cyclingweekly.com,digitalcameraworld.com,fitandwell.com,fourfourtwo.com,gardeningetc.com,golfmonthly.com,goodto.com,guitarworld.com,homebuilding.co.uk,idealhome.co.uk,imore.com,laptopmag.com,livescience.com,livingetc.com,loudersound.com,marieclaire.co.uk,marieclaire.com,musicradar.com,nexttv.com,pcgamer.com,petsradar.com,realhomes.com,space.com,t3.com,techlearning.com,techradar.com,themoneyedit.com,tomsguide.com,tomshardware.com,toptenreviews.com,tvtechnology.com,wallpaper.com,whathifi.com,whattowatch.com,windowscentral.com###slice-container-newsletterForm-exitIntent
 akhisarhaber.com###base_side form[action^="https://api.follow.it/subscription-form/"]
 rollingstone.it###banner_artista
 playngo.com#$##plroot { display: none !important; }
