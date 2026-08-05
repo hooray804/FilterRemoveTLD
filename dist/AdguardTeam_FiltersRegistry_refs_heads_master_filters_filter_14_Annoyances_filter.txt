@@ -23,7 +23,6 @@
 ##.cookieFlyer
 ##.coksima-consent-wrapper
 ##app-cookie-consent-popup
-##.ccbnr
 ###simple-cookie-banner
 ###cookier-banner
 ##.cookieMonster
@@ -1690,6 +1689,8 @@
 ##.wrapperCookies
 ##.wsa-cookielaw
 ##body > #ckch
+!+ NOT_OPTIMIZED
+##.ccbnr
 !+ NOT_OPTIMIZED
 ###didomi-notice
 !+ NOT_OPTIMIZED
@@ -30116,6 +30117,7 @@ sponichi.co.jp,gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,t
 !
 ! SECTION: Subscriptions - Regular rules
 !
+fortune.com#?##rightRail > div.margin-safe-area.flex-col:has(> button:contains(Add us on Google))
 sud.ua##.subscribe_tg
 superpower.com##.footer2_newsletter
 store.google.com##dialog[data-dialog-name="crm_crm_popup_center"]
