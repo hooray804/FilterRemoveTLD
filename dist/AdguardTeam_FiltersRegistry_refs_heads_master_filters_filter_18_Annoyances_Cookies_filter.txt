@@ -3498,7 +3498,7 @@ rapidcompute.com#%#//scriptlet('trusted-set-cookie', 'cookieBy', 'cookieConsent'
 changelly.com#%#//scriptlet('set-local-storage-item', 'SET_COOKIES_APPROVED', 'true')
 corp.asics.com##.o-gdpr-dialog
 porovnejsito.cz,upv.gov.cz##.scook
-logotv.com,cmt.com,ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,kcci.com,gulfcoastnewsnow.com,wapt.com,watch.dropout.tv,larsondoors.com,equifax.ca##.ketch-fixed
+tvland.com,tennischannel.com,thesportsmanchannel.com,poptv.com,outdoorchannel.com,logotv.com,cmt.com,ksbw.com,kmbc.com,mynbc5.com,koat.com,ketv.com,kcci.com,gulfcoastnewsnow.com,wapt.com,watch.dropout.tv,larsondoors.com,equifax.ca##.ketch-fixed
 aptacore.ac##.cookiesSec
 lettera7.design#%#//scriptlet('trusted-set-local-storage-item', 'consent', '{"f":"d","e":"d","me":"d","ma":"d"}')
 deepsilver.com,hornbach.ro#%#//scriptlet('trusted-click-element', '#usercentrics-cmp-ui >>> button.uc-deny-button')
@@ -8734,7 +8734,7 @@ ing.jobs#$#.gdprconsent { display: none!important; }
 ing.jobs#$#.ui-widget-overlay { display: none!important; }
 ing.jobs#$#body { overflow: visible!important; }
 asiaticesports.com,centreforaviation.com,capgemini.com##div[class^="cookieConsent_"]
-metvtoons.com,handitv.com,dabltvnetwork.com,catchycomedy.com,metv.com##.privacy-banner-wrapper
+storytelevision.com,starttv.com,metvtoons.com,handitv.com,dabltvnetwork.com,catchycomedy.com,metv.com##.privacy-banner-wrapper
 codeweavers.com###GDPR-alert
 dehogerielen.be#$#body { overflow: auto !important; }
 dehogerielen.be#$##cookies-banner-overlay { display: none !important; }
