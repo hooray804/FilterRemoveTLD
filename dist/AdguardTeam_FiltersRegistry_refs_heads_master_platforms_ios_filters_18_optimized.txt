@@ -1,9 +1,9 @@
-! Checksum: kt5JKneM07hgQ4HRigC9OQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785899519-3600.patch
+! Checksum: XQPpi1XCZgp5qsmtXjE4RA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785913450-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.50
-! TimeUpdated: 2026-08-05T01:38:31+00:00
+! Version: 2.0.91.51
+! TimeUpdated: 2026-08-05T07:01:05+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1502,6 +1502,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+amazon.jobs###versionized-cookie-banner
 aws.amazon.com###awsccc-sb-ux-c
 perplexity.ai##body > div.bottom-sm:has(> div[data-testid="consent-dialog"])
 stalkergamma.com###gtm-cookie-banner-container
