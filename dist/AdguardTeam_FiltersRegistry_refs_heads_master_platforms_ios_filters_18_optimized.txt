@@ -1,9 +1,9 @@
-! Checksum: CwExc1d0mTFieghjbU043Q
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1785920883-3600.patch
+! Checksum: ljlBpFl14OX6yZ7Mr+uJFw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1785933914-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.52
-! TimeUpdated: 2026-08-05T09:05:07+00:00
+! Version: 2.0.91.54
+! TimeUpdated: 2026-08-05T12:42:10+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1504,6 +1504,8 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+tlc.com#$##ltp-dialog { display: none !important; }
+tlc.com#$#body { overflow: auto !important; }
 amazon.jobs###versionized-cookie-banner
 aws.amazon.com###awsccc-sb-ux-c
 perplexity.ai##body > div.bottom-sm:has(> div[data-testid="consent-dialog"])
@@ -1522,8 +1524,7 @@ globes.co.il###cookiesConfirmDiv
 /ajax/popupcookies.html$domain=bildeleekspert.dk|piecesauto-pro.fr
 tbs.com,trutv.com#$##wbd-ltp-overlay { display: none !important; }
 tbs.com,trutv.com#$#body { overflow: auto !important; }
-hbomax.com,discoveryplus.com###modal-test-id-consent-modal
-hbomax.com,discoveryplus.com###__next > div[class^="sc-"]:empty
+hbomax.com,discoveryplus.com#%#//scriptlet('trusted-click-element', '#modal-test-id-consent-modal button.btn--privacy-primary')
 kanopy.com##.gpc-banner
 xhamster46.desi##div[data-role="cookies-modal"]
 supply.amazon.com#%#//scriptlet('set-cookie', 'sc-ccv2', '1')
@@ -1679,7 +1680,7 @@ opentix.life##.fix-bottom
 ukrinform.net,ukrinform.ua#$##cookie-banner { display: none !important; }
 ukrinform.net,ukrinform.ua#$#html { overflow: auto !important; }
 coinfomania.com##.cookie-banner-animation
-fightmode.tv#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', 'declined')
+plusmag.ro,fightmode.tv#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', 'declined')
 evidenz.asfinag.at,shop.asfinag.at#%#//scriptlet('set-cookie-reload', 'NonEssentialCookiesAccepted', 'no')
 msn.com###mscmp-banner-container
 7more7.com#$#.cookie-consent-container { display: none !important; }
@@ -2497,7 +2498,7 @@ developer.chrome.com,developers.google.com#$?#devsite-cookie-notification-bar { 
 blutspendedienst.com#%#//scriptlet('trusted-click-element', '.cookiefirst-root button[data-cookiefirst-action="accept"]', '!cookie:cookiefirst-consent')
 plannedparenthood.org#$#.cookieBanner:not(body) { display: none !important; }
 plannedparenthood.org#$#body[style*="overflow: hidden;"] { overflow: auto !important; }
-mor-tv.com,wbal.com,kcra.com,imax.com,rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,bitwarden.com,time.com###ketch-banner
+smithsonianchannel.com,mor-tv.com,wbal.com,kcra.com,imax.com,rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,bitwarden.com,time.com###ketch-banner
 marca.com#%#//scriptlet('trusted-click-element', '.popup-cookies__container button[action-name="agreeAll"]')
 beta.lmarena.ai#%#//scriptlet('trusted-click-element', 'div[data-sentry-element="DialogFooter"] > button.bg-interactive-cta')
 jasrac.or.jp##.tp-cookieConsent

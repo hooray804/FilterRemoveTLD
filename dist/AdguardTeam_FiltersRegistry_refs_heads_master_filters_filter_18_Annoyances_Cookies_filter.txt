@@ -2588,6 +2588,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+tlc.com#$##ltp-dialog { display: none !important; }
+tlc.com#$#body { overflow: auto !important; }
 amazon.jobs###versionized-cookie-banner
 aws.amazon.com###awsccc-sb-ux-c
 perplexity.ai##body > div.bottom-sm:has(> div[data-testid="consent-dialog"])
@@ -2606,8 +2608,7 @@ globes.co.il###cookiesConfirmDiv
 /ajax/popupcookies.html$domain=bildeleekspert.dk|piecesauto-pro.fr
 tbs.com,trutv.com#$##wbd-ltp-overlay { display: none !important; }
 tbs.com,trutv.com#$#body { overflow: auto !important; }
-hbomax.com,discoveryplus.com###modal-test-id-consent-modal
-hbomax.com,discoveryplus.com###__next > div[class^="sc-"]:empty
+hbomax.com,discoveryplus.com#%#//scriptlet('trusted-click-element', '#modal-test-id-consent-modal button.btn--privacy-primary')
 kanopy.com##.gpc-banner
 xhamster46.desi##div[data-role="cookies-modal"]
 supply.amazon.com#%#//scriptlet('set-cookie', 'sc-ccv2', '1')
@@ -2805,7 +2806,7 @@ ukrinform.net,ukrinform.ua#$##cookie-banner { display: none !important; }
 ukrinform.net,ukrinform.ua#$#html { overflow: auto !important; }
 ||pcekspert.com/assets/pce-consent.js
 coinfomania.com##.cookie-banner-animation
-fightmode.tv#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', 'declined')
+plusmag.ro,fightmode.tv#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', 'declined')
 gptzero.me##body > div.fixed:has(> div.CookieConsent)
 instar-informatika.hr###vsccookieConsent
 evidenz.asfinag.at,shop.asfinag.at#%#//scriptlet('set-cookie-reload', 'NonEssentialCookiesAccepted', 'no')
@@ -4119,7 +4120,7 @@ developer.chrome.com,developers.google.com#$?#devsite-cookie-notification-bar { 
 blutspendedienst.com#%#//scriptlet('trusted-click-element', '.cookiefirst-root button[data-cookiefirst-action="accept"]', '!cookie:cookiefirst-consent')
 plannedparenthood.org#$#.cookieBanner:not(body) { display: none !important; }
 plannedparenthood.org#$#body[style*="overflow: hidden;"] { overflow: auto !important; }
-mor-tv.com,wbal.com,kcra.com,imax.com,rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,bitwarden.com,time.com###ketch-banner
+smithsonianchannel.com,mor-tv.com,wbal.com,kcra.com,imax.com,rover.com,spotdraft.com,smartsheet.com,sfchronicle.com,bitwarden.com,time.com###ketch-banner
 marca.com#%#//scriptlet('trusted-click-element', '.popup-cookies__container button[action-name="agreeAll"]')
 beta.lmarena.ai#%#//scriptlet('trusted-click-element', 'div[data-sentry-element="DialogFooter"] > button.bg-interactive-cta')
 nsg.co.jp###sitecookiepolicy
@@ -14534,6 +14535,7 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/237510
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237352
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237284
 @@||sdk.privacy-center.org/*/loader.js$domain=parismatch.com
