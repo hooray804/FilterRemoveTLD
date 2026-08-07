@@ -1,9 +1,9 @@
-! Checksum: euiYR9CDH3av6PojTnDMUw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786088187-3600.patch
+! Checksum: Oyulgmy6TZcENz6ZjWplJw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786098275-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.64
-! TimeUpdated: 2026-08-07T07:34:03+00:00
+! Version: 2.0.91.66
+! TimeUpdated: 2026-08-07T10:22:14+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1524,7 +1524,7 @@ joom.com#%#//scriptlet('trusted-click-element', 'div[data-testid="CookieBannerCo
 maintainlife.com#%#//scriptlet('set-cookie', 'MaintainLife_ESSENTIAL', 'ALLOW')
 mga.aero##.bg-primary\/50.z-modal.w-full
 promo-logitech.com##.v-cookie-policy
-hotelharnas.com###cookieWarningNew
+trzyjeziora.com,hotelharnas.com###cookieWarningNew
 bicispasaje.es##.hi-cookie-modal-overlay
 linkedin.com##.legacyNotifLineHeight > div[class] > div[class]:has(div[class^="_"] > p > a[href="https://www.linkedin.com/legal/cookie-policy/"])
 airbnb.com##div[data-testid="main-cookies-banner-container"]

@@ -2604,7 +2604,7 @@ joom.com#%#//scriptlet('trusted-click-element', 'div[data-testid="CookieBannerCo
 maintainlife.com#%#//scriptlet('set-cookie', 'MaintainLife_ESSENTIAL', 'ALLOW')
 mga.aero##.bg-primary\/50.z-modal.w-full
 promo-logitech.com##.v-cookie-policy
-hotelharnas.com###cookieWarningNew
+trzyjeziora.com,hotelharnas.com###cookieWarningNew
 bicispasaje.es##.hi-cookie-modal-overlay
 linkedin.com##.legacyNotifLineHeight > div[class] > div[class]:has(div[class^="_"] > p > a[href="https://www.linkedin.com/legal/cookie-policy/"])
 airbnb.com##div[data-testid="main-cookies-banner-container"]

@@ -2604,7 +2604,7 @@ joom.com#%#//scriptlet('trusted-click-element', 'div[data-testid="CookieBannerCo
 maintainlife.com#%#//scriptlet('set-cookie', 'MaintainLife_ESSENTIAL', 'ALLOW')
 mga.aero##.bg-primary\/50.z-modal.w-full
 promo-logitech.com##.v-cookie-policy
-hotelharnas.com###cookieWarningNew
+trzyjeziora.com,hotelharnas.com###cookieWarningNew
 bicispasaje.es##.hi-cookie-modal-overlay
 linkedin.com##.legacyNotifLineHeight > div[class] > div[class]:has(div[class^="_"] > p > a[href="https://www.linkedin.com/legal/cookie-policy/"])
 airbnb.com##div[data-testid="main-cookies-banner-container"]
@@ -42093,7 +42093,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 !
 ! Suppressing PWA "Add To Home screen" annoyance
 ! Limit it to mobile versions only
-! causes some issues: https://github.ozon.rucom/AdguardTeam/AdguardForMac/issues/550
+! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
 booking.com##div[data-testid="gta-header-banner-container-test"]

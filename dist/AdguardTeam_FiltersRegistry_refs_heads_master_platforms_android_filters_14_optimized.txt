@@ -1,9 +1,9 @@
-! Checksum: foHDFx2Ay+AuIAKG6dYQ2g
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786091483-3600.patch
+! Checksum: KQtTaH/+iZ0A222N+ARDvw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786098273-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.74.99
-! TimeUpdated: 2026-08-07T08:28:44+00:00
+! Version: 2.2.75.1
+! TimeUpdated: 2026-08-07T10:22:07+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1661,7 +1661,7 @@ joom.com#%#//scriptlet('trusted-click-element', 'div[data-testid="CookieBannerCo
 maintainlife.com#%#//scriptlet('set-cookie', 'MaintainLife_ESSENTIAL', 'ALLOW')
 mga.aero##.bg-primary\/50.z-modal.w-full
 promo-logitech.com##.v-cookie-policy
-hotelharnas.com###cookieWarningNew
+trzyjeziora.com,hotelharnas.com###cookieWarningNew
 bicispasaje.es##.hi-cookie-modal-overlay
 linkedin.com##.legacyNotifLineHeight > div[class] > div[class]:has(div[class^="_"] > p > a[href="https://www.linkedin.com/legal/cookie-policy/"])
 airbnb.com##div[data-testid="main-cookies-banner-container"]
