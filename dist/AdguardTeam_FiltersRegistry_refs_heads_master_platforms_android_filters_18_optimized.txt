@@ -1,9 +1,9 @@
-! Checksum: Oyulgmy6TZcENz6ZjWplJw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786098275-3600.patch
+! Checksum: EpgdAlH5THOTKIG8WjE9VQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786112870-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.66
-! TimeUpdated: 2026-08-07T10:22:14+00:00
+! Version: 2.0.91.68
+! TimeUpdated: 2026-08-07T14:25:31+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1377,7 +1377,7 @@ _eucookie_compliance_
 irbank.net###ib-consent
 xataka.com###cookies-overlay
 reddit.com###eu-cookie-policy
-dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,cinemark.com,bmcservers.com,esenbogaairport.com,zapsplat.com,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,oomiyake.com,vicountdown.com,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,virail.jp,avtoexpress.dp.ua,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,nesine.com,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,antidote.info,cira.ca,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,stocksy.com,flowforge.com,zeno.fm,boardgamegeek.com###cc--main
+oeglobal.org,dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,cinemark.com,bmcservers.com,esenbogaairport.com,zapsplat.com,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,oomiyake.com,vicountdown.com,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,virail.jp,avtoexpress.dp.ua,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,nesine.com,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,antidote.info,cira.ca,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,stocksy.com,flowforge.com,zeno.fm,boardgamegeek.com###cc--main
 lagerhaus.at,kmu-boerse.at,stopline.at,meisterdrucke.jp,omvpetrom.com,petrom.ro,omv.com,omv.ro,omv.at,omv-gas-storage.com,seg-social.pt,hausmagazin.com,evn.at,foodbrothers.com,semikolon.com,laenderbahn.com,computerwelt.at,herold.at,internorm.com,colop.com##.cc-overlay
 bliz.com,disneystore.eu,unipolmove.it,greenmangamingbundles.com,nuernberger.com,transitions.com,unaitalianhospitality.com,telekom.com,barclays.co.uk,otterbox.fr,unicreditbank.cz,essilor.com,tastecooking.com,cinemark.com,lavazza.it,parcelforce.com,iberostar.com,nsandi.com,forcepoint.com,vodafone.com,sony-asia.com,abnamro.com,unipolsai.it,o2.co.uk,sainsburysbank.co.uk,hsbc.co.uk,sunglasshut.com,oakley.com,zurich.it,ray-ban.com,lavazzagroup.com,sony.*,tescomobile.com,falke.com,thewaltdisneycompany.eu,shopdisney.eu,tuclothing.sainsburys.co.uk,avisautonoleggio.it,qvc.it,gap.eu,sites.prh.com,khaleejtimes.com,tealium.com,robeco.com,hsbc.com,newbalance.*,sick.com,diesel.com,totalenergies.com,cineworld.co.uk,dropbox.com,penguinrandomhouse.com,barclaycard.co.uk,tuicruises.com,bahia-principe.com,open-telekom-cloud.com,t-systems.com,tui.com,france.tv,opendns.com,victoriassecret.com,huawei.com,argos.co.uk,tealiumiq.com,ti.com,ups.com,macys.com,trendmicro.com,epson.com,virginmedia.com,francetvinfo.fr,greenmangaming.com,logitech.com,logitechg.com,webex.com###__tealiumGDPRecModal
 ||tags.tiqcdn.com/utag/*/utag.$domain=firstdirect.com|hs.fi|radissonhotels.com|louisvuitton.com|simplybusiness.co.uk|vivimilano.corriere.it|lineadirecta.com|modernatx.com|totaljobs.com|brother-usa.com|anantara.com|calvinklein.ca|agoda.com|lavazza.com|greenmangamingbundles.com
@@ -1508,6 +1508,8 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+benuveny.hu##div[class^="CookieBanner-module"]
+riki.team##.ns-cookiesaccept
 vietjetair.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie_preferences', '{"necessary":true,"functional":false,"analytics":false,"marketing":false}')
 vietjetair.com#%#//scriptlet('set-local-storage-item', 'accept_cookie_policy', 'true')
 crew.sk#$#html { overflow: auto !important; }
