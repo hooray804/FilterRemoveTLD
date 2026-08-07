@@ -19128,6 +19128,11 @@ mail.yandex.*#%#//scriptlet('json-prune', 'seatbid rtb')
 ! Yandex.Search
 ! Main page under the search bar
 yandex.*##main[class="body__wrapper"] form ~ div > div[style^="--height-ratio:"]
+! Search results
+yandex.*##ul[id] > li:has(> div.Organic > div.Organic-ContentWrapper ~ div[class*=" Organic"] > span[class$="-Text"])
+yandex.*##ul[id] > li:has(> div.Organic > div.Organic-Subtitle > div.Organic-Path ~ div[class*=" Organic"] > span[class$="-Text"])
+yandex.*##ul[id] > li[class*="Organic"]:has(> div.Root a[href*="_crpd"] > div.Organic-OfferThumbWrap)
+yandex.*##ul[id] > li:has(> div.Root_inited > div[class*="Organic"] > div[class$="-Header"] > h2 + div > span)
 ! the ad is on the right side, which is mostly non-reproducible
 [$path=/search]yandex.*#%#//scriptlet('remove-node-text', 'script', '/^window\.Ya.*pcodeParams.*renderTo/')
 ! In the feed
