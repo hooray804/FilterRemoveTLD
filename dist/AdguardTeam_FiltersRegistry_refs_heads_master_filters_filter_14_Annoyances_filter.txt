@@ -2785,7 +2785,7 @@ sravni.id#%#//scriptlet('trusted-set-local-storage-item', 'sravni-cookies-policy
 realityjunkies.com,adultmobile.com###root > div[class^="sc-"]:has(> p[class^="sc-"] > a[href^="https://www."][href$="/legal/privacy"])
 summitracing.com###CookieConsentBannerPlaceholder
 42gears.com#%#//scriptlet('trusted-click-element', 'button[aria-label="Reject Non-Essential"][id^="ketch-banner-button-"]')
-sourcewater.ca,wilmot.ca,grimsby.ca,waterloo.ca,kitchener.ca###NotificationPanel[aria-label="Cookie consent notification"]
+grt.ca,sourcewater.ca,wilmot.ca,grimsby.ca,waterloo.ca,kitchener.ca###NotificationPanel[aria-label="Cookie consent notification"]
 radiotimes.com##.consent-placeholder
 crash.net#%#//scriptlet('trusted-click-element', '#lbs-content div.placeholder.embed > button.embed-show-trigger')
 tracxn.com##div[id^="tracxn-cookie"]
@@ -30133,7 +30133,8 @@ omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sport
 !
 ! SECTION: Subscriptions - Regular rules
 !
-mahsunsports50.xyz##.floating-telegram
+news.hada.io##.referrer-subscribe-banner
+mahsunsports50.xyz,mahsunsports80.xyz##.floating-telegram
 discovery.com##.followus
 petersenshunting.com##.lity
 petersenshunting.com##.is-newsletter
@@ -38274,7 +38275,6 @@ nli-research.co.jp##.mail_maga
 ! NOTE: Regular rules end ⬆️
 ! !SECTION: Subscriptions - Regular rules
 !
-
 !
 ! This section contains the list of rules that block the promotion of subscriptions, newsletters.
 ! Examples: "subscribe to our blog", "subscribe to our newsletter" blocks in all kinds of blocks.
@@ -46462,6 +46462,7 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+mapchart.net###plus-alert
 faphouse.com##.fh-bottom-sticky-banner
 filmix.gg,filmix.*##.noad
 kcentv.com##.grid__section:has(> div.grid__content > div.grid__main > div.grid__cell > div.grid__module > div.grid__module-sizer_name_linked-image > div.linked-image > a[href="http://tv.kcentv.com/"])
