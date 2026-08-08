@@ -1,9 +1,9 @@
-! Checksum: ZA/5F4CozAQGOMGrauA4kw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786177181-3600.patch
+! Checksum: nsll565vNA0rf3AIY4GYvA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786180845-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.7
-! TimeUpdated: 2026-08-08T08:16:48+00:00
+! Version: 2.2.75.8
+! TimeUpdated: 2026-08-08T09:17:56+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2181,6 +2181,7 @@ gronkh.tv#%#//scriptlet('set-local-storage-item', 'grnk-cookies-accepted', 'fals
 gousto.co.uk#%#//scriptlet('trusted-click-element', 'body, #cc--main button.c-bn.c_link', '!cookie:cc_cookie')
 marubun.co.jp#%#//scriptlet('set-cookie', 'accept', 'true')
 tarakanov.net###privacybottom
+groupeapocom.com###website_cookies_bar
 fortforge.dev#%#//scriptlet('trusted-set-local-storage-item', 'cookie-consent', 'essential')
 enthub.it#%#//scriptlet('set-local-storage-item', 'cookie-consent', '0')
 app.xcloud.host##.fixed.bottom-6
