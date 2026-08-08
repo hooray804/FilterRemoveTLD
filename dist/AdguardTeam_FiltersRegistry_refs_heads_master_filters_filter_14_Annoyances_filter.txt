@@ -30147,6 +30147,7 @@ omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sport
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ufret.jp##.p-banner-primary--fix
 benuveny.hu##[class*="footer__newsletter"]
 ren.tv#%#//scriptlet('set-cookie', 'ren-max-messenger', '1')
 proshop.dk##.site-footer-newsletterContainer
