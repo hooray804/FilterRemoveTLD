@@ -2588,6 +2588,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+falabella.com.pe##section[class^="Footer-module_footer-bottom"]:has(> button#testId-accept-cookies-btn)
 benuveny.hu##div[class^="CookieBanner-module"]
 riki.team##.ns-cookiesaccept
 vietjetair.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie_preferences', '{"necessary":true,"functional":false,"analytics":false,"marketing":false}')
