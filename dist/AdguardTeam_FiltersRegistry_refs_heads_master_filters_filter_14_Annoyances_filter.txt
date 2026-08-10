@@ -43341,6 +43341,7 @@ instagram.com##._aagw:empty
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/237976
 ! gplinks.co
 rajcet.com##.entry-content > [class^="wp-block-"]
 rajcet.com##.inside-article > [class]:not(.entry-content)
