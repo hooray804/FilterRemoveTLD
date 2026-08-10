@@ -17,6 +17,7 @@
 !#######################################################
 ! SECTION: Cookies - General element hiding
 !
+##.gt-cookie-bar
 ##.gdpr_wrapper
 ###aos-CookiePolicy
 ###div_ciastka_info
@@ -1739,7 +1740,7 @@
 ||cjs.ltwebstatic.com/unpkg/privacy-sdk@*/dist/privacy-sdk.umd.js
 ://cmp.*.com/api/v1/cmp-js/main?host=
 /themes/custom/bdb/js/cookiesjsr-blocker.js
-/wpconsent-cookies-banner-privacy-suite/build/frontend.js
+/wpconsent-cookies-banner-privacy-suite/build/frontend.$script,stylesheet
 ||cmp.springernature.com^
 ||api.consentjs.datagrail.io^
 ||bigidcmp.cloud/banner.js
@@ -2588,6 +2589,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+store.playsum.live##astro-island > .bg-slate-100.dark\:bg-white.md\:items-center
 falabella.com.pe##section[class^="Footer-module_footer-bottom"]:has(> button#testId-accept-cookies-btn)
 benuveny.hu##div[class^="CookieBanner-module"]
 riki.team##.ns-cookiesaccept
@@ -6338,7 +6340,7 @@ alibaba.com###GDPR-cookies-notice
 crispedge.com##.load-accept-cookies
 nta.co.jp##.ImCmpApp
 ertflix.gr##div[class^="CookiePolicyInfo__"]
-artbynumbers.com.ua,spensen.com,courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
+animephrases.com,artbynumbers.com.ua,spensen.com,courier.unesco.org,mi-shop.com,eurozine.com,interhurt.net,snackit.eu,blsslovakiavisa.com,imgtray.com,imghost.online,perlahelsa.ua,sport5.by,cuprum.media,authgear.com,action.group,rediafile.com,ronesans.com,freshmart.com.ua,girlsnotbrides.org,novakid.*,geis-group.cz,vertabelo.com,toshl.com,profikoreni.cz,imghash.com,imghost.net,club4paws.ua,segodnya.ua,novapay.ua,vpn-free.download,btabank.by,home.barclays,zagorodna.com,athexgroup.gr,heyzine.com,brokenranks.com,wartune.wan.com,portalnovosti.com,infoprice.by,rtl.hr,24ur.com,u24.gov.ua,vlab.cz##.cookies
 jumbomail.me##.cookies-usage-panel
 journal.lemonde.fr##.gdpr-lmd-standard
 ||cmp.lemonde.fr/js/lemonde.min.js$domain=journal.lemonde.fr
@@ -7806,7 +7808,7 @@ iol.co.za###id-9
 local.standard.co.uk##.alert-pad
 192.com##div[class^="ont-cookies"]
 oraclecloud.com##.cookie-consent__bar-wrapper
-equideow.com,lowadi.com,caballow.com,howrse.*###cmp-overlay
+engirank.eu,equideow.com,lowadi.com,caballow.com,howrse.*###cmp-overlay
 chaimiles.com###eventmag-pro-cookie-ify
 torquemag.io,wpengine.com##.opt-in-modal
 cloudways.com###cookies-bot
