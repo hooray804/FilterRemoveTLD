@@ -1,9 +1,9 @@
-! Checksum: yafLCKhefPj/dSqExPSizg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786382679-3600.patch
+! Checksum: aqiYuIlvPBkRaYrBQpBzvQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786386290-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.27
-! TimeUpdated: 2026-08-10T17:21:33+00:00
+! Version: 2.2.75.28
+! TimeUpdated: 2026-08-10T18:22:38+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1686,6 +1686,7 @@ tbs.com,trutv.com#$#body { overflow: auto !important; }
 hbomax.com,discoveryplus.com#%#//scriptlet('trusted-click-element', '#modal-test-id-consent-modal button.btn--privacy-primary')
 kanopy.com##.gpc-banner
 xhamster46.desi##div[data-role="cookies-modal"]
+politikam.com#?#.js-cookie-consent
 supply.amazon.com#%#//scriptlet('set-cookie', 'sc-ccv2', '1')
 advertising.amazon.com###ccb-exists
 booking.uz.gov.ua##.CookiesNotify
@@ -22572,6 +22573,8 @@ rasp.yandex.*##.TravelHotelsBanner
 tv.yandex.*##.recommended-ott
 [$path=/games]yandex.*##header + main.stack > div[class*="-disable-"]
 [$path=/games]yandex.*##header + main.stack > div > div[class*="-wrapper_promo"]
+novahd.cc##.promo-donate
+novahd.cc##.promo-side
 speedof.me##body > [class]:has(> a[href="/api?src=rail"])
 ||inter-edu.com/api/cvtr.php?zone=
 inter-edu.com##.cta-wrapper
