@@ -2592,7 +2592,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
-digiturkplay.com##div[class^="cookie-module-"][class*="innerWrapper"]
+z1motorsports.com###cookieOptInDiv
 bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app_cookie_consent_v1', 'denied')
 bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app-age-verified', 'true')
 ludusengine.com#%#//scriptlet('set-cookie', 'cookieChoice', 'essential')
@@ -3128,7 +3128,7 @@ skyscanner.cz#$##cookieBannerContent { display: none !important; }
 scan.co.uk#$#.s-popup { display: none !important; }
 scan.co.uk#$#body.popup-open { overflow: auto !important; }
 antenasgsm.com#%#//scriptlet('trusted-click-element', 'button#reject-non-essential-cookies')
-lagless.gg,sotellus.com,abetterrouteplanner.com,eyou.social,getedumail.com,digiparser.com,gemini.com##div[aria-label="Cookie consent"]
+propelmusic.co.nz,lagless.gg,sotellus.com,abetterrouteplanner.com,eyou.social,getedumail.com,digiparser.com,gemini.com##div[aria-label="Cookie consent"]
 ||assetlab.io/consent^$domain=theweeknd.co
 wishmaster.me###js_policy-cookie
 matterport.com##div[class^="CookieModal_CookieModal"]
@@ -6364,7 +6364,7 @@ planningportal.co.uk#%#//scriptlet('trusted-set-cookie', 'cookie_preferences', '
 tuya.com###_th-trust
 vegetology.com##div[data-name="comp-banner"]
 yclients.com##.gdpr-policy
-dola.com,kopiyka.ua,brutalx.com,pularys.com,onurmarket.com,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
+digiturkplay.com,digiturkplay.com,dola.com,kopiyka.ua,brutalx.com,pularys.com,onurmarket.com,sushistory.com,orthomol.life,babelnet.org,krka.biz,7news.com.au##div[class^="cookie-"]
 wisdom.nec.com###func-cookie
 aftonbladet.se#%#//scriptlet('trusted-click-element', '.message-component > button[title^="Godkänn"]')
 adfilteringdevsummit.com#%#//scriptlet('trusted-set-local-storage-item', 'acceptCookies', 'n')
