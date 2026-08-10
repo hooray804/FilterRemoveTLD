@@ -2726,7 +2726,7 @@ autismjournal.help###__next > div[class^="sc-"]:has(> div[class^="sc-"] a[href="
 imagen-ai.com###elementor-popup-modal-165247
 classichotel.it#%#//scriptlet('set-cookie', 'gdpr-banner', 'reject')
 hostings.info#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'false')
-japanpost.jp##div[class^="CookieWindow_"]
+retn.net,japanpost.jp##div[class^="CookieWindow_"]
 cooki.fi###cookifi-consent-dialog-host
 skuteryimotocykle.eu##.hi-preference-panel
 solaxpower.com##.ys-page-wrap > .slide.bottom
@@ -3081,7 +3081,7 @@ renderforest.com##div[class^="styles_cookie-message-wrapper__"]
 sodimac.cl##footer > section:has(> button#testId-accept-cookies-btn)
 sodimac.cl##.container > div.overlay-popover:has(> div.popover-container div[data-testid="cookie-legal-modal"])
 ||cdn.jsdelivr.net/npm/@finsweet/cookie-consent@$domain=vestopazzo.factorial.it
-ripley.cl##div[class^="cookiesMessage_cookiesDisclaimer__"]
+simple.ripley.com.pe,ripley.cl##div[class^="cookiesMessage_cookiesDisclaimer__"]
 ||macaron-assets.d-edge-webstudio.com/decookie.min.js$domain=premierresidencesphuquoc.com
 weverse.io###wevConsentManager
 hybejapan.events,yxlabels.com###hbj-cookie-banner
@@ -7030,7 +7030,7 @@ mesanalyses.fr#$##modalCookies ~ div.modal-backdrop { display: none !important; 
 bensound.com###cookies-preferences-fixed
 vyos.io##section[class^="Cookies_cookies__"]
 moemax.ch#?##root > div[class*=" "]:has(> div[class] > div#jentis_consent)
-uxcel.com##.cookie-banner-wrap
+beaglesecurity.com,uxcel.com##.cookie-banner-wrap
 maruichikokan.co.jp,octopus.com.hk##.cookiesPopup
 hornirakousko.cz,hornerakusko.sk,upperaustria.com,oberoesterreich.at#$#body { overflow: auto !important; }
 hornirakousko.cz,hornerakusko.sk,upperaustria.com,oberoesterreich.at#$#body #cookie-modal { display: none !important; }
@@ -12388,7 +12388,7 @@ tecadmin.net,voghion.com,madamecoco.com,businessinsider.in,gadgetsnow.com,indiat
 zebra.cn,sanook.com,inexchange.se##.consentBanner
 tempmailaddress.com##.container > footer.text-center.hidden-xs
 tcl.com,viafree.dk##.cookie-bar
-harima.co.jp,chogakusei.com,bitrefill.com,gdms.cloud,nomos-glashuette.com,omadanetworks.com,passport.vivo.com,tp-link.com,dev.ua,unitika.co.jp,whynow.co.uk,devby.io,bbbl.dev,m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
+vigi.com,harima.co.jp,chogakusei.com,bitrefill.com,gdms.cloud,nomos-glashuette.com,omadanetworks.com,passport.vivo.com,tp-link.com,dev.ua,unitika.co.jp,whynow.co.uk,devby.io,bbbl.dev,m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
 libertylondon.com##.cookie-disclaimer-message
 finder.com##.cookie-footer-bar
 metabomb.net,nintendolife.com,usgamer.net,vg247.com##.cookie-gdpr

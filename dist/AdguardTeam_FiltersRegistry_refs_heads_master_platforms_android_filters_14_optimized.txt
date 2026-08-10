@@ -1,9 +1,9 @@
-! Checksum: brn0q6BlTNsqVhhm36Yx7A
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786292034-3600.patch
+! Checksum: JDNs8xXpcjLvkh9idAzvTQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786325886-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.12
-! TimeUpdated: 2026-08-09T16:11:11+00:00
+! Version: 2.2.75.13
+! TimeUpdated: 2026-08-10T01:35:40+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1779,7 +1779,7 @@ cmp.novinky.cz#%#//scriptlet('trusted-click-element', '.szn-cmp-dialog-container
 v-a-c.org,ges-2.org#%#//scriptlet('set-cookie', 'isCookieAccepted', 'true')
 classichotel.it#%#//scriptlet('set-cookie', 'gdpr-banner', 'reject')
 hostings.info#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'false')
-japanpost.jp##div[class^="CookieWindow_"]
+retn.net,japanpost.jp##div[class^="CookieWindow_"]
 porkbun.com###pbUserPrefs
 sorare.com#%#//scriptlet('trusted-set-cookie', 'tracking-preferences2', '%7B%22version%22%3A1%2C%22destinations%22%3A%7B%22Actions%20Amplitude%22%3Afalse%2C%22Actions%20Google%20Analytic%204%22%3Afalse%2C%22altertable_dest%20(Sorare)%22%3Afalse%2C%22Appboy%22%3Afalse%2C%22AWS%20S3%22%3Afalse%2C%22Braze%20Web%20Mode%20(Actions)%22%3Afalse%2C%22Facebook%20Conversions%20API%20(Actions)%22%3Afalse%2C%22Google%20AdWords%20New%22%3Afalse%2C%22Google%20Analytics%204%20Web%22%3Afalse%2C%22Google%20Enhanced%20Conversions%22%3Afalse%2C%22Reddit%20Conversions%20Api%22%3Afalse%2C%22Snap%20Conversions%20Api%22%3Afalse%2C%22Tiktok%20Conversions%22%3Afalse%2C%22Twitter%20Conversion%20API%20Function%20(Sorare)%22%3Afalse%7D%7D')
 download.urage.com#%#//scriptlet('trusted-click-element', 'dialog[aria-labelledby="cookiesTitle"] button.dismiss', '!cookie:OPT_OUT')
@@ -1998,7 +1998,7 @@ humanmade.jp#%#//scriptlet('trusted-click-element', '#consent-tracking .modal-fo
 sklepy-cynamonowe.eu,krugermatz.com,patandrub.eu##.consents
 renderforest.com##div[class^="styles_cookie-message-wrapper__"]
 sodimac.cl##footer > section:has(> button#testId-accept-cookies-btn)
-ripley.cl##div[class^="cookiesMessage_cookiesDisclaimer__"]
+simple.ripley.com.pe,ripley.cl##div[class^="cookiesMessage_cookiesDisclaimer__"]
 weverse.io###wevConsentManager
 bknet.jp,gushnet.jp,bunkasha.co.jp,i-d-bunkasha.com##.crf--cookie_policy
 parkhoteltokyo.com,novotel-danang-premier.com,swissotelnankaiosaka.com,pullmantokyotamachi.com,novotelnara.com,mercure-kyoto-station.com,mercure-tokyustay-hiroshima.com#%#//scriptlet('trusted-set-cookie', '_deCookiesConsent', '[%22needed%22]')
@@ -4518,7 +4518,7 @@ mesanalyses.fr#$#body { overflow: auto !important; padding-right: 0 !important; 
 mesanalyses.fr#$##modalCookies { display: none !important; }
 mesanalyses.fr#$##modalCookies ~ div.modal-backdrop { display: none !important; }
 bensound.com###cookies-preferences-fixed
-uxcel.com##.cookie-banner-wrap
+beaglesecurity.com,uxcel.com##.cookie-banner-wrap
 maruichikokan.co.jp,octopus.com.hk##.cookiesPopup
 hornirakousko.cz,hornerakusko.sk,upperaustria.com,oberoesterreich.at#$#body { overflow: auto !important; }
 hornirakousko.cz,hornerakusko.sk,upperaustria.com,oberoesterreich.at#$#body #cookie-modal { display: none !important; }
@@ -6646,7 +6646,7 @@ my.kaspersky.com##.banner-type-cookiePolicyFixed
 nivea.*,niveausa.com##.nx-cookie-policy-popup
 zebra.cn,sanook.com,inexchange.se##.consentBanner
 tcl.com,viafree.dk##.cookie-bar
-harima.co.jp,chogakusei.com,bitrefill.com,gdms.cloud,nomos-glashuette.com,omadanetworks.com,passport.vivo.com,tp-link.com,dev.ua,unitika.co.jp,whynow.co.uk,devby.io,bbbl.dev,m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
+vigi.com,harima.co.jp,chogakusei.com,bitrefill.com,gdms.cloud,nomos-glashuette.com,omadanetworks.com,passport.vivo.com,tp-link.com,dev.ua,unitika.co.jp,whynow.co.uk,devby.io,bbbl.dev,m.bosch-garden.com,birdinflight.com,petsathome.com,dnevnik.hr##.cookie-dialog
 finder.com##.cookie-footer-bar
 veeam.com##.cookie-messaging
 bastion.tv,gacgroup.com,pharma.by,cht.com.tw,specialized.com,kinda.media,gavlekonserthus.se,gavlesymfoniorkester.se,tvr.co.uk##.cookie-wrap
@@ -18626,6 +18626,10 @@ jp,com##.header__banner[href="https://apps.apple.com/jp/app/fanmily/id1485686155
 ###appss
 ##[onclick="goAppHtml();"]
 rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,kocailem.com,dartworld.shopgate.com,allo.ua,tempo.co,beymen.com,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,tesco.hu,prima.hu,lcwaikiki.com,m.sigrun-woehr.com,m.computeruniverse.net,meduza.io##body .smartbanner
+||assets.retty.me/v-*/images/macaron/web-to-app-fv-mobile.png
+retty.me##.web-to-app-fv
+sarah30.com##.sp-map-banner-bottom
+sarah30.com##.sp-app-install-banner-wrapper
 13wmaz.com##.grid__cell[data-columns] > div[data-analytics-name="Story-2"]:has(a[href^="https://www.13wmaz.com/article/about-us/"] > img)
 ktvb.com##.grid__cell[data-columns] > div[data-analytics-name="Story-2"]:has(a[href^="https://www.ktvb.com/article/sports/"] > img)
 whas11.com##.grid__cell[data-columns] > div[data-analytics-name="Story-2"]:has(a[href^="https://www.whas11.com/article/syndication/ott/"] > img)
@@ -19888,6 +19892,7 @@ asajikan.jp#%#//scriptlet("set-cookie", "header-guidance-close", "true")
 antenna.jp##.paragraph.more-link-alt
 m.guancha.cn##.g_swiper_container
 m.doviz.com,whowatch.tv,ebay.*,locari.jp##.app-download-banner
+sarah30.com,membo.net,musicjob.net,airpaz.com,techfeed.io,locari.jp##.app-install-banner
 travel.navitime.com##.l-footer-app
 m.shein.com#$#.journey-contain { display: none !important; }
 m.shein.com#$#body { margin-top: 0px !important; }
