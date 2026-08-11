@@ -10405,7 +10405,7 @@ reachplc.com##.cookiecontrol
 coventrybuildingsociety.co.uk###cookiePane
 business.bt.com##.cmp-cookie-notification
 app.element.io##.mx_AnalyticsToast
-thangs.com,ads.vk.com,galaxystore.samsung.com,betway.com,amie.so,m.soundcloud.com##div[class^="CookieBanner_"]
+mimo.mi.com,thangs.com,ads.vk.com,galaxystore.samsung.com,betway.com,amie.so,m.soundcloud.com##div[class^="CookieBanner_"]
 instagram.com,facebook.com##div[data-cookiebanner="banner"]
 alternative.me###footer > div[style^="position: fixed; bottom:"][style*="z-index:"]
 flex-tools.com#$#.cookieBar { display: none !important; }

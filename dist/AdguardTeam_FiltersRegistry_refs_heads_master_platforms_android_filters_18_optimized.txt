@@ -1,9 +1,9 @@
-! Checksum: /uipBCnJb3r7iRC+v7CtkQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786416576-3600.patch
+! Checksum: /tvZsRnMRSQoiy/KP206Zw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786429585-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.82
-! TimeUpdated: 2026-08-10T18:22:46+00:00
+! Version: 2.0.91.83
+! TimeUpdated: 2026-08-11T06:24:05+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5834,7 +5834,7 @@ glazbud.com##.cookies-header
 claude.com,webflow.com###consent-container
 coventrybuildingsociety.co.uk###cookiePane
 app.element.io##.mx_AnalyticsToast
-thangs.com,ads.vk.com,galaxystore.samsung.com,betway.com,amie.so,m.soundcloud.com##div[class^="CookieBanner_"]
+mimo.mi.com,thangs.com,ads.vk.com,galaxystore.samsung.com,betway.com,amie.so,m.soundcloud.com##div[class^="CookieBanner_"]
 themagger.com###cookie-rules-top
 itninja.com##.ccpa-notification
 chocolatey.org###cookieNoticeAlert
