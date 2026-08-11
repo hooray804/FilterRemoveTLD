@@ -1,9 +1,9 @@
-! Checksum: /tvZsRnMRSQoiy/KP206Zw
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786429585-3600.patch
+! Checksum: fIKJ6AXcIilMgJK4gsSaqw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786433610-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.83
-! TimeUpdated: 2026-08-11T06:24:05+00:00
+! Version: 2.0.91.84
+! TimeUpdated: 2026-08-11T07:31:11+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1522,6 +1522,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+aistudio.xiaomimimo.com#%#//scriptlet('trusted-click-element', '#root button[data-track-id="cookie_decline_all_btn"]')
 z1motorsports.com###cookieOptInDiv
 bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app_cookie_consent_v1', 'denied')
 bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app-age-verified', 'true')
@@ -6780,6 +6781,7 @@ teleperformance.com#$#body { overflow: auto!important; }
 cafe-royal.com,mline.com,roesle.com#$#body.modal-open { overflow: visible !important; padding-right: 0 !important; }
 cafe-royal.com,mline.com,roesle.com#$#.acris-cookie-consent { display: none !important; }
 cafe-royal.com,mline.com,roesle.com#$#.acris-cookie-consent ~ .modal-backdrop { display: none !important; }
+!+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 mvm.hu###footer-consent
 !+ NOT_OPTIMIZED
