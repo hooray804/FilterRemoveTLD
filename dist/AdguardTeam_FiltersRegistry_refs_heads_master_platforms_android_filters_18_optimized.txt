@@ -1,13 +1,14 @@
-! Checksum: Ix+jX0BIGGnTq3ffyMvvEg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786516624-3600.patch
+! Checksum: LYpS3krxang14SHzvga5QQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786527083-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.91.93
-! TimeUpdated: 2026-08-12T06:34:37+00:00
+! Version: 2.0.91.95
+! TimeUpdated: 2026-08-12T09:29:24+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
 !#######################################################
+##.ins-v-cookie-alert
 ###surecookie-public-root
 ##.gt-cookie-bar
 ##.gdpr_wrapper
@@ -1527,6 +1528,9 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+skyscanner.at,skyscanner.cz,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.se,skyscanner.net,skyscanner.*#$#body { overflow: auto !important; padding-right: 0 !important; }
+skyscanner.at,skyscanner.cz,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.se,skyscanner.net,skyscanner.*#$#.consent-banner-wrapper { display: none !important; }
+urbancity.cz#%#//scriptlet('trusted-set-cookie-reload', 'CookiePolicy', '{"ad_storage":false,"analytics_storage":false,"functionality_storage":false,"personalization_storage":false,"security_storage":true,"ad_user_data":false,"ad_personalization":false}')
 grass.io#%#//scriptlet('trusted-set-cookie', 'grass_cookies_pref', 'essentials')
 ucuztap.az##.fixed.bottom-0:has(a[href="/mexfilik"])
 vm6.co.uk##.vm6-consent
@@ -6790,8 +6794,6 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 calvinklein.*#$#* div[class*="CookieNotice_CookieNoticeOverlay___"] { display: none !important; }
 calvinklein.*#$#body[class*="CookieNotice_CookieNoticeOpen"] { overflow: auto!important; }
 patient.info#$#body { overflow: visible!important; }
-skyscanner.at,skyscanner.cz,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.se,skyscanner.net,skyscanner.*#$#body { overflow: auto !important; padding-right: 0 !important; }
-skyscanner.at,skyscanner.cz,skyscanner.dk,skyscanner.fi,skyscanner.ie,skyscanner.no,skyscanner.se,skyscanner.net,skyscanner.*#$#.cookie-banner-wrapper { display: none !important; }
 auchan.hu#$#body { overflow: visible!important; }
 auchan.hu#$#html { overflow: visible!important; }
 timeout.com#$#body { overflow: visible!important; }
@@ -6869,7 +6871,7 @@ beymen.com##.cookie-band
 !+ NOT_OPTIMIZED
 seventeen-web.jp##.cookie-inquiry
 !+ NOT_OPTIMIZED
-albahost.net,phoenixsunucum.com,teknoweb.net,odeaweb.com###mio-cookie-popup
+hanhosting.com,albahost.net,phoenixsunucum.com,teknoweb.net,odeaweb.com###mio-cookie-popup
 !+ NOT_OPTIMIZED
 evarkadasi.com##.kvkk-container
 !+ NOT_OPTIMIZED
