@@ -4567,6 +4567,7 @@ webhallen.com#%#//scriptlet('set-local-storage-item', 'personalisationConsent', 
 boo.world#%#//scriptlet('set-cookie', 'cookieConsentAnalytics', 'false')
 boo.world#%#//scriptlet('set-cookie', 'cookieConsentPerformance', 'false')
 boo.world#%#//scriptlet('set-cookie', 'cookieConsentCheck', 'true')
+galaxus.at,galaxus.be,galaxus.ch,galaxus.com,galaxus.eu,galaxus.fr,galaxus.it#%#//scriptlet('trusted-set-cookie-reload', '.consent', 'fu0-ma0-pe0')
 piotrovsky.store##.js-popup-cookie
 samfrew.com#%#//scriptlet('set-local-storage-item', 'gdpr_consent', 'accepted')
 foreignaffairs.com##._gdpr-banner

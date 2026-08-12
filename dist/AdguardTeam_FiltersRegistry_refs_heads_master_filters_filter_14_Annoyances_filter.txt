@@ -4567,6 +4567,7 @@ webhallen.com#%#//scriptlet('set-local-storage-item', 'personalisationConsent', 
 boo.world#%#//scriptlet('set-cookie', 'cookieConsentAnalytics', 'false')
 boo.world#%#//scriptlet('set-cookie', 'cookieConsentPerformance', 'false')
 boo.world#%#//scriptlet('set-cookie', 'cookieConsentCheck', 'true')
+galaxus.at,galaxus.be,galaxus.ch,galaxus.com,galaxus.eu,galaxus.fr,galaxus.it#%#//scriptlet('trusted-set-cookie-reload', '.consent', 'fu0-ma0-pe0')
 piotrovsky.store##.js-popup-cookie
 samfrew.com#%#//scriptlet('set-local-storage-item', 'gdpr_consent', 'accepted')
 foreignaffairs.com##._gdpr-banner
@@ -22331,6 +22332,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+muko.kr##.muko-aa-join
 bsky.app#%#//scriptlet('trusted-set-local-storage-item', 'welcomeModalShown', 'true')
 moviebite.cc###root > div[role="status"]
 cinezo.org##main > div[class] > div.fixed:has(> div.p-5 > div.items-start > div.flex-1 > a[href="https://arrowtv.net/"])
@@ -30172,6 +30174,7 @@ ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbi
 !
 ! SECTION: Subscriptions - Regular rules
 !
+bunshun.jp##.article-partner-follow-button
 thelocal.fr,thelocal.es,thelocal.at,thelocal.it,thelocal.dk,thelocal.se##.footer-column__subscribe
 quantvps.com#%#//scriptlet('trusted-set-local-storage-item', 'quantvps-user', '{"emailDialogDismissed":false,"emailDialogMinimized":true}')
 fortune.com##.article-page-wrapper .contents > .flex:has(> .container-content > .flex > button[aria-label^="Add Fortune as a preferred source on Google"])
@@ -38445,6 +38448,8 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+emailondeck.com###email_rows a[href^="https://apps.apple.com/app/"]
+emailondeck.com###eod-desktop-app
 temp-mail.africa#$##appPromoModal { display: none !important; }
 temp-mail.africa#$#.modal-backdrop { display: none !important; }
 temp-mail.africa#$#body.modal-open { overflow: auto !important; padding-right: 0 !important; }
@@ -52065,8 +52070,6 @@ modapkvn.com,apkmodvn.com#%#//scriptlet('set-constant', 'waktu', '-1')
 apkmoddone.phongroblox.com,file.apkmoddone.com#%#//scriptlet('adjust-setInterval', '=--', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/169278
 anonymfile.com#%#//scriptlet('set-constant', 'countDown', '1')
-! https://github.com/AdguardTeam/AdguardFilters/issues/167727
-infidrive.net#%#//scriptlet('adjust-setTimeout', '-1', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/167091
 file-upload.in#%#//scriptlet('adjust-setInterval', 'timer', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/166721
