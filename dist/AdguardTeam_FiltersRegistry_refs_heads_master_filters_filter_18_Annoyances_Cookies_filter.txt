@@ -2962,7 +2962,7 @@ evebattery.com##.t_main_privacy
 ||sdk.privacy-center.org/*/loader.js?target=www.index.hr
 ruplay.market#%#//scriptlet('set-local-storage-item', 'policyAccepted', 'false')
 taketaketake.com#%#//scriptlet('set-local-storage-item', 'takex3.cookie-consent', 'accepted')
-nelvix.xyz,update.kia.com##.fixed.inset-0
+mangodeveloper.com,nelvix.xyz,update.kia.com##.fixed.inset-0
 creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection', '', '500')
 creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonMarketing')
 helse-sorost.no##div[class^="_cookieconsent-banner"]
@@ -10448,7 +10448,7 @@ lifepointspanel.com#$#body.modal-open { overflow: auto !important; padding-right
 altium.com##.altium-privacy-bar
 netpeak.net###cookies-using-message
 french.peopledaily.com.cn###shengmingTip
-freshstream.com,steigenberger.com##.cookie-wall
+ki-worldshop.com,freshstream.com,steigenberger.com##.cookie-wall
 holidu.at,holidu.ch,holidu.ie,holidu.ca,holidu.com.au,holidu.co.nz,holidu.fr,holidu.be,holidu.es,holidu.dk,holidu.it,holidu.se,holidu.no,holidu.pt,holidu.com.mx,holidu.co.uk,holidu.com###cookie-selector
 mobilenet.cz##.sys-alert
 partnersbanka.cz,leaflets.kaufland.com##.c-cookieconsent
