@@ -1,9 +1,9 @@
-! Checksum: UB2HFV15Mm0AwaJN5Bte0g
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786472653-3600.patch
+! Checksum: hi43cxxusQ4YR0LJfcvnbg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786498762-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.43
-! TimeUpdated: 2026-08-11T18:21:46+00:00
+! Version: 2.2.75.45
+! TimeUpdated: 2026-08-12T01:36:42+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1655,6 +1655,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+grass.io#%#//scriptlet('trusted-set-cookie', 'grass_cookies_pref', 'essentials')
 ucuztap.az##.fixed.bottom-0:has(a[href="/mexfilik"])
 vm6.co.uk##.vm6-consent
 fbk.info##body > div[id^="radix-"]:has(> div > p > a[href^="/file/cookies-notice"])
@@ -1924,6 +1925,7 @@ v0.app#%#//scriptlet('trusted-click-element', '#fides-banner-container .fides-re
 auth.hbomax.com##.dialog-transition-enter-done:has(> div[data-testid="consent-modal-dialog"])
 doutorfinancas.pt#$#.cookies-banner { display: none !important; }
 doutorfinancas.pt#%#//scriptlet('remove-class', 'cookie-overlay', 'body')
+nikkinonline.com,ranking.sanrio.co.jp###datasign_cmp__host
 some.porn###app-cookie
 ruplay.market#%#//scriptlet('set-local-storage-item', 'policyAccepted', 'false')
 taketaketake.com#%#//scriptlet('set-local-storage-item', 'takex3.cookie-consent', 'accepted')
@@ -3435,7 +3437,7 @@ sheepesports.com##body > .fixed.bottom-0.right-0:has(> .border > .flex > p.text-
 moss.co.uk,international.mossbros.com#%#//scriptlet('trusted-set-cookie', 'consent_acceptance', '{"functionality_storage":"granted","security_storage":"granted","ad_personalization":"denied","ad_user_data":"denied","personalization_storage":"denied","ad_storage":"denied","analytics_storage":"denied"}')
 store.gx.me#%#//scriptlet('trusted-set-cookie', 'cookie-consent', '{%22marketing%22:false%2C%22necessary%22:true%2C%22version%22:2}')
 tvpaint.com#%#//scriptlet('trusted-set-cookie', 'cookies_banner', '%7B%22completed%22%3Atrue%2C%22authorized_cookies%22%3A%5B%22googletagmanager%22%2C%22google_fonts%22%2C%22google_recaptcha%22%5D%2C%22consent%22%3A%7B%22ad_storage%22%3A%22denied%22%2C%22analytics_storage%22%3A%22denied%22%2C%22ad_user_data%22%3A%22denied%22%2C%22ad_personalization%22%3A%22denied%22%7D%7D')
-stellaplayer.jp,seven-sky.net,mojmaxtv.hrvatskitelekom.hr,gofiber.ph#%#//scriptlet('set-local-storage-item', 'cookieAccepted', 'true')
+trendruum.com,stellaplayer.jp,seven-sky.net,mojmaxtv.hrvatskitelekom.hr,gofiber.ph#%#//scriptlet('set-local-storage-item', 'cookieAccepted', 'true')
 hola.org##div[class^="allow_cookies_"]
 onesports.ph##.cookies-notif
 on1.com###on1-cookie-banner
