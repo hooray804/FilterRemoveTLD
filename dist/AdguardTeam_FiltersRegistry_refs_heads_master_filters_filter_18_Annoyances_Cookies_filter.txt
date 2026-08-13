@@ -2611,6 +2611,7 @@ bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app_cookie_cons
 bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app-age-verified', 'true')
 ludusengine.com#%#//scriptlet('set-cookie', 'cookieChoice', 'essential')
 store.playsum.live##astro-island > .bg-slate-100.dark\:bg-white.md\:items-center
+orevillestudios.com###root > footer + div:has(> div > div > p > a[href="/cookies"])
 falabella.com.pe##section[class^="Footer-module_footer-bottom"]:has(> button#testId-accept-cookies-btn)
 benuveny.hu##div[class^="CookieBanner-module"]
 riki.team##.ns-cookiesaccept

@@ -1,9 +1,9 @@
-! Checksum: zggiV6gcI1RcwQq2NZ264w
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786610252-3600.patch
+! Checksum: qpzz+eTJBVpD/0cP5si7Ng
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786634845-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.4
-! TimeUpdated: 2026-08-13T08:35:06+00:00
+! Version: 2.0.92.5
+! TimeUpdated: 2026-08-13T15:24:49+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1553,6 +1553,7 @@ bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app_cookie_cons
 bunkrsearch.com#%#//scriptlet('trusted-set-local-storage-item', 'app-age-verified', 'true')
 ludusengine.com#%#//scriptlet('set-cookie', 'cookieChoice', 'essential')
 store.playsum.live##astro-island > .bg-slate-100.dark\:bg-white.md\:items-center
+orevillestudios.com###root > footer + div:has(> div > div > p > a[href="/cookies"])
 falabella.com.pe##section[class^="Footer-module_footer-bottom"]:has(> button#testId-accept-cookies-btn)
 benuveny.hu##div[class^="CookieBanner-module"]
 riki.team##.ns-cookiesaccept
