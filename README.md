@@ -26,6 +26,7 @@ AdGuard의 파서 라이브러리(`@adguard/agtree`)를 활용하여 추상 구�
 ### 기여 및 출처 표기 (Attribution)
 * **[List-KR](https://github.com/List-KR/List-KR)**: [LICENSE](https://github.com/List-KR/List-KR/blob/master/LICENSE), [Commits](https://github.com/List-KR/List-KR/commits/master/), [Contributors](https://github.com/List-KR/List-KR/graphs/contributors), [수정 사항(Commits)](https://github.com/hooray804/FilterRemoveTLD/commits/main/)
 * **[AdguardFilters](https://github.com/AdguardTeam/AdguardFilters)**: [LICENSE](https://github.com/AdguardTeam/AdguardFilters/blob/master/LICENSE), [Commits](https://github.com/AdguardTeam/AdguardFilters/commits/master/), [Contributors](https://github.com/AdguardTeam/AdguardFilters/graphs/contributors), [수정 사항(Commits)](https://github.com/hooray804/FilterRemoveTLD/commits/main/)
+* **[FiltersRegistry](https://github.com/AdguardTeam/FiltersRegistry)**: [LICENSE](https://github.com/AdguardTeam/FiltersRegistry/blob/master/LICENSE), [Commits](https://github.com/AdguardTeam/FiltersRegistry/commits/master/), [Contributors](https://github.com/AdguardTeam/FiltersRegistry/graphs/contributors), [수정 사항(Commits)](https://github.com/hooray804/FilterRemoveTLD/commits/main/)
 
 ### 라이선스 고지 (GPL-3.0)
 상세한 라이선스 전문은 본 저장소의 `LICENSE` 파일에서 확인하실 수 있습니다.
