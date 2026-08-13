@@ -30186,6 +30186,7 @@ ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbi
 !
 ! SECTION: Subscriptions - Regular rules
 !
+tbs.co.jp###appbanner_pc_right_column_top
 rd.com##div.container > div.footer-right-container:has(> div.newsletter)
 npcnewsonline.com##.ufw_wrap
 vpsbenchmarks.com###subscribe-sidebar-popup
