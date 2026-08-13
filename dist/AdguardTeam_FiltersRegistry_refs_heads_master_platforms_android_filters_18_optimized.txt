@@ -1,9 +1,9 @@
-! Checksum: SfShPggw011CC98RP/8EDg
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786606668-3600.patch
+! Checksum: zggiV6gcI1RcwQq2NZ264w
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786610252-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.3
-! TimeUpdated: 2026-08-13T07:35:05+00:00
+! Version: 2.0.92.4
+! TimeUpdated: 2026-08-13T08:35:06+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7665,6 +7665,9 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=pons.com|nypost.com|ups.com|hollywoodreporter.com|resmed.com|movistar.es|redbull.com|all.accor.com|blaklader.*|wallapop.com|rts.ch|npr.org|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|vanityfair.com|olympics.com|oe24.at|epicgames.com|natgeotv.com|midomi.com|kawasaki.com|shop.mango.com|westernunion.com|new.cappex.com|vimeo.com|heute.at|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|cbsnews.com|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|bet.com|ikonpass.com|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southpark.lat|southparkstudios.com|realsimple.com|homedepot.ca|wired.com|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.it|themessenger.com|nickjr.com|lnw.com|irishtimes.com|sonos.com|rentcafe.com|seriouseats.com|bhg.com|gamescom.global|championsleague.basketball|fnac.com|pagesix.com|questdiagnostics.com|kfc.fr|kfc.es|canadiantire.ca|drafthouse.com|gardenoflife.com|colliers.com|swissotel.com|darntough.com|merrell.com|ew.com|wolverine.com|saucony.com|catfootwear.com|chacos.com|hytest.com|instyle.com|allrecipes.com|support.discord.com|slate.com
 !+ NOT_OPTIMIZED PLATFORM(windows, mac, android, cli)
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
+@@||cdn.cookielaw.org/consent/*.json$domain=healthline.com
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=healthline.com
+@@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=healthline.com
 crew.sk#@#.cookie-footer
 @@||sdk.privacy-center.org/*/loader.js$domain=parismatch.com
 @@||sdk.privacy-center.org/sdk/$domain=parismatch.com
