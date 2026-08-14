@@ -29379,7 +29379,7 @@ telex.hu##.communication-box--push
 sankei.com##.article-push
 ||softinfo.ro/wp-json/push-notification/
 ||softinfo.ro/?push_notification
-pcmag.com##.pushPrompt
+cnet.com,pcmag.com##.pushPrompt
 ||baenegocios.com/lib/web-push/
 mediotiempo.com##astro-island[component-url*="/_astro/NotificationsModal."]
 trip.com##.online-prepermission-popup
@@ -30200,6 +30200,13 @@ urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingb
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ernax.pro##body > #root ~ div.fixed.inset-0
+primeshows.org##a[href^="https://discord.gg"]
+primeshows.org##a[href^="https://discord.gg"] + button
+cnet.com##.site-header__preferred-source
+pethelpful.com##.styles_preferredSource__2ezOs
+pethelpful.com##a[href="https://parade.com/newsletters/parade-pets"]
+columbian.com###promoModal
 jisaka.com##.article-body-more > figure:has(> a[href^="https://google.com/preferences/source?q="])
 makeship.com##.flex > div.lg\:flex-1 > div.border-t-4:has(input[id="email-address"])
 liteapks.com##a.items-center[href="https://telegram.me/liteapks"]
@@ -46585,6 +46592,7 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+columbian.com###promoModal
 umingle.com##.premium-upgrade-btn
 entireweb.com###chromeExtCard
 isdown.app##.relative > div.relative:has(> div.block > a[href^="/users/sign_up?cta="])
