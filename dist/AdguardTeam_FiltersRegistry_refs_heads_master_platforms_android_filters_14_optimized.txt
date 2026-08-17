@@ -1,9 +1,9 @@
-! Checksum: jmskzytmyuge4iHCUU8fCw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786951665-3600.patch
+! Checksum: 6iyuTJonhwm++NPKY4tcBw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786954838-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.90
-! TimeUpdated: 2026-08-17T07:25:01+00:00
+! Version: 2.2.75.91
+! TimeUpdated: 2026-08-17T08:18:08+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1670,6 +1670,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+chatai.org##.chatgpt-cookie
 makeship.com##.fixed.bottom-0:has(> div > p > a[href="/policies/cookies-policy"])
 ||vercel.fides-cdn.ethyca.com/fides.js
 infrawire.net##.sm\:w-auto.sm\:p-4.z-\[99999\]
@@ -5544,7 +5545,7 @@ bikemap.net,cinch.co.uk,kistler.com##div[class^="cookie-consent"]
 sport-bittl.com###vbcn
 sport-bittl.com###vbcn-backdrop
 rasmussen.edu###cookies-tracking
-dropreference.com,quackr.io,loyalfans.com,ripe.net##app-cookie-consent
+authorized.by,dropreference.com,quackr.io,loyalfans.com,ripe.net##app-cookie-consent
 swatch.com#$#body { overflow: visible!important; }
 jrtbinm.co.jp,mri.co.jp###gdprArea
 svitilny.eu,pricerunner.dk#$#body { overflow: visible !important; }
@@ -20447,6 +20448,7 @@ market.yandex.*##div[data-apiary-widget-name="@marketfront/DistributionLoader"]
 market.yandex.*#$?#div[data-apiary-widget-name*="/HeaderAppDistributionBanner"] { remove: true; }
 realty.ya.*##aside > div.AddOfferAppPromo
 [$path=/pogoda]yandex.*##div[class^="App"][class*="Promo"]
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.configured-xpromo
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault()')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.rpl-scroll-lock:not(#style_important) { overflow: auto !important; }
@@ -21790,6 +21792,7 @@ yourchannel.blog.jp#@##app-follow-banner
 instagram.com#$?#div[class]:has(> div[class]:first-child > a[href="/explore/people/"]) { position: absolute !important; left: -3000px !important; }
 instagram.com#?#div[style*="opacity"] > div > div[class]:has(> div[class] > div[style] > div[style] > div[aria-labelledby] > div[class]:last-child > button)
 instagram.com##._aagw:empty
+reddit.com##faceplate-tracker[noun="static_left_rail_banner"]
 rajcet.com##.entry-content > [class^="wp-block-"]
 rajcet.com##.inside-article > [class]:not(.entry-content)
 hosyusokuhou.jp##.entrybody > table.abox ~ iframe[title="YouTube video player"]
@@ -25065,6 +25068,7 @@ softpedia.com#$#iframe.swipebox-rightxd[id="relcontent"] { top: 60px!important; 
 !##############################
 !######### JS tweaks ##########
 !##############################
+otakufilmes.org#%#//scriptlet('adjust-setTimeout', 'Counter', '*', '0.001')
 masrawytrend.com#%#//scriptlet('adjust-setInterval', 'clearInterval')
 melhoresreceitas.blog#%#//scriptlet('adjust-setInterval', 'clearInterval')
 melhoresreceitas.blog#%#//scriptlet('adjust-setTimeout', 'tick')

@@ -2593,6 +2593,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+chatai.org##.chatgpt-cookie
 makeship.com##.fixed.bottom-0:has(> div > p > a[href="/policies/cookies-policy"])
 ||vercel.fides-cdn.ethyca.com/fides.js
 infrawire.net##.sm\:w-auto.sm\:p-4.z-\[99999\]
@@ -9130,7 +9131,7 @@ yubico.com##.cookie-notice-big
 rasmussen.edu###cookies-tracking
 teroplan.*##.ep-cookies-info-wrapper
 eurotherm.com##.site-cookie-pref
-dropreference.com,quackr.io,loyalfans.com,ripe.net##app-cookie-consent
+authorized.by,dropreference.com,quackr.io,loyalfans.com,ripe.net##app-cookie-consent
 swatch.com#$#div[data-widget="explicitCookieModal"] { display: none!important; }
 swatch.com#$#.b-modal_overlay { display: none!important; }
 swatch.com#$#body { overflow: visible!important; }
@@ -41931,6 +41932,7 @@ realty.ya.*##.SmartBanner
 !
 !
 !
+reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.configured-xpromo
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'touchmove', '.preventDefault()')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#%#//scriptlet('prevent-addEventListener', 'wheel', 'preventDefault()')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion#$#.rpl-scroll-lock:not(#style_important) { overflow: auto !important; }
@@ -43416,6 +43418,8 @@ instagram.com##._aagw:empty
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/237614
+reddit.com##faceplate-tracker[noun="static_left_rail_banner"]
 ! https://github.com/AdguardTeam/AdguardFilters/issues/237976
 ! gplinks.co
 rajcet.com##.entry-content > [class^="wp-block-"]
@@ -51802,6 +51806,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/238502
+otakufilmes.org#%#//scriptlet('adjust-setTimeout', 'Counter', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238012
 masrawytrend.com#%#//scriptlet('adjust-setInterval', 'clearInterval')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/235899
@@ -53383,6 +53389,7 @@ twgreatdaily.com$$script:contains(indexOf|css|fn|this|attr|unselectable|console|
 ! NOTE: Context menu (mixed rules) end ⬆️
 ! !SECTION: Tweaks - Context menu (mixed rules)
 !
+
 !-------------------------------------------------------------------!
 !---------------------- Widgets ------------------------------------!
 !-------------------------------------------------------------------!

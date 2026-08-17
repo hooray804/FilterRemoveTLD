@@ -2593,6 +2593,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+chatai.org##.chatgpt-cookie
 makeship.com##.fixed.bottom-0:has(> div > p > a[href="/policies/cookies-policy"])
 ||vercel.fides-cdn.ethyca.com/fides.js
 infrawire.net##.sm\:w-auto.sm\:p-4.z-\[99999\]
@@ -9130,7 +9131,7 @@ yubico.com##.cookie-notice-big
 rasmussen.edu###cookies-tracking
 teroplan.*##.ep-cookies-info-wrapper
 eurotherm.com##.site-cookie-pref
-dropreference.com,quackr.io,loyalfans.com,ripe.net##app-cookie-consent
+authorized.by,dropreference.com,quackr.io,loyalfans.com,ripe.net##app-cookie-consent
 swatch.com#$#div[data-widget="explicitCookieModal"] { display: none!important; }
 swatch.com#$#.b-modal_overlay { display: none!important; }
 swatch.com#$#body { overflow: visible!important; }
