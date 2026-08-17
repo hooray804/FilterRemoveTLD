@@ -8742,7 +8742,7 @@ toppreise.ch##.Plugin_WeUseCookies
 belgaimage.be###ctr-cookies
 hydra.bot###__layout > div > .flex-wrap.items-center.rounded-lg.fixed.bottom-0.max-w-screen-md
 litmind.*###bottom_notice
-doppelherz.*##div[data-cookie-banner]
+fygonas.com,doppelherz.*##div[data-cookie-banner]
 craft-cv.com###rodo_notice
 ||xsuite.com/typo3conf/ext/cu_cookies/
 realme.com##.r-cookie-footer ~ div.mask-untouch
