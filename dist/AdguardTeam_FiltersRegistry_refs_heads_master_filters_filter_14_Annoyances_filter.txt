@@ -30200,6 +30200,7 @@ urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingb
 !
 ! SECTION: Subscriptions - Regular rules
 !
+unisender.com###footer ~ div.btn-floating[data-hash]
 ernax.pro##body > #root ~ div.fixed.inset-0
 primeshows.org##a[href^="https://discord.gg"]
 primeshows.org##a[href^="https://discord.gg"] + button
