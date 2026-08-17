@@ -5435,7 +5435,7 @@ growdiaries.com##.popup_secure:has(a[href="/policy"])
 serif.com##div[aria-labelledby="cookie-heading"]
 torggler.com##.wf-cookie-consent
 sportaustria.at##div[data-extension="consent_manager"]
-workspace.nexos.ai,nordprotect.com,nordstellar.com,saily.com###consent-widget-container
+coveron.com,workspace.nexos.ai,nordprotect.com,nordstellar.com,saily.com###consent-widget-container
 jod.jsports.co.jp##.o-app-cvArea
 deal.by##div[data-testid="backdrop"]
 deal.by###react-portal > div > div[role="presentation"]:has(footer + div > div > div > button)
@@ -38501,6 +38501,7 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+finance.eastmoney.com##div[id^="ad_context"]:has(> a[href^="javascript:"], > div[class^="ad"] > img)
 manhuaren.com##.info-top-banner-card
 manhuaren.com###tc-cover-wrap
 manhuaren.com##div.guide >img[src][onclick^="$('.guide')"]
@@ -42225,6 +42226,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+centralwesterndaily.com.au##div[class="block md:hidden bg-gray-600"]
 m.bunjang.co.kr##footer > a[href="https://go.bgzt.link/app"]
 m.bunjang.co.kr##header section[class*="_top-banner_"]:has( > section >  a[href="https://go.bgzt.link/app"])
 m.bunjang.co.kr#%#//scriptlet('trusted-click-element', '.bun-ui-bottom-sheet-portal:has(.bun-ui-bottom-sheet > section[class^="BottomSheet_bodyRecipe__"] > img[src^="/static/media/app-nudge."]) .bun-ui-bottom-sheet-dim')
@@ -43346,6 +43348,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_ext
 !+ PLATFORM(ios) NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
 !
+
 !
 ! This section contains the list of rules that fix incorrect blocking of mobile app banners. Rules should be domain-specific.
 !
@@ -50257,8 +50260,6 @@ thelocal.*#$#.tp-backdrop.tp-active { display: none !important; }
 thelocal.*#$?#body.tp-modal-open { overflow: auto !important; position: static !important; touch-action: unset !important; background: unset !important; }
 ! https://github.com/Yuki2718/adblock/issues/60
 famitsu.com#?#.banner-ad-mark:upward(1)
-! https://github.com/AdguardTeam/AdguardFilters/issues/122870
-! https://github.com/AdguardTeam/AdguardFilters/issues/188789
 ! sueddeutsche.de - self-promo at end of article
 ! computerbase.de - self-promo in article at bottom
 ! https://github.com/AdguardTeam/AdguardFilters/issues/120219
