@@ -1,9 +1,9 @@
-! Checksum: bwSYy8Q9JTotWIXcUszgVQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786961780-3600.patch
+! Checksum: TU5Dz7FjKv/aPd/WSl+CtQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786965153-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.93
-! TimeUpdated: 2026-08-17T10:13:52+00:00
+! Version: 2.2.75.94
+! TimeUpdated: 2026-08-17T11:09:45+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -18728,6 +18728,9 @@ jp,com##.header__banner[href="https://apps.apple.com/jp/app/fanmily/id1485686155
 ###appss
 ##[onclick="goAppHtml();"]
 rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,kocailem.com,dartworld.shopgate.com,allo.ua,tempo.co,beymen.com,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,tesco.hu,prima.hu,lcwaikiki.com,m.sigrun-woehr.com,m.computeruniverse.net,meduza.io##body .smartbanner
+manhuaren.com##.info-top-banner-card
+manhuaren.com###tc-cover-wrap
+manhuaren.com##div.guide >img[src][onclick^="$('.guide')"]
 7fon.org###cbox > div#tmbox:has(> div > iframe[src^="https://7fon.org/goapp.php"])
 7fon.org###rgform
 sports.yahoo.co.jp##main > section.sn-modList:has(> ul.sn-articleList img[src*="/promotion/follow/"])
@@ -26844,6 +26847,7 @@ blog.livedoor.jp##div[class^="shitarss_"]
 blog.livedoor.jp##div[id^="shitarss_title_"]
 ~sinoptik.ua###SinoptikInformer
 ##a[title="WhatsApp Newsletter Marketing"]
+/CxRobotSdkJs.js
 .az/livechat/
 /crm/site_button/loader_*.js$domain=~tvoe.live
 /Jetlink.js
@@ -26851,7 +26855,6 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 /wp-content/plugins/bazz-callback-widget/*
 /wp-content/plugins/click-to-chat-for-whatsapp/new/inc/assets/js/app.js
 /wp-content/plugins/elfsight-whatsapp-chat-cc/*
-/CxRobotSdkJs.js
 ||prod.oddsmind.ai/js/oddsmind-chat.min.js$third-party
 ||widget.yourgood.app^
 ||cdn.helvia.io^$third-party

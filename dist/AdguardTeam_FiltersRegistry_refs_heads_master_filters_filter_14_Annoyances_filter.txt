@@ -38501,6 +38501,9 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+manhuaren.com##.info-top-banner-card
+manhuaren.com###tc-cover-wrap
+manhuaren.com##div.guide >img[src][onclick^="$('.guide')"]
 7fon.org###cbox > div#tmbox:has(> div > iframe[src^="https://7fon.org/goapp.php"])
 7fon.org###rgform
 sports.yahoo.co.jp##main > section.sn-modList:has(> ul.sn-articleList img[src*="/promotion/follow/"])
@@ -54773,6 +54776,7 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 ~sinoptik.ua###SinoptikInformer
 ##a[title="WhatsApp Newsletter Marketing"]
 !
+/CxRobotSdkJs.js
 .az/livechat/
 /crm/site_button/loader_*.js$domain=~tvoe.live
 /edugram_chat.js
@@ -54792,7 +54796,6 @@ blog.livedoor.jp##div[id^="shitarss_title_"]
 !
 !   SECTION: Widgets - Marketing (third-party services)
 !
-/CxRobotSdkJs.js
 ||prod.oddsmind.ai/js/oddsmind-chat.min.js$third-party
 ||widget.yourgood.app^
 ||cdn.helvia.io^$third-party
