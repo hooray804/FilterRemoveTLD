@@ -30203,6 +30203,9 @@ urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingb
 !
 ! SECTION: Subscriptions - Regular rules
 !
+ren.tv##div[class^="MaxBanner_"]
+qz.com##div[data-element-name="newsletter_signup_block"]
+qz.com#%#//scriptlet('set-cookie', 'exitIntentShown', 'true')
 theroot.com###tnp-subscription-posts
 theroot.com##.wp-block-column:has(> div.newslettersignup)
 unisender.com###footer ~ div.btn-floating[data-hash]
