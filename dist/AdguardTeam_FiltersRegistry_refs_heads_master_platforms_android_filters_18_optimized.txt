@@ -1,9 +1,9 @@
-! Checksum: ERiqvis9b4g8+mVp8qxgmQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1786958477-3600.patch
+! Checksum: YWOGe8biuQSC02E+umruEw
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1786961782-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.20
-! TimeUpdated: 2026-08-17T09:18:48+00:00
+! Version: 2.0.92.21
+! TimeUpdated: 2026-08-17T10:13:58+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1453,7 +1453,7 @@ lexpress.eu,letelegramme.fr,24sata.hr,lalibre.be,index.hr,nrj-play.fr,movilzona.
 24sata.hr,index.hr#%#//scriptlet('trusted-click-element', '#didomi-radio-option-disagree-to-all', '', '500')
 24sata.hr,index.hr#%#//scriptlet('trusted-click-element', '#btn-toggle-save', '', '700')
 nieuwsblad.be,sydsvenskan.se,softonic.com#%#//scriptlet('trusted-click-element', '#didomi-notice-learn-more-button, #btn-toggle-disagree')
-plainapp.app,rayname.com,openinbox.io,union-crax.xyz,worldclapday.com,aladinia.app,yorkhost.fr,synerise.com,procomic.pro,theredtool.com,fireani.me,emule-security.org,packsmc.com,zamantika.com,adahost.net,uvrvocalremover.com,esim.dog,sahadan.com,wecoach.gg,bdtickets.com,update.kia.com,ankahaber.net,minimax.io,playerswitch.com,enucuzsistem.com,ustabilir.com,tripon.app,newjeans.jp,foodista.com,preconsent.io,bishopfox.com,infoas.ro,faceiqlabs.com,chessarena.gg,onefiit.com,dobrygabinet.com,allyouplay.com,smartport.com,hellorive.fun,oppaiman.com,tempemail.cc,erosmate.ai,accuratescribe.ai,tubewav.com,enhypen-jp.weverse.io,otb.net,tiklagelsin.com,arkm.com,gamehypes.com,subeasy.ai,cdek.shopping,meizu.com,chofu-culture-community.org,japan47go.travel,takehost.biz,gfagames.com,dermatocare.com,npistanbul.com,riaj.or.jp,esng.one,ptsecurity.com,megav.app,pilkareczna.com,phocassoftware.com,parsify.se,sanluca.cc,cloudstick.io,focus-entmt.com,fusocanter.com,georgian-airways.com,strinova.com,russia-tv.online,animalpolitico.com,help.openai.com,ntvspor.net,sakh.online,frontieresmedia.fr,70mai.com,frontage.jp,wallpaperlossless.com,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,home.id,metadefender.com,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,csirt.gov.it,dashlane.com,versuni.com,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+zimaspace.com,plainapp.app,rayname.com,openinbox.io,union-crax.xyz,worldclapday.com,aladinia.app,yorkhost.fr,synerise.com,procomic.pro,theredtool.com,fireani.me,emule-security.org,packsmc.com,zamantika.com,adahost.net,uvrvocalremover.com,esim.dog,sahadan.com,wecoach.gg,bdtickets.com,update.kia.com,ankahaber.net,minimax.io,playerswitch.com,enucuzsistem.com,ustabilir.com,tripon.app,newjeans.jp,foodista.com,preconsent.io,bishopfox.com,infoas.ro,faceiqlabs.com,chessarena.gg,onefiit.com,dobrygabinet.com,allyouplay.com,smartport.com,hellorive.fun,oppaiman.com,tempemail.cc,erosmate.ai,accuratescribe.ai,tubewav.com,enhypen-jp.weverse.io,otb.net,tiklagelsin.com,arkm.com,gamehypes.com,subeasy.ai,cdek.shopping,meizu.com,chofu-culture-community.org,japan47go.travel,takehost.biz,gfagames.com,dermatocare.com,npistanbul.com,riaj.or.jp,esng.one,ptsecurity.com,megav.app,pilkareczna.com,phocassoftware.com,parsify.se,sanluca.cc,cloudstick.io,focus-entmt.com,fusocanter.com,georgian-airways.com,strinova.com,russia-tv.online,animalpolitico.com,help.openai.com,ntvspor.net,sakh.online,frontieresmedia.fr,70mai.com,frontage.jp,wallpaperlossless.com,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,home.id,metadefender.com,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,csirt.gov.it,dashlane.com,versuni.com,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#.mnd-cookie-modal { display: none !important; }
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#.mnd-cookie-modal ~ div.js--overlay { display: none !important; }
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#html { overflow: auto!important; position: inherit!important; }
@@ -1540,6 +1540,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+yenialanya.com#$#.js-cookie-consent { position: absolute !important; left: -9999px !important; }
 trustmate.io##div[class^="Cookies_content"]
 chatai.org##.chatgpt-cookie
 makeship.com##.fixed.bottom-0:has(> div > p > a[href="/policies/cookies-policy"])
@@ -1815,7 +1816,7 @@ nikkinonline.com,ranking.sanrio.co.jp###datasign_cmp__host
 some.porn###app-cookie
 ruplay.market#%#//scriptlet('set-local-storage-item', 'policyAccepted', 'false')
 taketaketake.com#%#//scriptlet('set-local-storage-item', 'takex3.cookie-consent', 'accepted')
-mangodeveloper.com,nelvix.xyz,update.kia.com##.fixed.inset-0
+chatlab.com,mangodeveloper.com,nelvix.xyz,update.kia.com##.fixed.inset-0
 creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection', '', '500')
 creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonMarketing')
 c-date.com,c-date.it,c-date.co.uk,c-date.at,c-date.ch,c-date.*#$#.ipx_cookie_overlay { display: none !important; }

@@ -1,9 +1,9 @@
-! Checksum: dcd2xzVFNEu+J2ktJmzawQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1786958504-3600.patch
+! Checksum: tmr71B58hShw1my4ajWsTQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1786961812-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.92
-! TimeUpdated: 2026-08-17T09:18:41+00:00
+! Version: 2.2.75.93
+! TimeUpdated: 2026-08-17T10:13:52+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1585,7 +1585,7 @@ lexpress.eu,letelegramme.fr,24sata.hr,lalibre.be,index.hr,nrj-play.fr,movilzona.
 24sata.hr,index.hr#%#//scriptlet('trusted-click-element', '#didomi-radio-option-disagree-to-all', '', '500')
 24sata.hr,index.hr#%#//scriptlet('trusted-click-element', '#btn-toggle-save', '', '700')
 nieuwsblad.be,sydsvenskan.se,softonic.com#%#//scriptlet('trusted-click-element', '#didomi-notice-learn-more-button, #btn-toggle-disagree')
-plainapp.app,rayname.com,openinbox.io,union-crax.xyz,worldclapday.com,aladinia.app,yorkhost.fr,synerise.com,procomic.pro,theredtool.com,fireani.me,emule-security.org,packsmc.com,zamantika.com,adahost.net,uvrvocalremover.com,esim.dog,sahadan.com,wecoach.gg,bdtickets.com,update.kia.com,ankahaber.net,minimax.io,playerswitch.com,enucuzsistem.com,ustabilir.com,tripon.app,newjeans.jp,foodista.com,preconsent.io,bishopfox.com,infoas.ro,faceiqlabs.com,chessarena.gg,onefiit.com,dobrygabinet.com,allyouplay.com,smartport.com,hellorive.fun,oppaiman.com,tempemail.cc,erosmate.ai,accuratescribe.ai,tubewav.com,enhypen-jp.weverse.io,otb.net,tiklagelsin.com,arkm.com,gamehypes.com,subeasy.ai,cdek.shopping,meizu.com,chofu-culture-community.org,japan47go.travel,takehost.biz,gfagames.com,dermatocare.com,npistanbul.com,riaj.or.jp,esng.one,ptsecurity.com,megav.app,pilkareczna.com,phocassoftware.com,parsify.se,sanluca.cc,cloudstick.io,focus-entmt.com,fusocanter.com,georgian-airways.com,strinova.com,russia-tv.online,animalpolitico.com,help.openai.com,ntvspor.net,sakh.online,frontieresmedia.fr,70mai.com,frontage.jp,wallpaperlossless.com,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,home.id,metadefender.com,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,csirt.gov.it,dashlane.com,versuni.com,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+zimaspace.com,plainapp.app,rayname.com,openinbox.io,union-crax.xyz,worldclapday.com,aladinia.app,yorkhost.fr,synerise.com,procomic.pro,theredtool.com,fireani.me,emule-security.org,packsmc.com,zamantika.com,adahost.net,uvrvocalremover.com,esim.dog,sahadan.com,wecoach.gg,bdtickets.com,update.kia.com,ankahaber.net,minimax.io,playerswitch.com,enucuzsistem.com,ustabilir.com,tripon.app,newjeans.jp,foodista.com,preconsent.io,bishopfox.com,infoas.ro,faceiqlabs.com,chessarena.gg,onefiit.com,dobrygabinet.com,allyouplay.com,smartport.com,hellorive.fun,oppaiman.com,tempemail.cc,erosmate.ai,accuratescribe.ai,tubewav.com,enhypen-jp.weverse.io,otb.net,tiklagelsin.com,arkm.com,gamehypes.com,subeasy.ai,cdek.shopping,meizu.com,chofu-culture-community.org,japan47go.travel,takehost.biz,gfagames.com,dermatocare.com,npistanbul.com,riaj.or.jp,esng.one,ptsecurity.com,megav.app,pilkareczna.com,phocassoftware.com,parsify.se,sanluca.cc,cloudstick.io,focus-entmt.com,fusocanter.com,georgian-airways.com,strinova.com,russia-tv.online,animalpolitico.com,help.openai.com,ntvspor.net,sakh.online,frontieresmedia.fr,70mai.com,frontage.jp,wallpaperlossless.com,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,home.id,metadefender.com,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,csirt.gov.it,dashlane.com,versuni.com,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#.mnd-cookie-modal { display: none !important; }
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#.mnd-cookie-modal ~ div.js--overlay { display: none !important; }
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#html { overflow: auto!important; position: inherit!important; }
@@ -1672,6 +1672,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+yenialanya.com#$#.js-cookie-consent { position: absolute !important; left: -9999px !important; }
 trustmate.io##div[class^="Cookies_content"]
 chatai.org##.chatgpt-cookie
 makeship.com##.fixed.bottom-0:has(> div > p > a[href="/policies/cookies-policy"])
@@ -1948,7 +1949,7 @@ nikkinonline.com,ranking.sanrio.co.jp###datasign_cmp__host
 some.porn###app-cookie
 ruplay.market#%#//scriptlet('set-local-storage-item', 'policyAccepted', 'false')
 taketaketake.com#%#//scriptlet('set-local-storage-item', 'takex3.cookie-consent', 'accepted')
-mangodeveloper.com,nelvix.xyz,update.kia.com##.fixed.inset-0
+chatlab.com,mangodeveloper.com,nelvix.xyz,update.kia.com##.fixed.inset-0
 creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection', '', '500')
 creator.fronius.com#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonMarketing')
 c-date.com,c-date.it,c-date.co.uk,c-date.at,c-date.ch,c-date.*#$#.ipx_cookie_overlay { display: none !important; }
@@ -19156,6 +19157,8 @@ jp,com##.header__banner[href="https://apps.apple.com/jp/app/fanmily/id1485686155
 !+ PLATFORM(ios)
 #$?#meta[name="apple-itunes-app"] { remove: true; }
 rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota.by,temp-mail.org,5-fifth.com,news.sky.com,chat.babel.com,getwordly.com,school-turnup.com,kocailem.com,dartworld.shopgate.com,allo.ua,tempo.co,beymen.com,outsidetv.com,golfchannel.com,sportsnet.ca,euronews.com,tesco.hu,prima.hu,lcwaikiki.com,m.sigrun-woehr.com,m.computeruniverse.net,meduza.io##body .smartbanner
+7fon.org###cbox > div#tmbox:has(> div > iframe[src^="https://7fon.org/goapp.php"])
+7fon.org###rgform
 sports.yahoo.co.jp##main > section.sn-modList:has(> ul.sn-articleList img[src*="/promotion/follow/"])
 9xbuddy.in,9xbuddy.*#%#//scriptlet('set-session-storage-item', 'promo_popup_dismissed', '1')
 scamadviser.com##main > section.section-with-card:has(> div.container-lg > div.link-container > a[href="https://app-download.scamadviser.com/"])
@@ -27531,6 +27534,7 @@ daddyhd.com##.sidebar__inner
 ||zoom.us/*/web-sdk/zcc-sdk.js$domain=fullcompass.com
 ||widget.intercom.io^$domain=appmaster.io|internxt.com|mainwp.com
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
+chatlab.com##.rcw-widget-container
 careers.dhl.com##.phenom-chatbot-wrapper
 superpower.com###lorikeet-widget-shadow-host
 namesilo.com##.ai-chat-widget-container
