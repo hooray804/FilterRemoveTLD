@@ -30221,6 +30221,7 @@ saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sp
 !
 ! SECTION: Subscriptions - Regular rules
 !
+techbang.com##.newsletter2in1
 masa.media###subscribe-box
 kursiv.media##.social-media-bar
 5gum.com##.news-letter--loaded
