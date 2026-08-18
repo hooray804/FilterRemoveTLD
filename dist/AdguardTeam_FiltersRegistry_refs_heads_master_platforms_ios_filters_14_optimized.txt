@@ -1,13 +1,14 @@
-! Checksum: 76Qj1z4UV6nMFRg6tfeQig
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787055352-3600.patch
+! Checksum: Eu1b+DsEAMiMP/YxRz/wwg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787059479-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.8
-! TimeUpdated: 2026-08-18T12:12:32+00:00
+! Version: 2.2.76.9
+! TimeUpdated: 2026-08-18T13:21:29+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
 !#######################################################
+###megacookieeu
 ##.ins-v-cookie-alert
 ###surecookie-public-root
 ##.gt-cookie-bar
@@ -1584,7 +1585,7 @@ lexpress.eu,letelegramme.fr,24sata.hr,lalibre.be,index.hr,nrj-play.fr,movilzona.
 24sata.hr,index.hr#%#//scriptlet('trusted-click-element', '#didomi-radio-option-disagree-to-all', '', '500')
 24sata.hr,index.hr#%#//scriptlet('trusted-click-element', '#btn-toggle-save', '', '700')
 nieuwsblad.be,sydsvenskan.se,softonic.com#%#//scriptlet('trusted-click-element', '#didomi-notice-learn-more-button, #btn-toggle-disagree')
-sifiraracal.com,zimaspace.com,plainapp.app,rayname.com,openinbox.io,union-crax.xyz,worldclapday.com,aladinia.app,yorkhost.fr,synerise.com,procomic.pro,theredtool.com,fireani.me,emule-security.org,packsmc.com,zamantika.com,adahost.net,uvrvocalremover.com,esim.dog,sahadan.com,wecoach.gg,bdtickets.com,update.kia.com,ankahaber.net,minimax.io,playerswitch.com,enucuzsistem.com,ustabilir.com,tripon.app,newjeans.jp,foodista.com,preconsent.io,bishopfox.com,infoas.ro,faceiqlabs.com,chessarena.gg,onefiit.com,dobrygabinet.com,allyouplay.com,smartport.com,hellorive.fun,oppaiman.com,tempemail.cc,erosmate.ai,accuratescribe.ai,tubewav.com,enhypen-jp.weverse.io,otb.net,tiklagelsin.com,arkm.com,gamehypes.com,subeasy.ai,cdek.shopping,meizu.com,chofu-culture-community.org,japan47go.travel,takehost.biz,gfagames.com,dermatocare.com,npistanbul.com,riaj.or.jp,esng.one,ptsecurity.com,megav.app,pilkareczna.com,phocassoftware.com,parsify.se,sanluca.cc,cloudstick.io,focus-entmt.com,fusocanter.com,georgian-airways.com,strinova.com,russia-tv.online,animalpolitico.com,help.openai.com,ntvspor.net,sakh.online,frontieresmedia.fr,70mai.com,frontage.jp,wallpaperlossless.com,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,home.id,metadefender.com,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,csirt.gov.it,dashlane.com,versuni.com,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
+autoviatest.com,sifiraracal.com,zimaspace.com,plainapp.app,rayname.com,openinbox.io,union-crax.xyz,worldclapday.com,aladinia.app,yorkhost.fr,synerise.com,procomic.pro,theredtool.com,fireani.me,emule-security.org,packsmc.com,zamantika.com,adahost.net,uvrvocalremover.com,esim.dog,sahadan.com,wecoach.gg,bdtickets.com,update.kia.com,ankahaber.net,minimax.io,playerswitch.com,enucuzsistem.com,ustabilir.com,tripon.app,newjeans.jp,foodista.com,preconsent.io,bishopfox.com,infoas.ro,faceiqlabs.com,chessarena.gg,onefiit.com,dobrygabinet.com,allyouplay.com,smartport.com,hellorive.fun,oppaiman.com,tempemail.cc,erosmate.ai,accuratescribe.ai,tubewav.com,enhypen-jp.weverse.io,otb.net,tiklagelsin.com,arkm.com,gamehypes.com,subeasy.ai,cdek.shopping,meizu.com,chofu-culture-community.org,japan47go.travel,takehost.biz,gfagames.com,dermatocare.com,npistanbul.com,riaj.or.jp,esng.one,ptsecurity.com,megav.app,pilkareczna.com,phocassoftware.com,parsify.se,sanluca.cc,cloudstick.io,focus-entmt.com,fusocanter.com,georgian-airways.com,strinova.com,russia-tv.online,animalpolitico.com,help.openai.com,ntvspor.net,sakh.online,frontieresmedia.fr,70mai.com,frontage.jp,wallpaperlossless.com,worksponsors.co.uk,tanstack.com,baomoi.com,newschecker.in,dicloak.com,obejrzyj.to,komdigi.go.id,home.id,metadefender.com,vegasslotsonline.com,mod.gov.ua,newsbreak.com,pump.fun,onsk.no,penger.no,tina.io,regiojet.cz,csirt.gov.it,dashlane.com,versuni.com,appbazar.am,specialscomedy.com,rentingcarz.com,piknicelectronik.com,yubico.com,visualdesigncafe.com,terredeliens.org,phdays.com,parqet.com,opening-hours.today,bsbfashion.com,greenmatch.co.uk,unox.com,truecaller.com##.fixed.bottom-0
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#.mnd-cookie-modal { display: none !important; }
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#.mnd-cookie-modal ~ div.js--overlay { display: none !important; }
 vandenhoeck-ruprecht-verlage.com,businesshemden.com#$#html { overflow: auto!important; position: inherit!important; }
@@ -5231,8 +5232,8 @@ zlavomat.sk#$#body { overflow: auto !important; padding-right: 0 !important; }
 navitime.com###cookie-notice-section
 inbank.ee#$#div[id^="cookie-consent-modal"] { display: none !important; }
 inbank.ee#$#body.modal-open { overflow: visible !important; padding-right: 0 !important; }
-bgasecurity.com,natterhub.com,rheumaliga.ch,atmoskop.cz,pulser.hr,airindia.com#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
-bgasecurity.com,natterhub.com,rheumaliga.ch,atmoskop.cz,pulser.hr,airindia.com#$##cc--main { display: none !important; }
+spar-mit.com,bgasecurity.com,natterhub.com,rheumaliga.ch,atmoskop.cz,pulser.hr,airindia.com#$#html.force--consent.show--consent:not(#style_important) { overflow: auto !important; }
+spar-mit.com,bgasecurity.com,natterhub.com,rheumaliga.ch,atmoskop.cz,pulser.hr,airindia.com#$##cc--main { display: none !important; }
 soulkyn.com#$##cc-main { display: none !important; }
 ||consent.prointernet.com/consent.js
 thaiza.com##.ck-acpt-container
@@ -11065,6 +11066,8 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 ###credential_picker_iframe
 /.*/$permissions=identity-credentials-get=(),document
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+7reels.cc#%#//scriptlet('trusted-click-element', '.inset-0.fixed > button > span.sr-only')
+spar-mit.com###callBackBanner
 cine.su##.pwaCtaWrap
 muko.kr#%#//scriptlet('set-cookie', 'muko_gs_modal_dismissed', '1')
 fireflix.pages.dev##div[aria-labelledby="discord-popup-title"]
@@ -11196,8 +11199,7 @@ euyansang.com#$##newsletter-popup { display: none !important; }
 youtubetotranscript.com###api-floating-card
 hardlinenutrition.com#$#body { overflow: auto !important; }
 fast-growing-trees.com##.transition-transform.bottom-0.fixed
-7reels.cc,fast-growing-trees.com#$#.inset-0.fixed { display: none !important; }
-7reels.cc,fast-growing-trees.com#$#body[data-scroll-locked] { overflow: auto !important; overscroll-behavior: auto !important; pointer-events: auto !important; }
+fast-growing-trees.com#$#.inset-0.fixed { display: none !important; }
 cookcraftandcreate.com##.hustle-popup
 leawo.org###proPop
 pc.game.iqiyi.com##.home > .tips
