@@ -1,9 +1,9 @@
-! Checksum: A8wRRYqUVSXgsoLbd1XwPw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787020298-3600.patch
+! Checksum: ce8faBpvtDIn+FrRZYtpYg
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787023481-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.75.99
-! TimeUpdated: 2026-08-18T02:28:11+00:00
+! Version: 2.2.76.0
+! TimeUpdated: 2026-08-18T03:21:13+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1671,6 +1671,8 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+instyle.com#%#//scriptlet('trusted-set-cookie', 'OptanonConsent', 'groups=2%3A0%2C4%3A0%2C1%3A1%2C3%3A0', '', '/', 'instyle.com')
+instyle.com#%#//scriptlet('trusted-set-cookie', 'OptanonAlertBoxClosed', '$currentISODate$', '', '/', 'instyle.com')
 rapy.gg#%#//scriptlet('set-local-storage-item', 'cookies-accepted', 'true')
 xxlgamer.*##.cookie-consest
 yenialanya.com#$#.js-cookie-consent { position: absolute !important; left: -9999px !important; }
@@ -8042,6 +8044,7 @@ alexela.ee,alexela.lv#@#.c-cookie
 @@||sdk.privacy-center.org^$domain=rtbf.be
 @@||usercentrics.eu^$domain=conrad.*
 @@||cdn.cookielaw.org^$domain=people.com
+@@||cdn.cookielaw.org/consent/*.json$domain=instyle.com
 instyle.com#@##onetrust-consent-sdk
 @@||sdk.privacy-center.org^$domain=mediasetinfinity.es
 @@||cdn.privacy-mgmt.com/privacy-manager/index.html$domain=motorsport.com
@@ -11058,6 +11061,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 ###credential_picker_iframe
 /.*/$permissions=identity-credentials-get=(),document
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+muko.kr#%#//scriptlet('set-cookie', 'muko_gs_modal_dismissed', '1')
 fireflix.pages.dev##div[aria-labelledby="discord-popup-title"]
 ||duplichecker.com/a6c2/tkkk.js
 youshows.org#%#//scriptlet('set-local-storage-item', 'youshows_ads_notice_seen', 'true')
@@ -15013,6 +15017,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,t
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
 saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com,clubic.com,sugarfreelondoner.com,dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,progameguides.com,euronews.com,rtl.be,daily.co.jp,autoblog.com,haberturk.com,kp.ua,rotaborsa.com,mid-day.com,betaprofiles.com,news.tv-asahi.co.jp,zakzak.co.jp,donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gigazine.net,football24.ua,47news.jp,stuff.co.nz,eleconomista.es,skateboarding.com,ua.tribuna.com,bloomberght.com,thestreet.com,redmas.com.co,record.pt,zamin.uz,thesun.co.uk,footballtransfers.com,gamingbible.com,yenisafak.com,sportsdunia.com,bsc.news,movilzona.es,isinolsa.com,gendai.media,clutchpoints.com,hisse.net,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,gzt.com,crash.net,foxsports.com.mx,theguardian.com,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+kapital.kz##aside > div[data-size="common"]:has(> form[action$=".list-manage.com/subscribe"])
+kapital.kz##article > a[href="https://t.me/kapitalkz"]
+kazpravda.kz##.subscribe-teaser
 duplichecker.com##div.col-xs-12 > div.foot-last-zone:has(> img[alt="Subscribe"])
 ren.tv##div[class^="MaxBanner_"]
 qz.com##div[data-element-name="newsletter_signup_block"]
