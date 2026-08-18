@@ -2593,6 +2593,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+otovadeli.com###cookiespool-banner
 instyle.com#%#//scriptlet('trusted-set-cookie', 'OptanonConsent', 'groups=2%3A0%2C4%3A0%2C1%3A1%2C3%3A0', '', '/', 'instyle.com')
 instyle.com#%#//scriptlet('trusted-set-cookie', 'OptanonAlertBoxClosed', '$currentISODate$', '', '/', 'instyle.com')
 rapy.gg#%#//scriptlet('set-local-storage-item', 'cookies-accepted', 'true')
@@ -30163,7 +30164,7 @@ aol.com#$#.banner-active { margin-top: 0 !important; }
 !
 ! common names
 ! ###newsletter
-farmaciasdesimilares.com,applesfera.com,xatakamovil.com,scientificamerican.com,inderes.fi,food.com,voidzero.dev,joindns4.eu,draculatheme.com,milanjovanovic.tech,finalspark.com,gamesradar.com,vimeo.com,bestmovie.it,fujinkoron.jp,territoriosamsung.com,lpnt.fr,casabrutus.com,ginzamag.com,lepoint.fr,itpro.com,epe.es,net.hr,phenomenalworld.org,imore.com,hgtv.ca,coachweb.com,opendemocracy.net,fangamer.jp,tvtechnology.com,dartagnan.com,corumhaber.net,blog.pragmaticengineer.com,github.blog,nilesoft.org,zonaturistica.com,cphpost.dk,xetra-gold.com,karamangundem.com,lidskae.by,gibchess.com,cinestaan.com,ladenzeile.at,thewordfinder.com,pbs.org,creditcards.com,eurowag.com,picmix.com,bloggif.com,haber50.com,apollographql.com###newsletter
+haribo.com,farmaciasdesimilares.com,applesfera.com,xatakamovil.com,scientificamerican.com,inderes.fi,food.com,voidzero.dev,joindns4.eu,draculatheme.com,milanjovanovic.tech,finalspark.com,gamesradar.com,vimeo.com,bestmovie.it,fujinkoron.jp,territoriosamsung.com,lpnt.fr,casabrutus.com,ginzamag.com,lepoint.fr,itpro.com,epe.es,net.hr,phenomenalworld.org,imore.com,hgtv.ca,coachweb.com,opendemocracy.net,fangamer.jp,tvtechnology.com,dartagnan.com,corumhaber.net,blog.pragmaticengineer.com,github.blog,nilesoft.org,zonaturistica.com,cphpost.dk,xetra-gold.com,karamangundem.com,lidskae.by,gibchess.com,cinestaan.com,ladenzeile.at,thewordfinder.com,pbs.org,creditcards.com,eurowag.com,picmix.com,bloggif.com,haber50.com,apollographql.com###newsletter
 ! ##.newsletter-form
 v-dem.net,kiwico.com,tennisuptodate.com,publicapis.io,usmagazine.com,visualstudiomagazine.com,goldsguide.com,frandroid.com,tennismajors.com,blog.google,timkadlec.com,braziljournal.com,leroymerlin.ro,sketchbook.com,haberturk.com,mel.fm,washingtonpost.com,belsat.eu,economist.com,gitlab.com##.newsletter-form
 ! ##.cta-component-half-width
