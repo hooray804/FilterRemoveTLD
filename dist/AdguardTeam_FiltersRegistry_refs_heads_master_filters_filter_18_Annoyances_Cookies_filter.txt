@@ -2769,6 +2769,7 @@ solaxpower.com##.ys-page-wrap > .slide.bottom
 ixbt.market###ixbt-consent-banner
 movino.com###gcm-cookies-info
 ||pictotraductor.com/js/gp-cookies/
+pfm.promo##.pw-cookie-container
 porkbun.com###pbUserPrefs
 degussa.com###cookieMainPage
 livesex.com##.overlay-gdpr-consent-content
@@ -3156,7 +3157,7 @@ skyscanner.cz#$##cookieBannerContent { display: none !important; }
 scan.co.uk#$#.s-popup { display: none !important; }
 scan.co.uk#$#body.popup-open { overflow: auto !important; }
 antenasgsm.com#%#//scriptlet('trusted-click-element', 'button#reject-non-essential-cookies')
-code.market,propelmusic.co.nz,lagless.gg,sotellus.com,abetterrouteplanner.com,eyou.social,getedumail.com,digiparser.com,gemini.com##div[aria-label="Cookie consent"]
+formbyeats.co.uk,code.market,propelmusic.co.nz,lagless.gg,sotellus.com,abetterrouteplanner.com,eyou.social,getedumail.com,digiparser.com,gemini.com##div[aria-label="Cookie consent"]
 ||assetlab.io/consent^$domain=theweeknd.co
 wishmaster.me###js_policy-cookie
 matterport.com##div[class^="CookieModal_CookieModal"]
