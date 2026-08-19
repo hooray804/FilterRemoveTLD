@@ -1,9 +1,9 @@
-! Checksum: vEwwlOIKEkbwJnh6c1i7wQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787152546-3600.patch
+! Checksum: 66cGkNoeS8s/U7JQsmDdlA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787159675-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.27
-! TimeUpdated: 2026-08-19T15:12:38+00:00
+! Version: 2.2.76.28
+! TimeUpdated: 2026-08-19T17:10:45+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1663,7 +1663,7 @@ consent-pref.trustarc.com#%#//scriptlet('trusted-click-element', '.gdpr a.submit
 consent-pref.trustarc.com#%#//scriptlet('trusted-click-element', 'div[aria-labelledby="cookieMainHeader"] a#gwt-debug-close_id')
 ryobitools.eu#%#//scriptlet('trusted-click-element', 'button#cookie-onetrust-accept-all', '', '1500')
 eurogamer.net,fotbollskanalen.se,si.com,nypost.com,fortune.com,schweizer-illustrierte.ch,theverge.com,lessentiel.lu,slate.com,intel.com,gardenoflife.com,drafthouse.com,uefa.com,iclicker.com,nbclosangeles.com,questdiagnostics.com,costco.ca,pokemontcgpocket.com,cyberagent.co.jp,razer.com,pearson.com,bhg.com,communityfibre.co.uk,foto-erhardt.com,seriouseats.com,gqmagazine.fr,reuters.com,foto-erhardt.fr,oe24.at,vandenborre.be,metacritic.com,crfashionbook.com,comicbook.com,metabomb.net,eurogamer.it,observatornews.ro,channel5.com,popsugar.co.uk,start.gg,milwaukeetool.eu,usmagazine.com,digitalfoundry.net,redbull.com,jetztspielen.ws,wowbiz.ro,ikonpass.com,eurogamer.es,games.miamiherald.com,olympics.com,1001spiele.at,ntvspor.net,eurogamer.it,yourdictionary.com,cnbc.com,cbsnews.com,gamespot.com,idmobile.co.uk,antena3.ro,20min.ch,wpb.shueisha.co.jp,hofer.at,sportiva.shueisha.co.jp,blog.unity.com,irishtimes.com,pushsquare.com,blaklader.*,nintendolife.com,heute.at,1001games.com,tvguide.com,gmx.com,plus.mail.com,hollywoodreporter.com,bonava.lv,eu.patagonia.com,metro.tv,kanald.ro,timeextension.com,purexbox.com,mytim.tim.it,everyeye.it,realsimple.com,eatingwell.com,motor1.com,larousse.fr,giantbomb.com,mtvuutiset.fi,elle.com,a1.ro,authentication.nutmeg.com#%#//scriptlet('trusted-click-element', '#onetrust-accept-btn-handler')
-milwaukeetool.eu#%#//scriptlet('trusted-click-element', 'button#cookie-onetrust-accept-all')
+milwaukeetool.eu#%#//scriptlet('trusted-click-element', 'button#cookie-onetrust-accept-all', '', '1500')
 cnn.com,cbssports.com,ryobitools.eu,paramountplus.com,rte.ie,allrecipes.com,instyle.com,nationalgeographic.*,liveabout.com,tomthumb.com,trimble.com#%#//scriptlet('trusted-click-element', '#onetrust-reject-all-handler')
 ryobitools.eu#%#//scriptlet('trusted-click-element', 'button#cookie-onetrust-show-info, button.save-preference-btn-handler.onetrust-close-btn-handler')
 redbull.com,eurogamer.net,fotbollskanalen.se,si.com,eatingwell.com,cnn.com,metacritic.com,theverge.com#$#body #onetrust-consent-sdk { display: none !important; }
@@ -7830,6 +7830,7 @@ adguard.info,adguard.com,adguard.app##.hello_from_adguard_apps
 !+ PLATFORM(ios) NOT_OPTIMIZED
 adguard.info,adguard.com,adguard.app#$#.hello_from_adguard_advanced_protection_ios { display: none !important; }
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=pons.com|nypost.com|ups.com|hollywoodreporter.com|resmed.com|movistar.es|redbull.com|all.accor.com|blaklader.*|wallapop.com|rts.ch|npr.org|next.co.uk|zoom.us|rtlplay.be|motorsport-total.com|mensjournal.com|gqmagazine.fr|nintendo.*|mtv.com|ryobitools.eu|cc.com|costco.com|giantbomb.com|glovoapp.com|rte.ie|digitaltrends.com|vanityfair.com|olympics.com|oe24.at|epicgames.com|natgeotv.com|midomi.com|kawasaki.com|shop.mango.com|westernunion.com|new.cappex.com|vimeo.com|heute.at|wargaming.net|metacritic.com|gq-magazine.co.uk|viafree.dk|viafree.fi|viafree.no|viafree.se|cbsnews.com|vg247.com|newyorker.com|games.miamiherald.com|eurogamer.es|bet.com|ikonpass.com|id.trimble.com|skateboarding.transworld.net|newegg.com|docs.vmware.com|udemy.com|usmagazine.com|uefa.com|milwaukeetool.eu|muscleandfitness.com|20min.ch|elisa.fi|nhl.com|porn300.com|indiewire.com|victorinox.com|darkreading.com|trustradius.com|start.gg|geappliances.com|popeyes.com|channel5.com|bigbearmountainresort.com|quora.com|blick.ch|elle.com|teenvogue.com|vogue.co.jp|vogue.co.uk|vogue.com|vogue.com.tw|vogue.es|vogue.fr|vogue.in|vogue.it|vogue.mx|vogue.ph|superporn.com|thebump.com|bk.com|safeway.com|motor1.com|southpark.lat|southparkstudios.com|realsimple.com|homedepot.ca|wired.com|jdpower.com|bonava.lv|nick.com|mtvema.com|mtv.co.uk|mtv.it|themessenger.com|nickjr.com|lnw.com|irishtimes.com|sonos.com|rentcafe.com|seriouseats.com|bhg.com|gamescom.global|championsleague.basketball|fnac.com|pagesix.com|questdiagnostics.com|kfc.fr|kfc.es|canadiantire.ca|drafthouse.com|gardenoflife.com|colliers.com|swissotel.com|darntough.com|merrell.com|ew.com|wolverine.com|saucony.com|catfootwear.com|chacos.com|hytest.com|instyle.com|allrecipes.com|support.discord.com|slate.com
+@@||consent.trustarc.com/notice$domain=talent.lowes.com
 @@||cdn.cookielaw.org/consent/*.json$domain=healthline.com
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=healthline.com
 @@||geolocation.onetrust.com/cookieconsentpub/*/geo/location$domain=healthline.com
@@ -11073,6 +11074,8 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 /.*/$permissions=identity-credentials-get=(),document
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
 socradar.io###hello_bar
+de.milwaukeetool.eu##div[class^="PopupSignUpstyles__Wrapper"]
+de.milwaukeetool.eu##div[class^="GenericPopupstyles__Container-sc"]
 7reels.cc#%#//scriptlet('trusted-click-element', '.inset-0.fixed > button > span.sr-only')
 spar-mit.com###callBackBanner
 cine.su##.pwaCtaWrap
@@ -15032,6 +15035,8 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,t
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
 haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com,clubic.com,sugarfreelondoner.com,dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,progameguides.com,euronews.com,rtl.be,daily.co.jp,autoblog.com,haberturk.com,kp.ua,rotaborsa.com,mid-day.com,betaprofiles.com,news.tv-asahi.co.jp,zakzak.co.jp,donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gigazine.net,football24.ua,47news.jp,stuff.co.nz,eleconomista.es,skateboarding.com,ua.tribuna.com,bloomberght.com,thestreet.com,redmas.com.co,record.pt,zamin.uz,thesun.co.uk,footballtransfers.com,gamingbible.com,yenisafak.com,sportsdunia.com,bsc.news,movilzona.es,isinolsa.com,gendai.media,clutchpoints.com,hisse.net,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,gzt.com,crash.net,foxsports.com.mx,theguardian.com,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+habervitrini.com##div.mx-auto > div:has(> div > input[type="email"])
+habervitrini.com##.min-w-0 > aside:has(> div > a[href^="https://www.google.com/preferences/source?q="])
 socradar.io#%#//scriptlet('trusted-set-local-storage-item', 'lastSeenPopup-field_66f1b3f0ab41b-dark-web-report-2026-jul-3', '9999999999999')
 webook.com##section[id^="NewsLetter"]
 suspilne.media##.l-article-content__container-inner > p:has(> a[href^="https://t.me/suspilne"])
