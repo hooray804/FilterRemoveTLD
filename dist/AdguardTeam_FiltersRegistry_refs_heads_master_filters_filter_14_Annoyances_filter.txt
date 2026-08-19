@@ -3164,7 +3164,7 @@ skyscanner.cz#$##cookieBannerContent { display: none !important; }
 scan.co.uk#$#.s-popup { display: none !important; }
 scan.co.uk#$#body.popup-open { overflow: auto !important; }
 antenasgsm.com#%#//scriptlet('trusted-click-element', 'button#reject-non-essential-cookies')
-formbyeats.co.uk,code.market,propelmusic.co.nz,lagless.gg,sotellus.com,abetterrouteplanner.com,eyou.social,getedumail.com,digiparser.com,gemini.com##div[aria-label="Cookie consent"]
+paysend.com,formbyeats.co.uk,code.market,propelmusic.co.nz,lagless.gg,sotellus.com,abetterrouteplanner.com,eyou.social,getedumail.com,digiparser.com,gemini.com##div[aria-label="Cookie consent"]
 ||assetlab.io/consent^$domain=theweeknd.co
 wishmaster.me###js_policy-cookie
 matterport.com##div[class^="CookieModal_CookieModal"]
@@ -14237,7 +14237,6 @@ gentside.com,bold.dk#%#//scriptlet('remove-class', 'sp-message-open', 'html')
 digikey.com#%#//scriptlet("remove-class", "gdpr", "body.gdpr")
 bt.dk#%#//scriptlet('trusted-click-element', '#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll')
 gheed.com#%#//scriptlet('set-cookie-reload', 'ck', 'false')
-paysend.com#%#//scriptlet('set-cookie-reload', 'gdpr_policy', 'true')
 hungama.com#%#//scriptlet("set-cookie", "ckpVisited", "true")
 akelius.com#%#//scriptlet('trusted-set-cookie', 'akCookieSettings', '{"ga":false,"optimize":false,"facebook":false,"hotjar":false}')
 schell.eu#%#//scriptlet('set-cookie', 'cookie_staticdata', '1')
