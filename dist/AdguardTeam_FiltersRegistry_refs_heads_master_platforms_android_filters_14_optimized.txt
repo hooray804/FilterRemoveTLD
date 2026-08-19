@@ -1,9 +1,9 @@
-! Checksum: Hw2NWn6XwLcchYt9E0a5Eg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787106792-3600.patch
+! Checksum: CU+e2aDuhwJneTb0PaeStA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787109902-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.15
-! TimeUpdated: 2026-08-19T02:30:01+00:00
+! Version: 2.2.76.16
+! TimeUpdated: 2026-08-19T03:22:00+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -10770,8 +10770,6 @@ chatgpt.com###google-one-tap-anchor
 euyansang.com#$##newsletter-popup { display: none !important; }
 youtubetotranscript.com###api-floating-card
 hardlinenutrition.com#$#body { overflow: auto !important; }
-fast-growing-trees.com##.transition-transform.bottom-0.fixed
-fast-growing-trees.com#$#.inset-0.fixed { display: none !important; }
 cookcraftandcreate.com##.hustle-popup
 leawo.org###proPop
 pc.game.iqiyi.com##.home > .tips
@@ -15713,7 +15711,7 @@ theweek.in##.article-post > div.specialpromo:has(> div.video-iframe-new a[href^=
 ground.news##.hideElementSiteWide:has(> div.w-full > div.flex > a[href="/subscribe"])
 theinformation.com##aside[data-testid="subscribe-to-the-briefing"]
 theinformation.com##a[data-testid="group-subscription-image"]
-fast-growing-trees.com#%#//scriptlet('trusted-click-element', 'form[aria-label="Welcome offer for new customers"] > button[value="verify"] + button')
+trees.com#%#//scriptlet('trusted-click-element', 'form[aria-label="Welcome offer for new customers"] > button[value="verify"] + button.items-center[type="button"]:not([value])')
 telugu.hindustantimes.com##a[class^="shareNentryPoints_googleNews"]
 milwaukeetool.eu#$#body { overflow: auto !important; }
 canadiantire.ca##.nl-email-sticky-banner
@@ -20743,6 +20741,7 @@ honeysanime.com#$##wrap-app-notice { display: none !important; }
 !+ NOT_OPTIMIZED
 m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
+yenisafak.com#%#//scriptlet('trusted-click-element', '.mantine-Modal-inner button.mantine-focus-auto[class*="_closeButton_"]', '', '', '', '15')
 centralwesterndaily.com.au##div[class="block md:hidden bg-gray-600"]
 m.bunjang.co.kr##footer > a[href="https://go.bgzt.link/app"]
 m.bunjang.co.kr##header section[class*="_top-banner_"]:has( > section >  a[href="https://go.bgzt.link/app"])
