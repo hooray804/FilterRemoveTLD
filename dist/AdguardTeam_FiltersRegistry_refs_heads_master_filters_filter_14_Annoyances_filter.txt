@@ -2596,6 +2596,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+order.maxburgers.com#%#//scriptlet('trusted-click-element', 'consent-banner .cookie-reject', '!localStorage:privacySettings')
 webook.com#%#//scriptlet('trusted-click-element', 'div[id^="radix-"] button.bg-body-dark')
 pixpa.com##.pixpa-cookies-wrapper
 help.instagram.com##div[aria-label="Cookie consent"]
