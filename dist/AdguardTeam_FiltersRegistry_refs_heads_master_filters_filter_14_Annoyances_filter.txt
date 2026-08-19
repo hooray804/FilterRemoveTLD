@@ -1734,6 +1734,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||cookies.truecaller.com^
 /wp-content/plugins/surecookie/*
 /wp-content/plugins/surecookie-pro/*
 /assets/storefront/chunk-customer_privacy_initializer.
@@ -30222,6 +30223,8 @@ saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sp
 !
 ! SECTION: Subscriptions - Regular rules
 !
+verbraucherzentrale.sh##article section[data-theme]:has(.block-inline-blockwebform form[id^="webform-submission-"][id*="-newsletteranmeldung"])
+verbraucherzentrale.nrw##article section[data-theme="white"] .block-inline-blockwebform:has(form[id^="webform-submission-"][id*="-newsletteranmeldung"])
 techbang.com##.newsletter2in1
 masa.media###subscribe-box
 kursiv.media##.social-media-bar
