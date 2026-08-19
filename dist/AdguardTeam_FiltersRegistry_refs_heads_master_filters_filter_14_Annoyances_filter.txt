@@ -22625,7 +22625,6 @@ medex.com.bd#$#.c-overlay-container { display: none !important; }
 medex.com.bd#$#body.no-flow { overflow: auto !important; }
 ghxi.com#$#.gh-container { display: none !important; }
 ghxi.com#$#body { overflow: auto !important; }
-oricon.co.jp##.modalArea-small
 blog.sarar.com##.modal-dialog
 crn.com#$#.site-alert { display: none !important; }
 crn.com#$#body { margin-top: 0 !important; }
@@ -28670,6 +28669,8 @@ bomb01.com#$#.modal-open { overflow: visible!important; }
 ! Blocking it also causes that videos are not playing automatically
 ! twitter.com##div[data-testid="BottomBar"]
 !
+!+ NOT_OPTIMIZED
+oricon.co.jp##.modalArea-small
 !+ NOT_OPTIMIZED
 webronza.asahi.com###modalArchive
 !+ NOT_OPTIMIZED
