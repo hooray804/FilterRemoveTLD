@@ -22372,6 +22372,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+socradar.io###hello_bar
 7reels.cc#%#//scriptlet('trusted-click-element', '.inset-0.fixed > button > span.sr-only')
 spar-mit.com###callBackBanner
 cine.su##.pwaCtaWrap
@@ -30235,7 +30236,9 @@ haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu
 !
 ! SECTION: Subscriptions - Regular rules
 !
+socradar.io#%#//scriptlet('trusted-set-local-storage-item', 'lastSeenPopup-field_66f1b3f0ab41b-dark-web-report-2026-jul-3', '9999999999999')
 webook.com##section[id^="NewsLetter"]
+bbc.com##a[href="https://www.whatsapp.com/channel/0029Vb5eTSkHFxP3rcjNq41i"]
 suspilne.media##.l-article-content__container-inner > p:has(> a[href^="https://t.me/suspilne"])
 haber365.com##.author-social > ul:has(> span.subscribe)
 timeturk.com##form[data-newsletter]
@@ -46672,6 +46675,8 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+socradar.io##.sidebar-wrapper > div.grid > a[href="https://socradar.io/labs/app/dark-web-report"]
+socradar.io##.text-editor-blog > p:has(> a[href^="https://socradar.io/products/dark-web-monitoring/"])
 webook.com###root > div[style]:has(> button[data-testid="top_notice_close"])
 zstream.mov#%#//scriptlet('set-local-storage-item', 'zstream::apps-notice-dismissed', '1')
 porn4fans.me,porn4fans.com##a.desc-animated-banner-wrap
