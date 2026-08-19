@@ -1734,6 +1734,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||team.epccm19.com^
 ||cookies.truecaller.com^
 /wp-content/plugins/surecookie/*
 /wp-content/plugins/surecookie-pro/*
@@ -2595,6 +2596,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+mystrikingly.com##.eu-cookie-notification-dialog
 byutv.org##.cookie-consent__container
 x.com##div[role="region"][aria-label*="cookie"]
 carsales.com.au#%#//scriptlet('trusted-click-element', '.cookieConsentBodyEu button')

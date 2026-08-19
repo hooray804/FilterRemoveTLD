@@ -1734,6 +1734,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||team.epccm19.com^
 ||cookies.truecaller.com^
 /wp-content/plugins/surecookie/*
 /wp-content/plugins/surecookie-pro/*
@@ -2595,6 +2596,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+mystrikingly.com##.eu-cookie-notification-dialog
 byutv.org##.cookie-consent__container
 x.com##div[role="region"][aria-label*="cookie"]
 carsales.com.au#%#//scriptlet('trusted-click-element', '.cookieConsentBodyEu button')
@@ -30221,6 +30223,9 @@ saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sp
 !
 ! SECTION: Subscriptions - Regular rules
 !
+therokuchannel.roku.com#%#//scriptlet('trusted-set-local-storage-item', 'nudge-last-shown', '$currentISODate$')
+therokuchannel.roku.com#$#body.anonymous-nudge-visible { overflow: auto !important; }
+therokuchannel.roku.com#$##anonymous-nudge { display: none !important; }
 verbraucherzentrale.sh##article section[data-theme]:has(.block-inline-blockwebform form[id^="webform-submission-"][id*="-newsletteranmeldung"])
 verbraucherzentrale.nrw##article section[data-theme="white"] .block-inline-blockwebform:has(form[id^="webform-submission-"][id*="-newsletteranmeldung"])
 techbang.com##.newsletter2in1
@@ -42266,6 +42271,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+fawesome.tv##.app-install-wrapper
 yenisafak.com#%#//scriptlet('trusted-click-element', '.mantine-Modal-inner button.mantine-focus-auto[class*="_closeButton_"]', '', '', '', '15')
 centralwesterndaily.com.au##div[class="block md:hidden bg-gray-600"]
 m.bunjang.co.kr##footer > a[href="https://go.bgzt.link/app"]
