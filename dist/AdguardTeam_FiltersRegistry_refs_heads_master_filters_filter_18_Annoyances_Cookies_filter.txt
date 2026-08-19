@@ -2595,6 +2595,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+byutv.org##.cookie-consent__container
 x.com##div[role="region"][aria-label*="cookie"]
 carsales.com.au#%#//scriptlet('trusted-click-element', '.cookieConsentBodyEu button')
 otovadeli.com###cookiespool-banner

@@ -1,9 +1,9 @@
-! Checksum: uVOWuarRfMx80q9QXIXeaw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787109941-3600.patch
+! Checksum: y2UIWn2lGNrBLZ0R2Yp72g
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787113247-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.16
-! TimeUpdated: 2026-08-19T03:22:00+00:00
+! Version: 2.2.76.17
+! TimeUpdated: 2026-08-19T04:17:14+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1674,6 +1674,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+byutv.org##.cookie-consent__container
 x.com##div[role="region"][aria-label*="cookie"]
 carsales.com.au#%#//scriptlet('trusted-click-element', '.cookieConsentBodyEu button')
 otovadeli.com###cookiespool-banner
