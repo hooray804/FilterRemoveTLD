@@ -13577,6 +13577,7 @@ cafe-royal.com,mline.com,roesle.com#$#.acris-cookie-consent ~ .modal-backdrop { 
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
 !+ NOT_OPTIMIZED
+!+ NOT_OPTIMIZED
 mvm.hu###footer-consent
 !+ NOT_OPTIMIZED
 mvm.hu###footer-consent + #policy-accept-form
@@ -19688,6 +19689,7 @@ armidaleexpress.com.au,bendigoadvertiser.com.au,canberratimes.com.au,centralwest
 ! The rules for content blockers only:
 ! LINK: AnnoyancesFilter/Popups/sections/antiadblock.txt#content_blockers
 !
+adversator.com###anti-adblocker-message
 reelsuites.tv##.rt-adblock-notice
 timesofkarachi.pk###adblock-notice
 openinbox.io##.inset-0.fixed
