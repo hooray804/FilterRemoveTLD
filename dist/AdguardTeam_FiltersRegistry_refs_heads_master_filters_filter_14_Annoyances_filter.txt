@@ -2381,7 +2381,7 @@ kanalben.com,tarsushaber.com,malatyasoz.com,nehir.net,enpolitik.com,ispartamhabe
 ! ##.MuiSnackbar-anchorOriginBottomCenter
 creativefabrica.com,flickplay.co,globenewswire.com,fashionunited.*,ahaan.co.uk,afteracademy.com##.MuiSnackbar-anchorOriginBottomCenter
 ! ###cc-main
-mzyy94.com,tabstack.ai,denebunu.com,lulek.tv,wolverineworldwide.com,mindmarket.com,ipinfo.io,carsystems.eu,giewontshop.com,visciolafashion.com,sklep.karolnienartowicz.com,seatpick.com,fimewc.com,yazio.com,futbalsfz.sk,bts.aero,novotel.ba,belganewsagency.eu,kofteciyusuf.com,elenianna.com,aspire.dev,formytesla.com,li.sten.to,sign.com,wasdland.com,nemzetiarchivum.hu,wooting.io,jetour-ru.com,voyah.su,fastconvert.co,technologypresswirenetherlands.com,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,nefisyemektarifleri.com,bisiparis.com,whoisxmlapi.com,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,givesendgo.com,workstreams.ai,trae.ai,imusic.*,zeno.fm,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,restaumatic.com,any.run,app.any.run,financnihra.cz,kurczakiodeliasza.com,whitebit.com,ndsas.sk,trakt.tv,greptime.com,newsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
+denebunu.com,mzyy94.com,tabstack.ai,denebunu.com,lulek.tv,wolverineworldwide.com,mindmarket.com,ipinfo.io,carsystems.eu,giewontshop.com,visciolafashion.com,sklep.karolnienartowicz.com,seatpick.com,fimewc.com,yazio.com,futbalsfz.sk,bts.aero,novotel.ba,belganewsagency.eu,kofteciyusuf.com,elenianna.com,aspire.dev,formytesla.com,li.sten.to,sign.com,wasdland.com,nemzetiarchivum.hu,wooting.io,jetour-ru.com,voyah.su,fastconvert.co,technologypresswirenetherlands.com,prnewswire.com,roxybrowser.com,nucba.ac.jp,revenue.mt.gov,mcskincraft.com,makeforms.io,biletmio.com,lingscars.com,koi.ai,hackmd.io,multipolls.com,alinco.co.jp,nefisyemektarifleri.com,bisiparis.com,whoisxmlapi.com,tapasslupsk.com,ytlarge.com,financer.com.ua,trakt.tv,unipegaso.it,escortempire.*,videspratiba.lv,soleretriever.com,healf.com,gameship.io,givesendgo.com,workstreams.ai,trae.ai,imusic.*,zeno.fm,chat.mistral.ai,subdomains.whoisxmlapi.com,derslig.com,webtv.tv,cargiant.co.uk,r34.app,webtv.sk,rustdesk.com,praha.eu,mobimatter.com,gl-inet.com,astrowarp.net,gamers-outlet.net,kinnisvara24.ee,costa-coffee.cz,sterbabike.cz,codesandbox.io,xzone.cz,dap.gov.hu,idomsoft.hu,uxpilot.ai,evaluar.com,home.s.id,restaumatic.com,any.run,app.any.run,financnihra.cz,kurczakiodeliasza.com,whitebit.com,ndsas.sk,trakt.tv,greptime.com,newsinslowfrench.com,happyscribe.com,saaq.gouv.qc.ca###cc-main
 ! consentmanager.net (check, if embed content and videos are not broken)
 ||consentmanager.net^$domain=hausgarten.net|mathe-lexikon.at|katzen-forum.net|my.games|vergleich.org|herold.at|bussgeldkatalog.org|mediengestalter.info|sugafari.com|hervis.at|entsorgen.org|consentmanager.net|e-konomista.pt|agrarheute.com|correctiv.org|nzz.ch|masterstudies.com|littlebigsnake.com|eatclub.tv|grin.com|gpblog.com
 ! privacy-center.org / didomi
@@ -31849,7 +31849,6 @@ universidadenlinea.umov.mx#$#div[id^="om-holder-campaign"] { display: none !impo
 universidadenlinea.umov.mx#$#html, body { overflow: auto !important; }
 autoguide.com,motorcycle.com#$##cms-popup { display: none !important; }
 autoguide.com,motorcycle.com#$#.lbHtmlFix body { overflow: auto !important; }
-gidadedektifi.com,gidadedektifi.net##div[class^="XSubscribeBox"]
 ||teneriffa-news.com/popup.js
 amarujala.com###subscribe_brand_lovers
 amarujala.com##.subscribe_brand_lovers_back
@@ -38390,6 +38389,8 @@ flightradar24.com##[data-id="35ae40a"][data-element_type="widget"]
 !
 !
 !+ NOT_OPTIMIZED
+gidadedektifi.com,gidadedektifi.net##div[class^="XSubscribeBox"]
+!+ NOT_OPTIMIZED
 just-auto.com##.gdm-newsletter-banner__container
 !+ NOT_OPTIMIZED
 just-auto.com##.catfish
@@ -38580,6 +38581,8 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+poro.gg##div.container > div.overflow-hidden:has(> div[class] > div.bg-color-ow-banner)
+gidadedektifi.com##div[class^="XAppDownload_type_footer"]
 minfin.com.ua##.aside-mobile-app
 minfin.com.ua##.footer__apps
 carsales.com.au##div[data-updatable-partial-id="smart-banner"]
@@ -55385,6 +55388,7 @@ daddyhd.com##.sidebar__inner
 ||widget.intercom.io^$domain=appmaster.io|internxt.com|mainwp.com
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 !
+poro.gg##.BeaconFabButtonFrame
 ||web.eu-pl.koda.ai/web.sdk.js$domain=hammerphones.com
 chatlab.com##.rcw-widget-container
 careers.dhl.com##.phenom-chatbot-wrapper
