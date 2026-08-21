@@ -1,9 +1,9 @@
-! Checksum: YuT4Znfpe+9L2OsWpG+WoQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787263973-3600.patch
+! Checksum: pyOVQ4XDW/3rZnvv1bihUw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787271726-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.43
-! TimeUpdated: 2026-08-20T22:09:22+00:00
+! Version: 2.2.76.44
+! TimeUpdated: 2026-08-21T00:18:37+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -4860,7 +4860,7 @@ boxofficeturkiye.com##.notification__wrapper
 ariregister.rik.ee##.ar__cookie_info
 x.com,twitter.com#?##layers > div[class] > div[class]:has(> div[class] > div[data-testid="BottomBar"] > div[class] > div[class] > div[dir="ltr"] > span:contains(ookie))
 radiopaedia.org##.navbar-fixed-bottom
-medyczny.store,czasnaherbate.net##.jconfirm
+wgre.eu,medyczny.store,czasnaherbate.net##.jconfirm
 ae.com##div[class^="_snackbar-container"]
 bricklink.com#$#.cookie-notice { display: none!important; }
 bricklink.com#$#body { overflow: auto!important; }
@@ -5512,6 +5512,7 @@ englishdom.com###gdpr-tooltip
 /klaro-cookie-consent/*$domain=calimove.com
 hik-connect.com##.ant-message-notice-content
 hik-connect.com##div[class^="src-pages-cookie-___cookieTip__app-cookie-container"]
+sync.com,bourns.com###gdprConsent
 toptal.com,capcut.net##div[class*="cookie-banner-"]
 liveagent.com#$#body { overflow: visible !important; }
 harmonyos.com,developer.huawei.com##.cookietip

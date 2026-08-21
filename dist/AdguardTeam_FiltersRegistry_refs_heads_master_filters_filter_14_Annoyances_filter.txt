@@ -7627,7 +7627,7 @@ x.com,twitter.com###layers > div[class] > div[class]:has(> div[class] > div[data
 x.com,twitter.com#?##layers > div[class] > div[class]:has(> div[class] > div[data-testid="BottomBar"] > div[class] > div[class] > div[dir="ltr"] > span:contains(ookie))
 newsakh.com###g-footer-notice
 radiopaedia.org##.navbar-fixed-bottom
-medyczny.store,czasnaherbate.net##.jconfirm
+wgre.eu,medyczny.store,czasnaherbate.net##.jconfirm
 ae.com##div[class^="_snackbar-container"]
 bricklink.com#$#.cookie-notice { display: none!important; }
 bricklink.com#$#body { overflow: auto!important; }
@@ -9085,7 +9085,7 @@ hik-connect.com##.ant-message-notice-content
 hik-connect.com##div[class^="src-pages-cookie-___cookieTip__app-cookie-container"]
 whittard.co.uk###cookie-policy-dialog
 celeramotion.com##.privacy_wrapper
-bourns.com###gdprConsent
+sync.com,bourns.com###gdprConsent
 c.mi.com##.cookie-setting-bottom-bar
 toptal.com,capcut.net##div[class*="cookie-banner-"]
 ocea-ssm.com##.iccookies_container
@@ -14591,6 +14591,7 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/238843
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238813
 ! https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy
 @@||privacyportal.onetrust.com/request/v*/consentreceipts$domain=ssga.com
