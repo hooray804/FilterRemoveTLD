@@ -2596,6 +2596,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+profguide.io##.pg-cookie-notify
 wpforms.com###wpconsent-container
 ||cdn.iubenda.com/cookie_solution/$domain=iubenda.com
 play.history.com##div[data-testid="tou-dialog"]
