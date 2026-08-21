@@ -22437,7 +22437,8 @@ aurorascreen.org##.as-notice-overlay
 muzofond.fm###banner_auth
 ||eowf.alc.co.jp/content/js/popup_control.js
 multishows.top#%#//scriptlet('trusted-set-local-storage-item', 'ad_free_expiry', '9999999999999')
-streamsports99.*##.aspect-video > div.absolute
+streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.*###main-content iframe[title] + div.absolute.inset-0.backdrop-blur-sm
+streamsports99.cx,streamsports99.tv,streamsports99.su,streamsports99.*##.aspect-video > div.absolute
 ltube.us###mini-ad-bar
 silicon.co.uk###nl-overlay
 duck.ai#?#div[data-testid="ChatsList"] > div[class]:not([style*="opacity"]):contains(How It Works)
