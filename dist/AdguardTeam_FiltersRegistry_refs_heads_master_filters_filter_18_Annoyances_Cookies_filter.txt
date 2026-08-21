@@ -2596,6 +2596,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+||cdn.iubenda.com/cookie_solution/$domain=iubenda.com
+play.history.com##div[data-testid="tou-dialog"]
 order.maxburgers.com#%#//scriptlet('trusted-click-element', 'consent-banner .cookie-reject', '!localStorage:privacySettings')
 webook.com#%#//scriptlet('trusted-click-element', 'div[id^="radix-"] button.bg-body-dark')
 pixpa.com##.pixpa-cookies-wrapper

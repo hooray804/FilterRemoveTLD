@@ -2596,6 +2596,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+||cdn.iubenda.com/cookie_solution/$domain=iubenda.com
+play.history.com##div[data-testid="tou-dialog"]
 order.maxburgers.com#%#//scriptlet('trusted-click-element', 'consent-banner .cookie-reject', '!localStorage:privacySettings')
 webook.com#%#//scriptlet('trusted-click-element', 'div[id^="radix-"] button.bg-body-dark')
 pixpa.com##.pixpa-cookies-wrapper
@@ -42321,6 +42323,8 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+mail.yandex.*#%#//scriptlet('trusted-click-element', 'div[class^="PopupAggressivePromoApps-"] > button')
+mail.yandex.*##.app-full-height > div[class^="FloatingButton-"] > a[href^="https://redirect.appmetrica.yandex.com/serve/"]
 fawesome.tv##.app-install-wrapper
 yenisafak.com#%#//scriptlet('trusted-click-element', '.mantine-Modal-inner button.mantine-focus-auto[class*="_closeButton_"]', '', '', '', '15')
 m.albamon.com#%#//scriptlet('set-cookie', '2022AppDownClose', '1')
