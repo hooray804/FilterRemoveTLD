@@ -1,9 +1,9 @@
-! Checksum: bhJHOxA+88NjeSEY45IWFw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787397069-3600.patch
+! Checksum: bZ5Z33OBfzpf3lPI7hJ93g
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787404748-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.58
-! TimeUpdated: 2026-08-22T11:08:08+00:00
+! Version: 2.2.76.59
+! TimeUpdated: 2026-08-22T13:16:03+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2733,7 +2733,7 @@ helloclue.com###gatsby-focus-wrapper > section:has(> p[class*="CookieNotificatio
 kobelco-fpc.com,liki.ua,nacalai.co.jp,plus.usio.co.jp,upc-osaka.ac.jp,seims.co.jp,fujiyakuhin.co.jp,toyota-odesa.com.ua,domik-v-derevne.com,evorkshop.com,avic.jp,sms-activate.*,investcapital.com.mt,kamrti.com,italiadomani.gov.it,sms-activate.page,psoriaz.life##.cookie
 wegmans.com##.component--cookie-banner
 recraft.ai#%#//scriptlet('set-cookie', 'cookie-consent-accepted', 'true')
-mego.travel,picsman.ai,poets.org,spain.info,wbtaxi.com.by,ford.ua,mateco.*,thqnordic.com,dotlan.net,gorzdrav.org,rkf.online##.cookie-modal
+publicdomainreview.org,mego.travel,picsman.ai,poets.org,spain.info,wbtaxi.com.by,ford.ua,mateco.*,thqnordic.com,dotlan.net,gorzdrav.org,rkf.online##.cookie-modal
 ||default.beam-emea.prd.api.hbomax.com/legal/*/consentExperience?
 chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp#$?#.gdpr-layer { remove: true; }
 chrono24.cn,chrono24.co.uk,chrono24.com,chrono24.es,chrono24.fr,chrono24.it,chrono24.jp#$#body:not(#style_important) { overflow: auto !important; padding-right: 0 !important; position: unset !important; }
