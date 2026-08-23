@@ -1,9 +1,9 @@
-! Checksum: U5Ac1Ecw68PzGhBnrvjp3Q
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787508662-3600.patch
+! Checksum: RUwIMDkrmuuHuIYUfrHqfQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787515725-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.66
-! TimeUpdated: 2026-08-23T18:08:09+00:00
+! Version: 2.2.76.67
+! TimeUpdated: 2026-08-23T20:06:49+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -10433,6 +10433,7 @@ map.naver.com#%#"use strict"; window.MutationObserver = new Proxy(window.Mutatio
 chzzk.naver.com#%#//scriptlet('trusted-suppress-native-method', 'Function.prototype.call', ' |"setRequestHeader"', 'abort')
 chzzk.naver.com#%#//scriptlet('spoof-css', '.banner_ad_wrapper', 'display', 'block')
 chzzk.naver.com#%#//scriptlet('trusted-json-set-xhr-response', 'content.playerAdDisplayResponse', 'json:{"preRoll":false,"midRoll":false}', 'content.playerAdDisplayResponse.preRoll', '/ad/display-status')
+chzzk.naver.com#%#//scriptlet('prevent-xhr', '/(veta.naver.com\/vas|veta.naver.com\/gfp|veta.naver.com\/call)/ method:OPTIONS')
 grabify.link#%#//scriptlet('set-cookie', 'ckstp', '1')
 grabify.link#@#.ad_container
 grabify.link###ab

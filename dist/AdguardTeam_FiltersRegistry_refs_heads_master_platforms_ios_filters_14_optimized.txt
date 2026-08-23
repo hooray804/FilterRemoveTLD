@@ -1,9 +1,9 @@
-! Checksum: 6lgj7dxKX1ohJz2UHp3Y2A
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787508692-3600.patch
+! Checksum: dZx1/zpDghe3savXVtxSYA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787515745-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.66
-! TimeUpdated: 2026-08-23T18:08:09+00:00
+! Version: 2.2.76.67
+! TimeUpdated: 2026-08-23T20:06:49+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -10695,10 +10695,16 @@ gmx.net,gmx.at,gmx.ch,gmx.com#@#.ad-container
 @@||united.uimserv.net/*tagid$domain=gmx.net|gmx.at|gmx.ch|gmx.com
 !#safari_cb_affinity
 map.naver.com#%#"use strict"; window.MutationObserver = new Proxy(window.MutationObserver, { construct(Target, Args) { let Stringified = Args[0].toString(); if (Stringified.includes('cs:') && Stringified.includes('gl:') && Stringified.includes('ne:') && Stringified.includes('dg:')) { return Reflect.construct(Target, [() => {}]); } return Reflect.construct(Target, Args); } });
+!#safari_cb_affinity(general,privacy)
 chzzk.naver.com#@#.banner_ad_wrapper
 @@||nam.veta.naver.com/vas|$xmlhttprequest,domain=chzzk.naver.com
 @@||nam.veta.naver.com/gfp$xmlhttprequest,domain=chzzk.naver.com
 @@||nam.veta.naver.com/call|$xmlhttprequest,domain=chzzk.naver.com
+!#safari_cb_affinity
+chzzk.naver.com#%#//scriptlet('trusted-suppress-native-method', 'Function.prototype.call', ' |"setRequestHeader"', 'abort')
+chzzk.naver.com#%#//scriptlet('spoof-css', '.banner_ad_wrapper', 'display', 'block')
+chzzk.naver.com#%#//scriptlet('trusted-json-set-xhr-response', 'content.playerAdDisplayResponse', 'json:{"preRoll":false,"midRoll":false}', 'content.playerAdDisplayResponse.preRoll', '/ad/display-status')
+chzzk.naver.com#%#//scriptlet('prevent-xhr', '/(veta.naver.com\/vas|veta.naver.com\/gfp|veta.naver.com\/call)/ method:OPTIONS')
 grabify.link#%#//scriptlet('set-cookie', 'ckstp', '1')
 grabify.link#@#.ad_container
 grabify.link###ab
