@@ -1,9 +1,9 @@
-! Checksum: lnRWrfwpNDCGns4HTvSxqQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1787494297-3600.patch
+! Checksum: zGwHfoug57DBv7xl4ktX2A
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1787497843-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.70
-! TimeUpdated: 2026-08-23T14:09:15+00:00
+! Version: 2.0.92.71
+! TimeUpdated: 2026-08-23T15:08:14+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5596,6 +5596,7 @@ jw.org##.legal-notices-client--simple-bottom-banner
 travelzoo.com##[class*="cookieoverlay"]
 ixl.com###cookie-privacy-message
 high-way.me,prolific.com,salk.at,bsvs.at,strawberrygrower.org,expresspasts.lv,pasts.lv###klaro
+emiratesholidays.com##body .accept-cookies-banner
 team.blue,continental.com#$#body { overflow: auto !important; }
 fairgarage.com###dsgvo
 bbva.*#$#.cookiesgdpr { display: none !important; }

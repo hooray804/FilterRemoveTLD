@@ -1,9 +1,9 @@
-! Checksum: qQuQKCGdXZWqXNBNDm/Eyw
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787494330-3600.patch
+! Checksum: q9vi3sn2wulVecUAIt5LQA
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787497869-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.62
-! TimeUpdated: 2026-08-23T14:09:08+00:00
+! Version: 2.2.76.63
+! TimeUpdated: 2026-08-23T15:08:06+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -5742,6 +5742,7 @@ jw.org##.legal-notices-client--simple-bottom-banner
 travelzoo.com##[class*="cookieoverlay"]
 ixl.com###cookie-privacy-message
 high-way.me,prolific.com,salk.at,bsvs.at,strawberrygrower.org,expresspasts.lv,pasts.lv###klaro
+emiratesholidays.com##body .accept-cookies-banner
 team.blue,continental.com#$#body { overflow: auto !important; }
 fairgarage.com###dsgvo
 bbva.*#$#.cookiesgdpr { display: none !important; }
