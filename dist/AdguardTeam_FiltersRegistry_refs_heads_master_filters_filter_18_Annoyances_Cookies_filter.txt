@@ -2596,6 +2596,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+sklep.plast-pol.com##.realCookies
 xpo.com##.js-cookie-toast
 tools4startup.com##.altumcode.altumcode-bottom_right.on-visible
 ||d1kbhg9xf98rfs.cloudfront.net/modules/site/js/cookie-consent-v2-1.js$script,domain=tradeatlas.com

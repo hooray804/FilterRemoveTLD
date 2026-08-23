@@ -1,9 +1,9 @@
-! Checksum: 1ajVq0kvwFGG0Qfg6HSm9w
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787519433-3600.patch
+! Checksum: bntUDUbbKQ4lC/hzB6Zf3g
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787523013-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.68
-! TimeUpdated: 2026-08-23T21:08:05+00:00
+! Version: 2.2.76.69
+! TimeUpdated: 2026-08-23T22:07:22+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1658,6 +1658,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+sklep.plast-pol.com##.realCookies
 xpo.com##.js-cookie-toast
 tools4startup.com##.altumcode.altumcode-bottom_right.on-visible
 ||d1kbhg9xf98rfs.cloudfront.net/modules/site/js/cookie-consent-v2-1.js$script,domain=tradeatlas.com
