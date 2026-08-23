@@ -2285,7 +2285,7 @@ reddit.com###eu-cookie-policy
 !
 ! common name
 ! ###cc--main
-oeglobal.org,dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,cinemark.com,bmcservers.com,esenbogaairport.com,zapsplat.com,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,oomiyake.com,vicountdown.com,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,virail.jp,avtoexpress.dp.ua,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,nesine.com,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,antidote.info,cira.ca,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,stocksy.com,flowforge.com,zeno.fm,boardgamegeek.com###cc--main
+niemirka.com,oeglobal.org,dragonflyshipping.*,dragonflyinternational.com,skarbiec.biz,cinemark.com,bmcservers.com,esenbogaairport.com,zapsplat.com,2dype.gov.gr,artland.mn.co,funzionepubblica.gov.it,oomiyake.com,vicountdown.com,thestraight.com.au,dailydot.com,protayazilim.com,app.spify.co,p-portal.go.jp,deltamediaplayer.com,portalnovosti.com,brutaluniverse.com,athleticsmania.com,virail.jp,avtoexpress.dp.ua,data.europa.eu,videogamegeek.com,eufy.com,superspeedyplugins.com,doctoranytime.gr,fontstruct.com,biletinial.com,vitrinelinguistique.oqlf.gouv.qc.ca,sochic.com,intelcom.ca,polopetros.gr,finishers.com,streamgo.events,suncalc.org,o2.sk,cvut.cz,nesine.com,saaq.gouv.qc.ca,onemocneni-aktualne.mzcr.cz,medvestnik.by,speedlo.cz,soundcore.com,medicine.yale.edu,webtic.it,makerworld.com,sterbabike.cz,nix.cz,antidote.info,cira.ca,nowpatient.com,forms.clickup.com,aftermath.site,streetsblog.org,deepbits.com,teksavvy.com,info.cz,figliedisancamillo.it,nzip.cz,packtpub.com,auxologico.it,reteimprese.it,ininal.com,stocksy.com,flowforge.com,zeno.fm,boardgamegeek.com###cc--main
 ! ##.cc-overlay
 lagerhaus.at,kmu-boerse.at,stopline.at,meisterdrucke.jp,omvpetrom.com,petrom.ro,omv.com,omv.ro,omv.at,omv-gas-storage.com,seg-social.pt,hausmagazin.com,evn.at,foodbrothers.com,semikolon.com,laenderbahn.com,computerwelt.at,herold.at,internorm.com,colop.com##.cc-overlay
 ! ###__tealiumGDPRecModal
@@ -2596,6 +2596,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+xpo.com##.js-cookie-toast
+tools4startup.com##.altumcode.altumcode-bottom_right.on-visible
 ||d1kbhg9xf98rfs.cloudfront.net/modules/site/js/cookie-consent-v2-1.js$script,domain=tradeatlas.com
 toolspivot.com###bvCookieBar
 profguide.io##.pg-cookie-notify
