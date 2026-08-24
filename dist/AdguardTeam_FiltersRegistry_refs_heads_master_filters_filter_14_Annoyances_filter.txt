@@ -1734,6 +1734,7 @@
 !
 ! SECTION: Cookies - General URL
 !
+||cdn.jsdelivr.net/gh/orestbida/cookieconsent@*/dist/cookieconsent.umd.js
 ||team.epccm19.com^
 ||cookies.truecaller.com^
 /wp-content/plugins/surecookie/*
