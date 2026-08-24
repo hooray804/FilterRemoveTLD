@@ -46741,6 +46741,8 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+secretflying.com##a[id$="-aside-vad"][href^="/plans"]
+secretflying.com##.dsktp-only:has(> a[href^="/plans"] > img)
 xcandid.vip,xcandid.top###njt-notibar-slot
 leakgallery.com#$#html { --lg-creator-banner-h: 0 !important; }
 leakgallery.com#$#app-creator-banner { display: none !important; }
