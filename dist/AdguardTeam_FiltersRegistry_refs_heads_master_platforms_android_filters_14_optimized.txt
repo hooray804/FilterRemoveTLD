@@ -1,9 +1,9 @@
-! Checksum: LqQHqHGrTAVXbkT12wQt4A
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787588233-3600.patch
+! Checksum: iR6P1ZuZbUTzWAhAf5j7eQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787591808-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.81
-! TimeUpdated: 2026-08-24T16:14:38+00:00
+! Version: 2.2.76.82
+! TimeUpdated: 2026-08-24T17:13:49+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2768,6 +2768,7 @@ openai.com##div[aria-labelledby="cookieConsentTitle"]
 coloso.global#%#//scriptlet('set-local-storage-item', 'agreed-cookie-policy-by-coloso', 'false')
 metropoles.com##div[class^="CookieConcent"]
 namesilo.com#%#//scriptlet('trusted-set-cookie', 'cookies-consent', 'necessary%3Ayes%2Cfunctional%3Ano%2Canalytics%3Ano%2Cperformance%3Ano%2Cadvertisement%3Ano%2Cuncategorised%3Ano')
+innvigo.com###cookie-banner-overlay
 menshealth.com,womenshealthmag.com,bicycling.com,bestproducts.com,caranddriver.com,cosmopolitan.com,countryliving.com,delish.com,elledecor.com,elle.com,esquire.com,goodhousekeeping.com,harpersbazaar.com,housebeautiful.com,oprahdaily.com,prevention.com,redbookmag.com,roadandtrack.com,runnersworld.com,seventeen.com,townandcountrymag.com,veranda.com,womansday.com,autoweek.com,thepioneerwoman.com,popularmechanics.com##div[aria-label^="Privacy Disclosure"]
 opentext.com###gtm-alert
 easy-peasy.ai###__next > .fixed.m-4.max-w-md.rounded-lg.bg-gray-100

@@ -1,9 +1,9 @@
-! Checksum: OwDIS874fdynwrW0csFNkQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1787588269-3600.patch
+! Checksum: lc0XebRbEPWLm2L8UMTi0g
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1787591847-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.85
-! TimeUpdated: 2026-08-24T16:14:48+00:00
+! Version: 2.0.92.86
+! TimeUpdated: 2026-08-24T17:13:56+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -2632,6 +2632,7 @@ openai.com##div[aria-labelledby="cookieConsentTitle"]
 coloso.global#%#//scriptlet('set-local-storage-item', 'agreed-cookie-policy-by-coloso', 'false')
 metropoles.com##div[class^="CookieConcent"]
 namesilo.com#%#//scriptlet('trusted-set-cookie', 'cookies-consent', 'necessary%3Ayes%2Cfunctional%3Ano%2Canalytics%3Ano%2Cperformance%3Ano%2Cadvertisement%3Ano%2Cuncategorised%3Ano')
+innvigo.com###cookie-banner-overlay
 menshealth.com,womenshealthmag.com,bicycling.com,bestproducts.com,caranddriver.com,cosmopolitan.com,countryliving.com,delish.com,elledecor.com,elle.com,esquire.com,goodhousekeeping.com,harpersbazaar.com,housebeautiful.com,oprahdaily.com,prevention.com,redbookmag.com,roadandtrack.com,runnersworld.com,seventeen.com,townandcountrymag.com,veranda.com,womansday.com,autoweek.com,thepioneerwoman.com,popularmechanics.com##div[aria-label^="Privacy Disclosure"]
 opentext.com###gtm-alert
 easy-peasy.ai###__next > .fixed.m-4.max-w-md.rounded-lg.bg-gray-100
