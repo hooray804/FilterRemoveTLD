@@ -2597,6 +2597,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+istanbulticaretgazetesi.com##.cookie-consent-anchor
 zenmux.ai##div[class^="CookieConsentManager"]
 sklep.plast-pol.com##.realCookies
 xpo.com##.js-cookie-toast
@@ -3243,6 +3244,8 @@ lbtube.com##div[data-attr="modal-cookie"]
 dolphinradar.com#%#//scriptlet('set-cookie', 'myInsCookieConsent', 'true')
 fullcompass.com###ccpaContainer
 thomann.co.uk,thomann.at,thomann.se,thomann.it,thomann.pt,thomann.es,thomann.dk,thomann.fr,thomannmusic.com##.spicy-consent-wrapper
+shure.com#$#body { overflow: auto !important; }
+shure.com#$##CybotCookiebotDialogWrapper { display: none !important; }
 kit.kanack.jp#%#//scriptlet('set-cookie', 'bnrRead', 'on')
 pie.co.jp##.confirmationWording
 gotonotsubaki.co.jp###s-cookie_drawer

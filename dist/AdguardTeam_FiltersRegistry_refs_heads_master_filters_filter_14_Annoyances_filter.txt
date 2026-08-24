@@ -2597,6 +2597,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+istanbulticaretgazetesi.com##.cookie-consent-anchor
 zenmux.ai##div[class^="CookieConsentManager"]
 sklep.plast-pol.com##.realCookies
 xpo.com##.js-cookie-toast
@@ -3243,6 +3244,8 @@ lbtube.com##div[data-attr="modal-cookie"]
 dolphinradar.com#%#//scriptlet('set-cookie', 'myInsCookieConsent', 'true')
 fullcompass.com###ccpaContainer
 thomann.co.uk,thomann.at,thomann.se,thomann.it,thomann.pt,thomann.es,thomann.dk,thomann.fr,thomannmusic.com##.spicy-consent-wrapper
+shure.com#$#body { overflow: auto !important; }
+shure.com#$##CybotCookiebotDialogWrapper { display: none !important; }
 kit.kanack.jp#%#//scriptlet('set-cookie', 'bnrRead', 'on')
 pie.co.jp##.confirmationWording
 gotonotsubaki.co.jp###s-cookie_drawer
@@ -29417,6 +29420,7 @@ tozlu.com,lagacetadesalamanca.es,lovense.com,evvelcevap.com,wal.yalenkino.org,pi
 !
 ! SECTION: Push notifications - Regular rules
 !
+istanbulticaretgazetesi.com##.push-toast-wrap
 ||onejailbreak.com/site/modules/WebPush/
 haberx.com##.bildirim-com-tr-modal-overlay
 timeturk.com###push-permission-prompt
@@ -30274,6 +30278,8 @@ infobae.com,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,eko
 !
 ! SECTION: Subscriptions - Regular rules
 !
+istanbulticaretgazetesi.com##.gps-banner
+windowslatest.com##.wl-support-box > :not(.wl-support-box__forum)
 iwate-np.co.jp##.article > div.border:has(> div > a[href^="https://google.com/preferences/source?q="])
 seroundtable.com##section:has(> div.flex input[name="email"])
 seroundtable.com##section:has(> a[href^="https://www.google.com/preferences/"])
