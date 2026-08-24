@@ -1,9 +1,9 @@
-! Checksum: wlvy9ggcw1s7cqTcbdP8rA
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1787591809-3600.patch
+! Checksum: yg9E8MDLCopBk7Hg2p1Yyg
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1787595302-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.86
-! TimeUpdated: 2026-08-24T17:13:56+00:00
+! Version: 2.0.92.87
+! TimeUpdated: 2026-08-24T18:12:22+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7259,7 +7259,7 @@ coder.com#%#//scriptlet('set-local-storage-item', 'cookie', 'true')
 cleanvoice.ai,minefort.com,sticpay.com#%#//scriptlet('set-local-storage-item', 'cookie-consent', 'true')
 mantel.com#%#//scriptlet('set-cookie', 'tracking_cookie', '0')
 ftx.com#%#//scriptlet('set-local-storage-item', 'rejectAllCookies', 'true')
-scssoft.com,apexlegendsstatus.com#%#//scriptlet('trusted-click-element', '#c-p-bn', '', '1500')
+tklighting.eu,scssoft.com,apexlegendsstatus.com#%#//scriptlet('trusted-click-element', '#c-p-bn', '', '1500')
 filmzie.com#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'true')
 notion.site,notion.so#%#//scriptlet('set-cookie', 'notion_cookie_consent', '0')
 readspeaker.com#%#//scriptlet('remove-class', 'show--consent', 'html.show--consent')

@@ -14152,7 +14152,7 @@ coder.com#%#//scriptlet('set-local-storage-item', 'cookie', 'true')
 cleanvoice.ai,minefort.com,sticpay.com#%#//scriptlet('set-local-storage-item', 'cookie-consent', 'true')
 mantel.com#%#//scriptlet('set-cookie', 'tracking_cookie', '0')
 ftx.com#%#//scriptlet('set-local-storage-item', 'rejectAllCookies', 'true')
-scssoft.com,apexlegendsstatus.com#%#//scriptlet('trusted-click-element', '#c-p-bn', '', '1500')
+tklighting.eu,scssoft.com,apexlegendsstatus.com#%#//scriptlet('trusted-click-element', '#c-p-bn', '', '1500')
 filmzie.com#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'true')
 notion.site,notion.so#%#//scriptlet('set-cookie', 'notion_cookie_consent', '0')
 readspeaker.com#%#//scriptlet('remove-class', 'show--consent', 'html.show--consent')
@@ -29424,6 +29424,7 @@ tozlu.com,lagacetadesalamanca.es,lovense.com,evvelcevap.com,wal.yalenkino.org,pi
 !
 ! SECTION: Push notifications - Regular rules
 !
+||sms24.me/build/assets/notifications-*.js
 istanbulticaretgazetesi.com##.push-toast-wrap
 ||onejailbreak.com/site/modules/WebPush/
 haberx.com##.bildirim-com-tr-modal-overlay
@@ -30282,6 +30283,7 @@ infobae.com,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,eko
 !
 ! SECTION: Subscriptions - Regular rules
 !
+tklighting.eu##.newsletter-column
 istanbulticaretgazetesi.com##.gps-banner
 windowslatest.com##.wl-support-box > :not(.wl-support-box__forum)
 iwate-np.co.jp##.article > div.border:has(> div > a[href^="https://google.com/preferences/source?q="])

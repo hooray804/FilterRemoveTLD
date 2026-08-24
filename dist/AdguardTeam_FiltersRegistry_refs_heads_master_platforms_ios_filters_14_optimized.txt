@@ -1,9 +1,9 @@
-! Checksum: 34lcMNrVyoNiZy63TDbqeA
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787591846-3600.patch
+! Checksum: plz2c5KG1i56WcmfLyrbQQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787595334-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.82
-! TimeUpdated: 2026-08-24T17:13:49+00:00
+! Version: 2.2.76.83
+! TimeUpdated: 2026-08-24T18:12:13+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7421,7 +7421,7 @@ coder.com#%#//scriptlet('set-local-storage-item', 'cookie', 'true')
 cleanvoice.ai,minefort.com,sticpay.com#%#//scriptlet('set-local-storage-item', 'cookie-consent', 'true')
 mantel.com#%#//scriptlet('set-cookie', 'tracking_cookie', '0')
 ftx.com#%#//scriptlet('set-local-storage-item', 'rejectAllCookies', 'true')
-scssoft.com,apexlegendsstatus.com#%#//scriptlet('trusted-click-element', '#c-p-bn', '', '1500')
+tklighting.eu,scssoft.com,apexlegendsstatus.com#%#//scriptlet('trusted-click-element', '#c-p-bn', '', '1500')
 filmzie.com#%#//scriptlet('set-local-storage-item', 'cookiesAccepted', 'true')
 notion.site,notion.so#%#//scriptlet('set-cookie', 'notion_cookie_consent', '0')
 readspeaker.com#%#//scriptlet('remove-class', 'show--consent', 'html.show--consent')
@@ -14516,6 +14516,7 @@ labs.google.com#@##google-hats-survey
 /firebase-messaging-init.js$domain=ziare.com|business24.ro
 /firebase-messaging-sw.js$domain=club.autodoc.*|misbar.com
 tozlu.com,lagacetadesalamanca.es,lovense.com,evvelcevap.com,wal.yalenkino.org,pibig.info,lefigaro.fr,a2zapk.dev,delfi.lt,ganyancanavari.com,realitatea.net,winnipegfreepress.com,tenorshare.com,gzt.com,haber.biz,sakshi.com,shiftdelete.net,community.oneplus.com,lnc.nc,superfilmes.ph,meduza.io,yenisafak.com,offidocs.com,onedio.com,hpplus.jp,fullfilmcibaba1.com,joom.com,nbc.com,ch3plus.com,dropmefiles.com,reddit.com#%#//scriptlet('set-constant', 'Notification.requestPermission', 'noopFunc')
+||sms24.me/build/assets/notifications-*.js
 istanbulticaretgazetesi.com##.push-toast-wrap
 ||onejailbreak.com/site/modules/WebPush/
 haberx.com##.bildirim-com-tr-modal-overlay
@@ -14943,6 +14944,7 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,t
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
 infobae.com,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com,clubic.com,sugarfreelondoner.com,dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,progameguides.com,euronews.com,rtl.be,daily.co.jp,autoblog.com,haberturk.com,kp.ua,rotaborsa.com,mid-day.com,betaprofiles.com,news.tv-asahi.co.jp,zakzak.co.jp,donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gigazine.net,football24.ua,47news.jp,stuff.co.nz,eleconomista.es,skateboarding.com,ua.tribuna.com,bloomberght.com,thestreet.com,redmas.com.co,record.pt,zamin.uz,thesun.co.uk,footballtransfers.com,gamingbible.com,yenisafak.com,sportsdunia.com,bsc.news,movilzona.es,isinolsa.com,gendai.media,clutchpoints.com,hisse.net,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,gzt.com,crash.net,foxsports.com.mx,theguardian.com,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+tklighting.eu##.newsletter-column
 istanbulticaretgazetesi.com##.gps-banner
 windowslatest.com##.wl-support-box > :not(.wl-support-box__forum)
 iwate-np.co.jp##.article > div.border:has(> div > a[href^="https://google.com/preferences/source?q="])
