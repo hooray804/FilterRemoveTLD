@@ -4762,6 +4762,7 @@ leroymerlin.ro#$#body { height: unset !important; overflow: auto !important; }
 navicat.com##.consent-banner-background
 m.tomtop.com##.m_Europe_confirm.confirm2
 gosugamers.net###gg-sticky + div.MuiPaper-root:has(a[href="/privacy"])
+koreanair.com#$#ke-biscuit-banner { display: none !important; }
 koreanair.com#$#ke-cookie-banner { display: none !important; }
 koreanair.com#$#body[style] { overflow: auto !important; position: static !important; }
 reebok.*#%#//scriptlet('trusted-set-local-storage-item', 'SHOW_COOKIE_BANNER', 'no')
@@ -14602,6 +14603,8 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239146
+@@||consent.cookiebot.com/uc.js$domain=mojpetexpert.sk
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238843
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238813
 ! https://www.ssga.com/us/en/intermediary/etfs/state-street-spdr-sp-500-etf-trust-spy
