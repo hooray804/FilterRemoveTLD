@@ -2596,6 +2596,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+zenmux.ai##div[class^="CookieConsentManager"]
 sklep.plast-pol.com##.realCookies
 xpo.com##.js-cookie-toast
 tools4startup.com##.altumcode.altumcode-bottom_right.on-visible
