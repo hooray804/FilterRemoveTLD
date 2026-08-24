@@ -30271,6 +30271,9 @@ tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,ekonomim.com,om
 !
 ! SECTION: Subscriptions - Regular rules
 !
+iwate-np.co.jp##.article > div.border:has(> div > a[href^="https://google.com/preferences/source?q="])
+seroundtable.com##section:has(> div.flex input[name="email"])
+seroundtable.com##section:has(> a[href^="https://www.google.com/preferences/"])
 evrensel.net##div.evr-sub-cta
 toolspivot.com##body > div.f_intro_bg:has(> form.navbar-form > img)
 hnonline.sk##.piano_nl_denny_prehlad
@@ -42345,6 +42348,7 @@ m.tokopedia.com#$#div[data-testid="divOverlay"] { display: none!important; }
 ! causes some issues: https://github.com/AdguardTeam/AdguardForMac/issues/550
 ~odaibako.net,~lineup.withgoogle.com,~vert.sh,~search.brave.com,~status.im,~lafenice.io,~chorki.com,~zattoo.com,~zaycev.net,~hitta.se,~facebook.com,~instagram.com,~drive.google.com$$link[rel="manifest"]
 !
+quicksigorta.com##header > div.MuiBox-root:has(> div.MuiBox-root > a[href="http://qlink.li/mobil"])
 mail.yandex.*#%#//scriptlet('trusted-click-element', 'div[class^="PopupAggressivePromoApps-"] > button')
 mail.yandex.*##.app-full-height > div[class^="FloatingButton-"] > a[href^="https://redirect.appmetrica.yandex.com/serve/"]
 fawesome.tv##.app-install-wrapper
