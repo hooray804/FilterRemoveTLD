@@ -1,9 +1,9 @@
-! Checksum: 0DKXEz4sbq2uG56udIoyfQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1787581361-3600.patch
+! Checksum: QFzB4Pq7HEB7AcafXKBw1g
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1787584889-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.83
-! TimeUpdated: 2026-08-24T14:19:15+00:00
+! Version: 2.0.92.84
+! TimeUpdated: 2026-08-24T15:18:06+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1526,6 +1526,8 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+synapse.org##div.MuiSnackbar-root:has(> div.MuiPaper-root span > p > a[href="https://www.synapse.org/TrustCenter:PrivacyPolicy"])
+antarestech.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie-consent-storage', '{"state":{"consent":0,"timestamp":99999999999999,"version":"1.0.0"},"version":0}')
 istanbulticaretgazetesi.com##.cookie-consent-anchor
 zenmux.ai##div[class^="CookieConsentManager"]
 sklep.plast-pol.com##.realCookies
@@ -5852,6 +5854,7 @@ peek-cloppenburg.*#$#body { overflow: auto !important; position: unset !importan
 simbrief.com,gorillas.io,trust.com###cookie-settings
 patek.com#$#nav.main_navigation.cookies { top: 0 !important; }
 patek.com#$##cookies_disclaimer { display: none !important; }
+pcblab.io###st_notification_1
 technologpython.com,novelcool.com###protocol_cookie_box
 engelvoelkers.com#$#body { overflow: auto !important; }
 jooble.org##div[data-test-name="_termsOfServices"]

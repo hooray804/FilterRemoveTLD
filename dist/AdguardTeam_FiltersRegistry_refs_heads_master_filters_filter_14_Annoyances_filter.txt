@@ -2597,6 +2597,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+synapse.org##div.MuiSnackbar-root:has(> div.MuiPaper-root span > p > a[href="https://www.synapse.org/TrustCenter:PrivacyPolicy"])
+antarestech.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie-consent-storage', '{"state":{"consent":0,"timestamp":99999999999999,"version":"1.0.0"},"version":0}')
 istanbulticaretgazetesi.com##.cookie-consent-anchor
 zenmux.ai##div[class^="CookieConsentManager"]
 sklep.plast-pol.com##.realCookies
@@ -10508,6 +10510,7 @@ pinterest.*##.outerCookieBar
 simbrief.com,gorillas.io,trust.com###cookie-settings
 patek.com#$#nav.main_navigation.cookies { top: 0 !important; }
 patek.com#$##cookies_disclaimer { display: none !important; }
+pcblab.io###st_notification_1
 canarias7.es##.voc-select-tooltip
 technologpython.com,novelcool.com###protocol_cookie_box
 hasmusturizm.com###cookie_iagree
