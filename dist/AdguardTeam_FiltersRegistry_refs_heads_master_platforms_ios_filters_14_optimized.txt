@@ -1,9 +1,9 @@
-! Checksum: XzIVEpV9yYYDoASTrTpmPQ
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787539003-3600.patch
+! Checksum: 1n96BKuPi6mmhl3zD9Ef6w
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787548917-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.69
-! TimeUpdated: 2026-08-23T22:07:22+00:00
+! Version: 2.2.76.70
+! TimeUpdated: 2026-08-24T05:18:36+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -22953,6 +22953,9 @@ rasp.yandex.*##.TravelHotelsBanner
 tv.yandex.*##.recommended-ott
 [$path=/games]yandex.*##header + main.stack > div[class*="-disable-"]
 [$path=/games]yandex.*##header + main.stack > div > div[class*="-wrapper_promo"]
+xcandid.vip,xcandid.top###njt-notibar-slot
+leakgallery.com#$#html { --lg-creator-banner-h: 0 !important; }
+leakgallery.com#$#app-creator-banner { display: none !important; }
 retroflix.org#%#//scriptlet('set-session-storage-item', 'rf_seen_interstitial', '1')
 donatov.net##.good-amount-discount
 thestage.co.uk###aos-OverlayPanel
