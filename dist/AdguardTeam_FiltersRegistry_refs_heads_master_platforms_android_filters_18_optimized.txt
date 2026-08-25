@@ -1,9 +1,9 @@
-! Checksum: UCvNU0BJNfXCgwH04UuNDQ
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1787642662-3600.patch
+! Checksum: ZeUJxM/LSsSDgJ96y5EIGA
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1787646107-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.92
-! TimeUpdated: 2026-08-25T07:21:39+00:00
+! Version: 2.0.92.93
+! TimeUpdated: 2026-08-25T08:19:11+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1522,6 +1522,9 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+||cloud.tui.com/cdn/consent-manager/
+onthebeach.co.uk###ccc-notify
+onthebeach.co.uk###ccc-overlay
 eitca.org#$#.lwp-cmp { display: none !important; }
 eitca.org#$#.lwp-cmp__cover { display: none !important; }
 eitca.org#$#body.lwp-cmp-scroll-lock { overflow: auto !important; position: static !important; }
@@ -2049,6 +2052,7 @@ stremio-addons.net#%#//scriptlet('trusted-set-cookie-reload', 'cookie-preference
 ib.eplus.jp#%#//scriptlet('trusted-set-cookie', 'ib.eplus.jp', '{"allow":"I_ACCEPT"}')
 nhkworldpremium.com#%#//scriptlet('trusted-click-element', '#gdpr .form__back.cookie__floating__buttons__button', '!cookie:gdpr-cookie')
 efset.org#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', '{"essential":true,"analytics":false}')
+/wp-content/plugins/pressidium-cookie-consent$domain=kiwix.org|protasoftware.com|droix.eu
 ewrc-results.com#%#//scriptlet('trusted-set-local-storage-item', 'ewrc_consent_data', '{"eFCX":true,"timestamp":9999999999999}')
 jipad.org#%#//scriptlet('set-local-storage-item', 'privacy', 'on')
 embeddingproject.org#%#//scriptlet('set-local-storage-item', 'enable-analytics', 'false')

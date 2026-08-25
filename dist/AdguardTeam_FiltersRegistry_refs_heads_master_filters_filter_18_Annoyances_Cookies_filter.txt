@@ -2597,6 +2597,9 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+||cloud.tui.com/cdn/consent-manager/
+onthebeach.co.uk###ccc-notify
+onthebeach.co.uk###ccc-overlay
 eitca.org#$#.lwp-cmp { display: none !important; }
 eitca.org#$#.lwp-cmp__cover { display: none !important; }
 eitca.org#$#body.lwp-cmp-scroll-lock { overflow: auto !important; position: static !important; }
@@ -3431,7 +3434,7 @@ nhkworldpremium.com#%#//scriptlet('trusted-click-element', '#gdpr .form__back.co
 hybecorp.com##.floating-cookie
 adoraudition.world##.heading-wrap.fade-enter-active:has(a[href="/cookies-policy"])
 efset.org#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', '{"essential":true,"analytics":false}')
-/wp-content/plugins/pressidium-cookie-consent$domain=kiwix.org|protasoftware.com
+/wp-content/plugins/pressidium-cookie-consent$domain=kiwix.org|protasoftware.com|droix.eu
 ewrc-results.com#%#//scriptlet('trusted-set-local-storage-item', 'ewrc_consent_data', '{"eFCX":true,"timestamp":9999999999999}')
 shortpixel.com###shortpixel-cookies
 shichida.com##.l-cookiePopup

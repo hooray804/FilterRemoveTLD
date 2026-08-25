@@ -1,9 +1,9 @@
-! Checksum: 3imNp6rRpLot+dSr0H4a1g
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787642661-3600.patch
+! Checksum: VHngOj46QK8EIs1n4aPYhQ
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787646107-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.89
-! TimeUpdated: 2026-08-25T07:21:33+00:00
+! Version: 2.2.76.90
+! TimeUpdated: 2026-08-25T08:19:01+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1654,6 +1654,9 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+||cloud.tui.com/cdn/consent-manager/
+onthebeach.co.uk###ccc-notify
+onthebeach.co.uk###ccc-overlay
 eitca.org#$#.lwp-cmp { display: none !important; }
 eitca.org#$#.lwp-cmp__cover { display: none !important; }
 eitca.org#$#body.lwp-cmp-scroll-lock { overflow: auto !important; position: static !important; }
@@ -2182,6 +2185,7 @@ stremio-addons.net#%#//scriptlet('trusted-set-cookie-reload', 'cookie-preference
 ib.eplus.jp#%#//scriptlet('trusted-set-cookie', 'ib.eplus.jp', '{"allow":"I_ACCEPT"}')
 nhkworldpremium.com#%#//scriptlet('trusted-click-element', '#gdpr .form__back.cookie__floating__buttons__button', '!cookie:gdpr-cookie')
 efset.org#%#//scriptlet('trusted-set-local-storage-item', 'cookie_consent', '{"essential":true,"analytics":false}')
+/wp-content/plugins/pressidium-cookie-consent$domain=kiwix.org|protasoftware.com|droix.eu
 ewrc-results.com#%#//scriptlet('trusted-set-local-storage-item', 'ewrc_consent_data', '{"eFCX":true,"timestamp":9999999999999}')
 jipad.org#%#//scriptlet('set-local-storage-item', 'privacy', 'on')
 embeddingproject.org#%#//scriptlet('set-local-storage-item', 'enable-analytics', 'false')
@@ -14883,7 +14887,7 @@ almanac.com##.block-listraksubscribe-block
 tastesbetterfromscratch.com###emailrecipe
 bhg.com.au##.newsletter-subscription-block
 bhg.com.au##.magazine-subscription-block__inline
-phonearena.com,cnbce.com,dunya.com,yenicaggazetesi.com##.google-news-follow
+supercarblondie.com,phonearena.com,cnbce.com,dunya.com,yenicaggazetesi.com##.google-news-follow
 wenthere8this.com#%#//scriptlet('set-cookie', 'cp_style_75187', 'true')
 joyousapron.com#%#//scriptlet('trusted-set-local-storage-item', 'ck/forms/modal/d6018ef4e1/hideUntil', '$now$')
 wholesomeyum.com#%#//scriptlet('set-cookie', 'cp_style_2633988', 'true')
