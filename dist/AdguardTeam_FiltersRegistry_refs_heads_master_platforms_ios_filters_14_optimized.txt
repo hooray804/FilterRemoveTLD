@@ -1,9 +1,9 @@
-! Checksum: pvSBWArYr7iGU04aj2Bb3A
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787667793-3600.patch
+! Checksum: M6CA6ufvMrAxKF8Tk7i2Ag
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787671379-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.96
-! TimeUpdated: 2026-08-25T14:19:55+00:00
+! Version: 2.2.76.97
+! TimeUpdated: 2026-08-25T15:19:53+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -1656,6 +1656,7 @@ hoherkasten.ch#%#//scriptlet('trusted-click-element', 'div[consent-skip-blocker]
 knusperstuebchen.net#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="1"]:not([id])', '!cookie:real_cookie_banner-v:3_blog:1_path:f4b98f4')
 wegwandern.ch#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:f4adc5d')
 cornhub.army#%#//scriptlet('trusted-click-element', 'dialog a[role="button"][data-order="0"][id]', '!real_cookie_banner-v:3_blog:1_path:0c09270')
+teslaacessories.com###plugin-isv-gdpr-root
 1home.io##div[class^="CookiesStyled-"]
 kureansiklopedi.com#$#.cookie-banner-root { display: none !important; }
 kureansiklopedi.com#$#body { overflow: auto !important; }
