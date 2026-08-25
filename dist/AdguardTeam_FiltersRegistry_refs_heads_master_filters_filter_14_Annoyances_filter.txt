@@ -30303,6 +30303,9 @@ infobae.com,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,eko
 !
 ! SECTION: Subscriptions - Regular rules
 !
+space.com##div[id^="membership-signup-popup-"]
+space.com##.newsletter-branded-widget
+space.com###tooltip-add-us-as-a-preferred-source-on-google
 mantan-web.jp##.share__wrap > a[data-label="google"]
 tklighting.eu##.newsletter-column
 istanbulticaretgazetesi.com##.gps-banner
