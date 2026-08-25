@@ -14455,6 +14455,8 @@ kabeleinsdoku.at#%#//scriptlet('trusted-click-element', 'cmp-banner >>> cmp-dial
 conrad.*,peri.lv,webasto-comfort.com,shop-apotheke.com,sennheiser.com,bechtle.com#%#//scriptlet('trusted-click-element', '#usercentrics-root >>> button[data-testid="uc-accept-all-button"]')
 hom.com,srf.ch,aldi.fr,aldi.be,aldi.lu,aldi.pt,villeroy-boch.fr#%#//scriptlet('trusted-click-element', '#usercentrics-root >>> button[data-testid="uc-deny-all-button"]')
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239224
+!+ NOT_PLATFORM(ext_ublock)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228144
 ! https://github.com/AdguardTeam/AdguardFilters/issues/228837
 ! TODO: Use scriptlet when this issue is fixed - https://github.com/AdguardTeam/Scriptlets/issues/555

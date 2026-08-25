@@ -1,9 +1,9 @@
-! Checksum: Pu7CaWOalEuSNCTr9Q+duA
-! Diff-Path: ../patches/18_optimized/18_optimized-s-1787635064-3600.patch
+! Checksum: UCvNU0BJNfXCgwH04UuNDQ
+! Diff-Path: ../patches/18_optimized/18_optimized-s-1787642662-3600.patch
 ! Title: AdGuard Cookie Notices filter (Optimized)
 ! Description: Blocks cookie notices on web pages.
-! Version: 2.0.92.91
-! TimeUpdated: 2026-08-25T05:15:04+00:00
+! Version: 2.0.92.92
+! TimeUpdated: 2026-08-25T07:21:39+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -7542,6 +7542,7 @@ postnl.be#%#//scriptlet('trusted-click-element', 'pnl-cookie-wall-widget >>> .pc
 kabeleinsdoku.at#%#//scriptlet('trusted-click-element', 'cmp-banner >>> cmp-dialog >>> cmp-button[variant="primary"] >>> button', '', '1000')
 conrad.*,peri.lv,webasto-comfort.com,shop-apotheke.com,sennheiser.com,bechtle.com#%#//scriptlet('trusted-click-element', '#usercentrics-root >>> button[data-testid="uc-accept-all-button"]')
 hom.com,srf.ch,aldi.fr,aldi.be,aldi.lu,aldi.pt,villeroy-boch.fr#%#//scriptlet('trusted-click-element', '#usercentrics-root >>> button[data-testid="uc-deny-all-button"]')
+!+ NOT_PLATFORM(ext_ublock)
 msn.com#%#(()=>{const e=document,t=new MutationObserver((()=>{const e=document.querySelector("#onetrust-accept-btn-handler");e&&(e.click(),t.disconnect())}));t.observe(e,{attributes:!0,childList:!0,subtree:!0}),setTimeout((()=>{t.disconnect()}),1e4)})();
 17bankow.com,essanews.com,dailywrap.ca,dailywrap.uk,dailywrap.net#$#body > * { filter: none !important; }
 17bankow.com,essanews.com,dailywrap.ca,dailywrap.uk,dailywrap.net#$#html:not(#style_important) { overflow: auto !important; }
