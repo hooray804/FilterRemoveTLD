@@ -2597,6 +2597,9 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+1home.io##div[class^="CookiesStyled-"]
+kureansiklopedi.com#$#.cookie-banner-root { display: none !important; }
+kureansiklopedi.com#$#body { overflow: auto !important; }
 ||cloud.tui.com/cdn/consent-manager/
 onthebeach.co.uk###ccc-notify
 onthebeach.co.uk###ccc-overlay
@@ -36096,7 +36099,7 @@ themezee.com##.boxzilla-newsletter
 2day.kh.ua###block-reklamnyybanner
 2day.kh.ua###fb-likebox
 qt.io##.c-sidebar-newsletter
-tripmydream.com##.tg-popup
+hdtodayz.gd,tripmydream.com##.tg-popup
 smh.com.au,theage.com.au##section[data-testid="article-body-bottom"] div[data-testid="registration-prompt"]
 theonion.com##.adp-popup-overlay
 theonion.com##.adp-popup
@@ -55889,6 +55892,7 @@ subbota.ua##aside.sidebar > div[id^="custom_html-"]
 !   NOTE: Donation widgets
 !   Really annoying only
 !
+artistgrid.cx#%#//scriptlet('trusted-click-element', 'dialog[aria-label="Announcement"] button.justify-center')
 bingebox.to#%#//scriptlet('set-session-storage-item', 'bingebox-donation-banner-dismissed', '1')
 dir.bg###doantion-banner-block
 archive.org##.js-donate-banner
