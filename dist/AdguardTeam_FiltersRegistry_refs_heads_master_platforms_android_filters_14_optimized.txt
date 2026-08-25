@@ -1,9 +1,9 @@
-! Checksum: 9t9FWU5KeaNdxTJSU+2qjg
-! Diff-Path: ../patches/14_optimized/14_optimized-s-1787664338-3600.patch
+! Checksum: ujYsdKTj8Lx2NBFP8SnyNw
+! Diff-Path: ../patches/14_optimized/14_optimized-s-1787667746-3600.patch
 ! Title: AdGuard Annoyances filter (Optimized)
 ! Description: Blocks irritating elements on web pages including cookie notices, third-party widgets and in-page pop-ups. Contains the following AdGuard filters: Cookie Notices, Popups, Mobile App Banners, Other Annoyances and Widgets.
-! Version: 2.2.76.95
-! TimeUpdated: 2026-08-25T13:22:44+00:00
+! Version: 2.2.76.96
+! TimeUpdated: 2026-08-25T14:19:55+00:00
 ! Expires: 5 days (update frequency)
 !#######################################################
 !######### General element hiding rules ################
@@ -10584,6 +10584,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 ###credential_picker_iframe
 /.*/$permissions=identity-credentials-get=(),document
 ||edge-auth.microsoft.com/js/ms_auth_client.min.js
+techloy.com###tlsvOverlay
 iphone-mania.jp###custom-chat-embed-v3-root > .fixed > div.bottom-full
 raptorsupplies.co.uk,raptorsupplies.com,raptorsupplies.com.au,raptorsupplies.com.sg,raptorsupplies.es###introducing-chatmro
 zflix.me##body > div[style$="overlayIn;"]:has(> div[style] a[href="https://zflix.me/discord"])
@@ -14495,6 +14496,9 @@ gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,t
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] { display: none !important; }
 gaugau.futabanet.jp,newscientist.com,jiji.com,edp24.co.uk,technologyreview.com,thelocal.ch,ynet.co.il#$#div[class="tp-modal"][style^="z-index: 3000"] ~ div.tp-backdrop { display: none !important; }
 infobae.com,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,ekonomim.com,omgubuntu.co.uk,movilforum.com,sponichi.co.jp,gamingbible.com,ladbible.com,sportbible.com,thecontentbible.com,tyla.com,unilad.com,clubic.com,sugarfreelondoner.com,dengarden.com,mako.co.il,ajansspor.com,onejailbreak.com,progameguides.com,euronews.com,rtl.be,daily.co.jp,autoblog.com,haberturk.com,kp.ua,rotaborsa.com,mid-day.com,betaprofiles.com,news.tv-asahi.co.jp,zakzak.co.jp,donanimhaber.com,tokyo-sports.co.jp,searchengineland.com,jornaldenegocios.pt,gigazine.net,football24.ua,47news.jp,stuff.co.nz,eleconomista.es,skateboarding.com,ua.tribuna.com,bloomberght.com,thestreet.com,redmas.com.co,record.pt,zamin.uz,thesun.co.uk,footballtransfers.com,gamingbible.com,yenisafak.com,sportsdunia.com,bsc.news,movilzona.es,isinolsa.com,gendai.media,clutchpoints.com,hisse.net,focus.ua,polygon.com,autoevolution.com,onedio.co,sn-jp.com,games.gg,hongkongfp.com,gzt.com,crash.net,foxsports.com.mx,theguardian.com,zaxid.net,ballotpedia.org,timesofmalta.com,24tv.ua,thepost.co.nz,sportbible.com,washingtonpost.com,expert.in.ua,droidwin.com,onedio.com,cheezburger.com,tastesbetterfromscratch.com,techgear.gr,glavcom.ua,noticias.yahoo.com,dexerto.com,saltandbaker.com,bbc.com,decrypt.co,uniladtech.com,mothership.sg,pcmag.com,coindesk.com,sammyfans.com,m9.news,crankers.com,asiaone.com,cbr.com,thedailyjagran.com,digitaltrends.com,hardwaretimes.com,www.yahoo.com,interestingengineering.com##a[href^="https://www.google.com/preferences/source?q="]
+news24.com##.article__preferred-sources
+techloy.com###tlOverlay
+techloy.com##.post-footer > div[style]:has(> div.gh-signup-root)
 footymetrics.com##aside > a[href="https://t.me/footymetricsx"]
 space.com##div[id^="membership-signup-popup-"]
 space.com##.newsletter-branded-widget
@@ -18413,7 +18417,7 @@ icij.org,odishatv.in,pbs.org,tuasaude.com,thescore.com##.newsletter-sidebar
 techcrunch.com##.newsletter-signup-block
 jpost.com##.newsletter-signup-wrap
 scientificamerican.com,itnews.com.au,kauppalehti.fi##.newsletter-subscribe-container
-britannica.com,subrayado.com.uy,kudyznudy.cz,about.ikea.com,ambito.com,elfinanciero.com.mx,erwinmueller.com,nextpit.com,fivethirtyeight.com##.newsletter-subscription
+news24.com,britannica.com,subrayado.com.uy,kudyznudy.cz,about.ikea.com,ambito.com,elfinanciero.com.mx,erwinmueller.com,nextpit.com,fivethirtyeight.com##.newsletter-subscription
 4gnews.pt,pcguru.hu,newsday.com,nationalpost.com,latribune.fr,financialpost.com,lfpress.com,torontosun.com,montrealgazette.com,newsletter.co.uk,pcmag.com,portsmouth.co.uk,scotsman.com,sunderlandecho.com##.newsletter-widget
 sportstiger.com,theblock.co##.newsletterBox
 colgate.com,screendaily.com,technologyreview.com,barstoolsports.com,newsday.com##.newsletterSignup
