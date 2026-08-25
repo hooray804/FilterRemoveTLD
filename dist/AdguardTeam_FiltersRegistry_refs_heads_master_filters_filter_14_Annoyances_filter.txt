@@ -5649,8 +5649,8 @@ bbb.org#%#//scriptlet('trusted-set-cookie-reload', 'iabbb_cookies_policy', '{%22
 bbb.org#%#//scriptlet('trusted-set-cookie', 'iabbb_cookies_preferences_set', 'true')
 manufactum.com##div[data-cookie-banner-area="true"]
 istories.media,soulkyn.com#$#html.disable--interaction.show--consent:not(#style_important) { overflow-y: auto !important; }
-every-foods.com,istories.media,soulkyn.com,houseflippergame.com,atlasbus.by,mrgugu.com#$##cc-main { display: none !important; }
-every-foods.com,houseflippergame.com,atlasbus.by,mrgugu.com#$#html.disable--interaction.show--consent:not(#style_important) { overflow: auto !important; }
+footymetrics.com,every-foods.com,istories.media,soulkyn.com,houseflippergame.com,atlasbus.by,mrgugu.com#$##cc-main { display: none !important; }
+footymetrics.com,every-foods.com,houseflippergame.com,atlasbus.by,mrgugu.com#$#html.disable--interaction.show--consent:not(#style_important) { overflow: auto !important; }
 laposte.net###privacy-overlay
 bleepingcomputer.com#%#//scriptlet('set-cookie', 'sc_cookie_consent', '0')
 thermaltake.com,smartcellular.co.uk###m-cookienotice
@@ -30306,6 +30306,7 @@ infobae.com,tsn.ua,haberx.com,timeturk.com,saopaulosecreto.com,urfanatik.com,eko
 !
 ! SECTION: Subscriptions - Regular rules
 !
+footymetrics.com##aside > a[href="https://t.me/footymetricsx"]
 space.com##div[id^="membership-signup-popup-"]
 space.com##.newsletter-branded-widget
 space.com###tooltip-add-us-as-a-preferred-source-on-google
@@ -46780,6 +46781,7 @@ tv.yandex.*##.recommended-ott
 !
 ! SECTION: Self-promo - Regular rules
 !
+footymetrics.com##aside > div[style]:has(> div.px-4 a[href="/pricing"])
 mantan-web.jp##.hebirote__wrap
 baseball.yahoo.co.jp##.bb-centerColumn > #inf:has(> .sn-modNotice > .sn-notice--annapurna)
 secretflying.com##a[id$="-aside-vad"][href^="/plans"]
