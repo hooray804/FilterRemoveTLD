@@ -22436,6 +22436,7 @@ inews.co.uk,pinterest.com#%#//scriptlet('set-constant', 'google.accounts.id.prom
 !
 ! SECTION: Popups - Regular rules
 !
+bintv.cc###bookmarkModalOverlay
 techloy.com###tlsvOverlay
 iphone-mania.jp###custom-chat-embed-v3-root > .fixed > div.bottom-full
 raptorsupplies.co.uk,raptorsupplies.com,raptorsupplies.com.au,raptorsupplies.com.sg,raptorsupplies.es###introducing-chatmro
@@ -38672,6 +38673,7 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+jrepoint.jp##.c-mainContent_cnt > div[class="c-area"]:has(> section.c-area_inr a[href^="https://itunes.apple.com/jp/app/jre-point-apuri-jr-dong-ri/id1081293054?"])
 poro.gg##div.container > div.overflow-hidden:has(> div[class] > div.bg-color-ow-banner)
 gidadedektifi.com##div[class^="XAppDownload_type_footer"]
 minfin.com.ua##.aside-mobile-app
@@ -55495,6 +55497,7 @@ daddyhd.com##.sidebar__inner
 ||widget.intercom.io^$domain=appmaster.io|internxt.com|mainwp.com
 ||static.zdassets.com/web_widget/messenger/$domain=op.gg|p2pb2b.com|revouninstaller.com
 !
+jrepoint.jp##.launcher-agent div.messenger
 poro.gg##.BeaconFabButtonFrame
 ||web.eu-pl.koda.ai/web.sdk.js$domain=hammerphones.com
 chatlab.com##.rcw-widget-container
