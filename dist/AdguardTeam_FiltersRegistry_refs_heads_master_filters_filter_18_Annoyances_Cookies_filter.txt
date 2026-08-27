@@ -4786,6 +4786,7 @@ leroymerlin.ro#$#body { height: unset !important; overflow: auto !important; }
 navicat.com##.consent-banner-background
 m.tomtop.com##.m_Europe_confirm.confirm2
 gosugamers.net###gg-sticky + div.MuiPaper-root:has(a[href="/privacy"])
+koreanair.com#$#kc-global-cookie-banner { display: none !important; }
 koreanair.com#$#ke-biscuit-banner { display: none !important; }
 koreanair.com#$#ke-cookie-banner { display: none !important; }
 koreanair.com#$#body[style] { overflow: auto !important; position: static !important; }
@@ -5815,7 +5816,7 @@ edu.eset.com##doc-layout-cookie-policy-banner
 theprotocol.it##div > div[class^="Container_"]:has(> aside[data-test="section-cookieModal"])
 toolsai.net##div[class^="ancr-"]
 outletmoto.com###aviso_cookie
-verizon.com,eventbrite.*,auburntigers.com,patreon.com,gofundme.com,mountathletics.com,goxavier.com###transcend-consent-manager
+digicert.com,verizon.com,eventbrite.*,auburntigers.com,patreon.com,gofundme.com,mountathletics.com,goxavier.com###transcend-consent-manager
 namaximum.*,gate.shop#$?##snippet--cookies { remove: true; }
 jatu.eu###prestapros-cookie-law-container
 dea.digar.ee###deacookienotificationbarcontainer
@@ -12381,7 +12382,6 @@ roguefitness.com,jaima.or.jp,hokuso-railway.co.jp,otthonterkep.hu###cookie-agree
 toshinjyuken.co.jp,bino.jp,global.kyoto.travel,flagma.by,animatetimes.com,klook.com,ddos-guard.net,pickawood.com,mintos.com,auchan.ua,flagma.ua###cookie-agreement
 skyscanner.*###cookie-banner-root
 praktiker.hu###cookie-clear-bar
-megaurl.in###cookie-pop
 akrep.com,tomshw.it###cookie-privacy
 dji.com###cookie-tip
 standard.co.uk###cookie-warning-gdpr
