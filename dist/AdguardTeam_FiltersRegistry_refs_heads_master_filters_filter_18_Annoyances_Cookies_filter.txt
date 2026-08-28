@@ -2597,6 +2597,8 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+hyperskill.org##div[data-testid="cookie-consent"]
+check-internet-stability.com##body > div:has(> div:only-child > #cookieAccept)
 btgpactual.com##btg-privacy-policy
 x.com#%#//scriptlet('trusted-set-cookie', 'd_prefs', 'MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw')
 ||cartesia.ai/_astro/js.cookie
@@ -2618,7 +2620,7 @@ eitca.org#$#body.lwp-cmp-scroll-lock { overflow: auto !important; position: stat
 raptorsupplies.co.uk,raptorsupplies.com,raptorsupplies.com.au,raptorsupplies.com.sg,raptorsupplies.es#$#body.overflow-hidden { overflow: auto !important; }
 raptorsupplies.co.uk,raptorsupplies.com,raptorsupplies.com.au,raptorsupplies.com.sg,raptorsupplies.es#$#.errordisplayblock { display: none !important; }
 raptorsupplies.co.uk,raptorsupplies.com,raptorsupplies.com.au,raptorsupplies.com.sg,raptorsupplies.es#$##cookie-prefrence { display: none !important; }
-theverge.com##.duet--navigation--pmc-privacy-banner
+barcablaugranes.com,sbnation.com,theverge.com##.duet--navigation--pmc-privacy-banner
 synapse.org##div.MuiSnackbar-root:has(> div.MuiPaper-root span > p > a[href="https://www.synapse.org/TrustCenter:PrivacyPolicy"])
 antarestech.com#%#//scriptlet('trusted-set-local-storage-item', 'cookie-consent-storage', '{"state":{"consent":0,"timestamp":99999999999999,"version":"1.0.0"},"version":0}')
 istanbulticaretgazetesi.com##.cookie-consent-anchor
@@ -6990,7 +6992,7 @@ clinicaplanas.com##.supercookies
 parqet.com#?##__layout > div > div.fixed:has(p > span > a[href="/legal"])
 autasuper.com##.cookup
 qwertee.com###root > div.bg-qw-yellow-100.bottom-0
-kijiji.ca##div[aria-label^="Cookies"]
+tastetown.app,kijiji.ca##div[aria-label^="Cookies"]
 centrifuge.io###gatsby-focus-wrapper > main + div[role="alert"][class^="sc-"]
 arrival.com#$?#body > div[class]:has(div[data-type="notification"] span > a[href="/legal/cookies"]) { display: none !important; }
 arrival.com#$#body { overflow: auto !important; }
@@ -14135,7 +14137,7 @@ blix.gg#%#//scriptlet('set-local-storage-item', 'accept_cookies', 'true')
 ubereats.com#%#//scriptlet('set-cookie', 'uev2.gg', 'true')
 justjoin.it#%#//scriptlet('set-local-storage-item', 'acceptedPolicy', 'true')
 cotswoldoutdoor.com,asadventure.com#%#//scriptlet('set-cookie-reload', 'consent_setting', '0')
-kartavantaj.com#%#//scriptlet('set-local-storage-item', 'cookieConsent', 'false')
+kyutai.org,kartavantaj.com#%#//scriptlet('set-local-storage-item', 'cookieConsent', 'false')
 bitso.com#%#//scriptlet('set-cookie', 'bitso_cc', '1')
 help.kobo.com#%#//scriptlet('set-local-storage-item', 'c_rakobo_cc', '1')
 ottwow.com#%#//scriptlet('trusted-click-element', '.c-cmp__button--success')
