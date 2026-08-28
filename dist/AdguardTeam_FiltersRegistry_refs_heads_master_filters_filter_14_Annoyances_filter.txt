@@ -2597,6 +2597,7 @@ sabancivakfi.org###ez-banner[role="banner"]
 !
 ! NOTE: Regular rules
 !
+btgpactual.com##btg-privacy-policy
 x.com#%#//scriptlet('trusted-set-cookie', 'd_prefs', 'MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw')
 ||cartesia.ai/_astro/js.cookie
 onyx.app##body > div[class^="fixed bottom-"]:has(> .gap-spacing-headline > .flex > a[href="/legal/privacy-policy"])
@@ -3011,7 +3012,7 @@ smartmed.pro#%#//scriptlet('set-local-storage-item', '__smed-cookie-consent-acce
 etermin.net###divCookieDlg
 kfc.by##.kfc-cookie-banner
 ||ec.yimg.com/didomi/*/loader.js$domain=aol.com
-originality.ai##.consent_banner
+visitarizona.com,originality.ai##.consent_banner
 blogs.windows.com##uhf-cookie-banner
 ydns.io##.cookie-notice-outer
 corsi.unibo.it#%#//scriptlet('trusted-click-element', '#cc-banner .chefcookie__button--decline')
@@ -14634,6 +14635,7 @@ r360.eu#$#header { filter: none !important; pointer-events: auto!important; }
 ||geolocation.onetrust.com/cookieconsentpub/*/geo/location$xmlhttprequest,redirect-rule=noopjson
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239510
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239416
 @@||cdn.cookielaw.org^$domain=bluewin.ch
 bluewin.ch#@##onetrust-consent-sdk
@@ -29136,7 +29138,7 @@ labs.google.com#@##google-hats-survey
 ||puuush.me^
 ||push.reamaze.com^
 ||cdn.pushloop.io^$third-party
-||d335luupugsy2.cloudfront.net^
+||d335luupugsy2.cloudfront.net^$domain=~btgpactual.com
 ||kuolkoola.com^
 ||puhyjyf.com^
 ||speraspace.com^
@@ -30322,6 +30324,12 @@ empireonline.com,jiji.com,fictionhorizon.com,beebom.com,techwiser.com,infobae.co
 !
 ! SECTION: Subscriptions - Regular rules
 !
+manofmany.com##.mom-hidden-auth:has(> div[class] form > input[name="email"])
+manofmany.com##div.grid > div.mom-border:has(> div[class] > div.grid > a[href^="https://profile.google.com/cp/"])
+tob.news##.spc-social-follow-inline
+slashgear.com##.add-on-google-widget
+insider-gaming.com##.entry-content > figure.wp-block-embed ~ p:has(> a[href^="https://insider-gaming.com/subscribe"])
+marca.com##a[href^="https://www.google.es/preferences/source?q="]
 deview.co.jp##.to-lineguide-link
 thalia.at##newsletter-anmelden
 tokyo-np.co.jp##.google-ps-article-box
@@ -38683,6 +38691,7 @@ rxgo.com,turkishairlines.com,atmos-tokyo.com,radarbox.com,ciceksepeti.com,rabota
 !
 !
 !
+insider-gaming.com##.wp-block-igha-ad-spot
 line-miniapp-weather.yahoo.co.jp##.footerInner
 jrepoint.jp##.c-mainContent_cnt > div[class="c-area"]:has(> section.c-area_inr a[href^="https://itunes.apple.com/jp/app/jre-point-apuri-jr-dong-ri/id1081293054?"])
 poro.gg##div.container > div.overflow-hidden:has(> div[class] > div.bg-color-ow-banner)
@@ -43631,6 +43640,8 @@ instagram.com##._aagw:empty
 !
 !
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/239499
+insider-gaming.com##.entry-content > figure.wp-block-embed + p:has(> a[href^="https://discord.com/invite/"])
 ! https://github.com/AdguardTeam/AdguardFilters/issues/239164
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238375
 seniorsdiscountclub.com.au##.card--register
@@ -52042,6 +52053,8 @@ newsweek.com##iframe[src="http://sns.europe.newsweek.com/newsletter?popup=1"]
 !##############################
 ! SECTION: Tweaks - JS
 !
+! https://github.com/AdguardTeam/AdguardFilters/issues/238935
+selfhostt.com#%#//scriptlet('adjust-setInterval', 'countdown', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238502
 otakufilmes.org#%#//scriptlet('adjust-setTimeout', 'Counter', '*', '0.001')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/238012
