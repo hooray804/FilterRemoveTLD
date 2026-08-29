@@ -1,6 +1,4 @@
-! Title: AdGuard Annoyances filter (Optimized)
+! Title: hooray804 FilterRemoveTLD
 ! Description: 업데이트 중단
-! Version: 2.2.77.25
-! TimeUpdated: 2026-08-29T17:12:27+00:00
-! Expires: 5 days (update frequency)
+! Version: 3000.0.0
 !
